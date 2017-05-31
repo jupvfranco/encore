@@ -1,8 +1,9 @@
 #!/bin/bash
 
 # compile benchmark before
-../../../../../release/encorec *.enc -O3 --out-file main  
-
+encorec=./../../../../release/encorec
+main=$(grep "Main" * | tr ':' '\n' | grep ".enc")
+$encorec $main -O3 --out-file main  
 
 cores=( "0,8"
 	    "0,8,16,24"
