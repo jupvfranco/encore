@@ -1,8 +1,7 @@
 #!/bin/bash
 
-
 # compile benchmark before
-../../../../../release/encorec --out-file main *.enc 
+../../../../../release/encorec *.enc -O3 --out-file main  
 
 
 cores=( "0,8"
@@ -13,12 +12,13 @@ cores=( "0,8"
         "0-63" ) 
 
 RESULT="result.txt" 
+rm $RESULT
 input=$(cat "input.txt")
 
 for c in ${cores[@]}
 do : 
   numactl -C $c \
-    /usr/bin/time -f "%e" -o "tmp" ./main $input
+    /usr/bin/time -f "%E" -o "tmp" ./main $input
     elapsed=$(cat "tmp")
     echo $c" cores and input "$input" :: "$elapsed >> $RESULT
 done
