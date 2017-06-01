@@ -174,7 +174,7 @@ active class Main
   end
   def main(args : [String]) : unit
     let
-      n = 100 --1000000
+      n = 1000000
       m = 1152921504606846976 -- 2^60
       t = 2048
       s = 1024

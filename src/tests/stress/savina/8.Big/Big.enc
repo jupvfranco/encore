@@ -74,11 +74,11 @@ active class Main
     --       by OS before exiting. More information can be found at
     --       https://github.com/parapluu/encore/issues/743
     let
-      numMessages = 1024 --16 * 1024
+      numMessages = 20000 -- 1024 --16 * 1024
       numActors = if |argv| > 1 then
                     this.extractor((argv(1)).to_int())
                   else
-                    8 * 1024
+                    120 -- 8 * 1024
                   end
       sinkActor = new SinkActor(numActors)
       chunkSize = 1 * 1024
