@@ -1,0 +1,264 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ThreadRingAkkaActorBenchmark
+Args: 
+           N (num actors) = 100        
+           R (num rounds) = 100000     
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ThreadRingAkkaActorBenchmark          Iteration-0:   754.922 ms 
+ThreadRingAkkaActorBenchmark          Iteration-1:   268.583 ms 
+ThreadRingAkkaActorBenchmark          Iteration-2:   202.384 ms 
+ThreadRingAkkaActorBenchmark          Iteration-3:   162.328 ms 
+ThreadRingAkkaActorBenchmark          Iteration-4:   203.092 ms 
+ThreadRingAkkaActorBenchmark          Iteration-5:   134.979 ms 
+ThreadRingAkkaActorBenchmark          Iteration-6:   212.343 ms 
+ThreadRingAkkaActorBenchmark          Iteration-7:   172.625 ms 
+ThreadRingAkkaActorBenchmark          Iteration-8:   203.191 ms 
+ThreadRingAkkaActorBenchmark          Iteration-9:   214.158 ms 
+ThreadRingAkkaActorBenchmark         Iteration-10:   181.546 ms 
+ThreadRingAkkaActorBenchmark         Iteration-11:   192.360 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 8          
+ThreadRingAkkaActorBenchmark            Best Time:   172.625 ms 
+ThreadRingAkkaActorBenchmark           Worst Time:   214.158 ms 
+ThreadRingAkkaActorBenchmark               Median:   202.738 ms 
+ThreadRingAkkaActorBenchmark     Arith. Mean Time:   197.712 ms 
+ThreadRingAkkaActorBenchmark       Geo. Mean Time:   197.228 ms 
+ThreadRingAkkaActorBenchmark   Harmonic Mean Time:   196.729 ms 
+ThreadRingAkkaActorBenchmark        Std. Dev Time:    13.623 ms 
+ThreadRingAkkaActorBenchmark     Lower Confidence:   188.272 ms 
+ThreadRingAkkaActorBenchmark    Higher Confidence:   207.153 ms 
+ThreadRingAkkaActorBenchmark         Error Window:     9.440 ms (4.775 percent) 
+ThreadRingAkkaActorBenchmark  Coeff. of Variation:     0.069 
+ThreadRingAkkaActorBenchmark             Skewness:    -0.687 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ThreadRingAkkaActorBenchmark
+Args: 
+           N (num actors) = 100        
+           R (num rounds) = 100000     
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ThreadRingAkkaActorBenchmark          Iteration-0:   858.327 ms 
+ThreadRingAkkaActorBenchmark          Iteration-1:   369.226 ms 
+ThreadRingAkkaActorBenchmark          Iteration-2:   291.617 ms 
+ThreadRingAkkaActorBenchmark          Iteration-3:   328.723 ms 
+ThreadRingAkkaActorBenchmark          Iteration-4:   275.155 ms 
+ThreadRingAkkaActorBenchmark          Iteration-5:   271.656 ms 
+ThreadRingAkkaActorBenchmark          Iteration-6:   279.517 ms 
+ThreadRingAkkaActorBenchmark          Iteration-7:   276.345 ms 
+ThreadRingAkkaActorBenchmark          Iteration-8:   297.608 ms 
+ThreadRingAkkaActorBenchmark          Iteration-9:   267.186 ms 
+ThreadRingAkkaActorBenchmark         Iteration-10:   268.724 ms 
+ThreadRingAkkaActorBenchmark         Iteration-11:   265.779 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+ThreadRingAkkaActorBenchmark            Best Time:   265.779 ms 
+ThreadRingAkkaActorBenchmark           Worst Time:   328.723 ms 
+ThreadRingAkkaActorBenchmark               Median:   275.750 ms 
+ThreadRingAkkaActorBenchmark     Arith. Mean Time:   282.231 ms 
+ThreadRingAkkaActorBenchmark       Geo. Mean Time:   281.668 ms 
+ThreadRingAkkaActorBenchmark   Harmonic Mean Time:   281.139 ms 
+ThreadRingAkkaActorBenchmark        Std. Dev Time:    18.356 ms 
+ThreadRingAkkaActorBenchmark     Lower Confidence:   270.854 ms 
+ThreadRingAkkaActorBenchmark    Higher Confidence:   293.608 ms 
+ThreadRingAkkaActorBenchmark         Error Window:    11.377 ms (4.031 percent) 
+ThreadRingAkkaActorBenchmark  Coeff. of Variation:     0.065 
+ThreadRingAkkaActorBenchmark             Skewness:     1.668 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ThreadRingAkkaActorBenchmark
+Args: 
+           N (num actors) = 100        
+           R (num rounds) = 100000     
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ThreadRingAkkaActorBenchmark          Iteration-0:   887.518 ms 
+ThreadRingAkkaActorBenchmark          Iteration-1:   435.200 ms 
+ThreadRingAkkaActorBenchmark          Iteration-2:   370.395 ms 
+ThreadRingAkkaActorBenchmark          Iteration-3:   354.825 ms 
+ThreadRingAkkaActorBenchmark          Iteration-4:   358.587 ms 
+ThreadRingAkkaActorBenchmark          Iteration-5:   325.329 ms 
+ThreadRingAkkaActorBenchmark          Iteration-6:   354.376 ms 
+ThreadRingAkkaActorBenchmark          Iteration-7:   345.113 ms 
+ThreadRingAkkaActorBenchmark          Iteration-8:   363.667 ms 
+ThreadRingAkkaActorBenchmark          Iteration-9:   347.086 ms 
+ThreadRingAkkaActorBenchmark         Iteration-10:   343.054 ms 
+ThreadRingAkkaActorBenchmark         Iteration-11:   309.065 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+ThreadRingAkkaActorBenchmark            Best Time:   309.065 ms 
+ThreadRingAkkaActorBenchmark           Worst Time:   370.395 ms 
+ThreadRingAkkaActorBenchmark               Median:   350.731 ms 
+ThreadRingAkkaActorBenchmark     Arith. Mean Time:   347.150 ms 
+ThreadRingAkkaActorBenchmark       Geo. Mean Time:   346.703 ms 
+ThreadRingAkkaActorBenchmark   Harmonic Mean Time:   346.242 ms 
+ThreadRingAkkaActorBenchmark        Std. Dev Time:    17.328 ms 
+ThreadRingAkkaActorBenchmark     Lower Confidence:   336.410 ms 
+ThreadRingAkkaActorBenchmark    Higher Confidence:   357.890 ms 
+ThreadRingAkkaActorBenchmark         Error Window:    10.740 ms (3.094 percent) 
+ThreadRingAkkaActorBenchmark  Coeff. of Variation:     0.050 
+ThreadRingAkkaActorBenchmark             Skewness:    -0.989 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ThreadRingAkkaActorBenchmark
+Args: 
+           N (num actors) = 100        
+           R (num rounds) = 100000     
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ThreadRingAkkaActorBenchmark          Iteration-0:  1224.084 ms 
+ThreadRingAkkaActorBenchmark          Iteration-1:   629.782 ms 
+ThreadRingAkkaActorBenchmark          Iteration-2:   469.359 ms 
+ThreadRingAkkaActorBenchmark          Iteration-3:   472.724 ms 
+ThreadRingAkkaActorBenchmark          Iteration-4:   435.961 ms 
+ThreadRingAkkaActorBenchmark          Iteration-5:   457.381 ms 
+ThreadRingAkkaActorBenchmark          Iteration-6:   454.740 ms 
+ThreadRingAkkaActorBenchmark          Iteration-7:   446.265 ms 
+ThreadRingAkkaActorBenchmark          Iteration-8:   442.646 ms 
+ThreadRingAkkaActorBenchmark          Iteration-9:   490.261 ms 
+ThreadRingAkkaActorBenchmark         Iteration-10:   451.552 ms 
+ThreadRingAkkaActorBenchmark         Iteration-11:   447.903 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+ThreadRingAkkaActorBenchmark            Best Time:   435.961 ms 
+ThreadRingAkkaActorBenchmark           Worst Time:   490.261 ms 
+ThreadRingAkkaActorBenchmark               Median:   453.146 ms 
+ThreadRingAkkaActorBenchmark     Arith. Mean Time:   456.879 ms 
+ThreadRingAkkaActorBenchmark       Geo. Mean Time:   456.622 ms 
+ThreadRingAkkaActorBenchmark   Harmonic Mean Time:   456.369 ms 
+ThreadRingAkkaActorBenchmark        Std. Dev Time:    15.452 ms 
+ThreadRingAkkaActorBenchmark     Lower Confidence:   447.302 ms 
+ThreadRingAkkaActorBenchmark    Higher Confidence:   466.457 ms 
+ThreadRingAkkaActorBenchmark         Error Window:     9.577 ms (2.096 percent) 
+ThreadRingAkkaActorBenchmark  Coeff. of Variation:     0.034 
+ThreadRingAkkaActorBenchmark             Skewness:     0.873 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ThreadRingAkkaActorBenchmark
+Args: 
+           N (num actors) = 100        
+           R (num rounds) = 100000     
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ThreadRingAkkaActorBenchmark          Iteration-0:  1469.754 ms 
+ThreadRingAkkaActorBenchmark          Iteration-1:   531.384 ms 
+ThreadRingAkkaActorBenchmark          Iteration-2:   483.293 ms 
+ThreadRingAkkaActorBenchmark          Iteration-3:   463.207 ms 
+ThreadRingAkkaActorBenchmark          Iteration-4:   468.494 ms 
+ThreadRingAkkaActorBenchmark          Iteration-5:   458.489 ms 
+ThreadRingAkkaActorBenchmark          Iteration-6:   439.285 ms 
+ThreadRingAkkaActorBenchmark          Iteration-7:   457.868 ms 
+ThreadRingAkkaActorBenchmark          Iteration-8:   432.545 ms 
+ThreadRingAkkaActorBenchmark          Iteration-9:   448.009 ms 
+ThreadRingAkkaActorBenchmark         Iteration-10:   431.717 ms 
+ThreadRingAkkaActorBenchmark         Iteration-11:   452.078 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+ThreadRingAkkaActorBenchmark            Best Time:   431.717 ms 
+ThreadRingAkkaActorBenchmark           Worst Time:   531.384 ms 
+ThreadRingAkkaActorBenchmark               Median:   457.868 ms 
+ThreadRingAkkaActorBenchmark     Arith. Mean Time:   460.579 ms 
+ThreadRingAkkaActorBenchmark       Geo. Mean Time:   459.837 ms 
+ThreadRingAkkaActorBenchmark   Harmonic Mean Time:   459.132 ms 
+ThreadRingAkkaActorBenchmark        Std. Dev Time:    26.821 ms 
+ThreadRingAkkaActorBenchmark     Lower Confidence:   444.729 ms 
+ThreadRingAkkaActorBenchmark    Higher Confidence:   476.429 ms 
+ThreadRingAkkaActorBenchmark         Error Window:    15.850 ms (3.441 percent) 
+ThreadRingAkkaActorBenchmark  Coeff. of Variation:     0.058 
+ThreadRingAkkaActorBenchmark             Skewness:     1.601 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ThreadRingAkkaActorBenchmark
+Args: 
+           N (num actors) = 100        
+           R (num rounds) = 100000     
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ThreadRingAkkaActorBenchmark          Iteration-0:  1525.922 ms 
+ThreadRingAkkaActorBenchmark          Iteration-1:   625.125 ms 
+ThreadRingAkkaActorBenchmark          Iteration-2:   404.901 ms 
+ThreadRingAkkaActorBenchmark          Iteration-3:   381.277 ms 
+ThreadRingAkkaActorBenchmark          Iteration-4:   411.376 ms 
+ThreadRingAkkaActorBenchmark          Iteration-5:   382.258 ms 
+ThreadRingAkkaActorBenchmark          Iteration-6:   381.047 ms 
+ThreadRingAkkaActorBenchmark          Iteration-7:   383.187 ms 
+ThreadRingAkkaActorBenchmark          Iteration-8:   396.692 ms 
+ThreadRingAkkaActorBenchmark          Iteration-9:   366.164 ms 
+ThreadRingAkkaActorBenchmark         Iteration-10:   369.163 ms 
+ThreadRingAkkaActorBenchmark         Iteration-11:   343.167 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+ThreadRingAkkaActorBenchmark            Best Time:   343.167 ms 
+ThreadRingAkkaActorBenchmark           Worst Time:   411.376 ms 
+ThreadRingAkkaActorBenchmark               Median:   381.768 ms 
+ThreadRingAkkaActorBenchmark     Arith. Mean Time:   381.923 ms 
+ThreadRingAkkaActorBenchmark       Geo. Mean Time:   381.455 ms 
+ThreadRingAkkaActorBenchmark   Harmonic Mean Time:   380.979 ms 
+ThreadRingAkkaActorBenchmark        Std. Dev Time:    18.787 ms 
+ThreadRingAkkaActorBenchmark     Lower Confidence:   370.279 ms 
+ThreadRingAkkaActorBenchmark    Higher Confidence:   393.568 ms 
+ThreadRingAkkaActorBenchmark         Error Window:    11.644 ms (3.049 percent) 
+ThreadRingAkkaActorBenchmark  Coeff. of Variation:     0.049 
+ThreadRingAkkaActorBenchmark             Skewness:    -0.390 
+
+****************************************

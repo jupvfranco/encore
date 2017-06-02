@@ -10,6 +10,48 @@ Args:
                  O/S Name = Linux      
                  O/S Arch = amd64      
 Execution - Iterations: 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-0:  5421.819 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-1:  3767.284 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-2:  2751.278 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-3:  2696.143 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-4:  3245.612 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-5:  3048.466 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-6:  2948.046 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-7:  2990.293 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-8:  2923.766 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-9:  3114.525 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark         Iteration-10:  3249.494 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark         Iteration-11:  3055.445 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+FibonacciAkkaActorBenchmark            Best Time:  2696.143 ms 
+FibonacciAkkaActorBenchmark           Worst Time:  3249.494 ms 
+FibonacciAkkaActorBenchmark               Median:  3019.379 ms 
+FibonacciAkkaActorBenchmark     Arith. Mean Time:  3002.307 ms 
+FibonacciAkkaActorBenchmark       Geo. Mean Time:  2997.180 ms 
+FibonacciAkkaActorBenchmark   Harmonic Mean Time:  2991.989 ms 
+FibonacciAkkaActorBenchmark        Std. Dev Time:   174.314 ms 
+FibonacciAkkaActorBenchmark     Lower Confidence:  2894.266 ms 
+FibonacciAkkaActorBenchmark    Higher Confidence:  3110.348 ms 
+FibonacciAkkaActorBenchmark         Error Window:   108.041 ms (3.599 percent) 
+FibonacciAkkaActorBenchmark  Coeff. of Variation:     0.058 
+FibonacciAkkaActorBenchmark             Skewness:    -0.294 
+
 ****************************************
 Core count: 4
 Runtime: Java:1.8.0_131::Scala:2.11.0
@@ -23,5 +65,266 @@ Args:
                  O/S Name = Linux      
                  O/S Arch = amd64      
 Execution - Iterations: 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-0:  3920.507 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-1:  2180.136 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-2:  1822.702 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-3:  1771.470 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-4:  1748.760 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-5:  1674.107 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-6:  1678.495 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-7:  1616.225 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-8:  1925.291 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-9:  1955.323 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark         Iteration-10:  1645.227 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark         Iteration-11:  1592.793 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+FibonacciAkkaActorBenchmark            Best Time:  1592.793 ms 
+FibonacciAkkaActorBenchmark           Worst Time:  1955.323 ms 
+FibonacciAkkaActorBenchmark               Median:  1713.627 ms 
+FibonacciAkkaActorBenchmark     Arith. Mean Time:  1743.039 ms 
+FibonacciAkkaActorBenchmark       Geo. Mean Time:  1739.036 ms 
+FibonacciAkkaActorBenchmark   Harmonic Mean Time:  1735.124 ms 
+FibonacciAkkaActorBenchmark        Std. Dev Time:   119.419 ms 
+FibonacciAkkaActorBenchmark     Lower Confidence:  1669.023 ms 
+FibonacciAkkaActorBenchmark    Higher Confidence:  1817.056 ms 
+FibonacciAkkaActorBenchmark         Error Window:    74.017 ms (4.246 percent) 
+FibonacciAkkaActorBenchmark  Coeff. of Variation:     0.069 
+FibonacciAkkaActorBenchmark             Skewness:     0.599 
+
 ****************************************
 Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: FibonacciAkkaActorBenchmark
+Args: 
+                N (index) = 25         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-0:  3322.991 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-1:  1894.820 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-2:  1795.147 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-3:  1956.252 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-4:  1683.339 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-5:  1819.370 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-6:  1810.828 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-7:  1992.568 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-8:  1697.282 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-9:  1724.751 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark         Iteration-10:  1760.368 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark         Iteration-11:  2251.048 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+FibonacciAkkaActorBenchmark            Best Time:  1683.339 ms 
+FibonacciAkkaActorBenchmark           Worst Time:  1992.568 ms 
+FibonacciAkkaActorBenchmark               Median:  1802.987 ms 
+FibonacciAkkaActorBenchmark     Arith. Mean Time:  1813.473 ms 
+FibonacciAkkaActorBenchmark       Geo. Mean Time:  1810.740 ms 
+FibonacciAkkaActorBenchmark   Harmonic Mean Time:  1808.049 ms 
+FibonacciAkkaActorBenchmark        Std. Dev Time:   100.291 ms 
+FibonacciAkkaActorBenchmark     Lower Confidence:  1751.312 ms 
+FibonacciAkkaActorBenchmark    Higher Confidence:  1875.634 ms 
+FibonacciAkkaActorBenchmark         Error Window:    62.161 ms (3.428 percent) 
+FibonacciAkkaActorBenchmark  Coeff. of Variation:     0.055 
+FibonacciAkkaActorBenchmark             Skewness:     0.503 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: FibonacciAkkaActorBenchmark
+Args: 
+                N (index) = 25         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-0:  3661.618 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-1:  2210.018 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-2:  2366.365 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-3:  2236.220 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-4:  2097.773 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-5:  2294.488 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-6:  2263.176 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-7:  2099.287 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-8:  2095.616 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-9:  2192.325 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark         Iteration-10:  2197.662 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark         Iteration-11:  2188.420 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+FibonacciAkkaActorBenchmark            Best Time:  2095.616 ms 
+FibonacciAkkaActorBenchmark           Worst Time:  2366.365 ms 
+FibonacciAkkaActorBenchmark               Median:  2197.662 ms 
+FibonacciAkkaActorBenchmark     Arith. Mean Time:  2203.759 ms 
+FibonacciAkkaActorBenchmark       Geo. Mean Time:  2202.251 ms 
+FibonacciAkkaActorBenchmark   Harmonic Mean Time:  2200.752 ms 
+FibonacciAkkaActorBenchmark        Std. Dev Time:    81.765 ms 
+FibonacciAkkaActorBenchmark     Lower Confidence:  2155.439 ms 
+FibonacciAkkaActorBenchmark    Higher Confidence:  2252.079 ms 
+FibonacciAkkaActorBenchmark         Error Window:    48.320 ms (2.193 percent) 
+FibonacciAkkaActorBenchmark  Coeff. of Variation:     0.037 
+FibonacciAkkaActorBenchmark             Skewness:     0.309 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: FibonacciAkkaActorBenchmark
+Args: 
+                N (index) = 25         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-0:  4172.504 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-1:  2544.348 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-2:  2474.799 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-3:  2437.288 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-4:  2672.466 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-5:  2251.818 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-6:  2429.527 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-7:  2266.304 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-8:  2366.013 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-9:  2347.571 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark         Iteration-10:  2480.155 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark         Iteration-11:  2453.312 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+FibonacciAkkaActorBenchmark            Best Time:  2251.818 ms 
+FibonacciAkkaActorBenchmark           Worst Time:  2672.466 ms 
+FibonacciAkkaActorBenchmark               Median:  2437.288 ms 
+FibonacciAkkaActorBenchmark     Arith. Mean Time:  2429.418 ms 
+FibonacciAkkaActorBenchmark       Geo. Mean Time:  2426.700 ms 
+FibonacciAkkaActorBenchmark   Harmonic Mean Time:  2424.001 ms 
+FibonacciAkkaActorBenchmark        Std. Dev Time:   115.371 ms 
+FibonacciAkkaActorBenchmark     Lower Confidence:  2361.238 ms 
+FibonacciAkkaActorBenchmark    Higher Confidence:  2497.598 ms 
+FibonacciAkkaActorBenchmark         Error Window:    68.180 ms (2.806 percent) 
+FibonacciAkkaActorBenchmark  Coeff. of Variation:     0.047 
+FibonacciAkkaActorBenchmark             Skewness:     0.350 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: FibonacciAkkaActorBenchmark
+Args: 
+                N (index) = 25         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-0:  4613.059 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-1:  2259.649 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-2:  2485.160 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-3:  2388.738 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-4:  2350.719 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-5:  2478.879 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-6:  2381.064 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-7:  2249.773 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-8:  2310.831 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark          Iteration-9:  2344.454 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark         Iteration-10:  2432.829 ms 
+ Result = 75025
+FibonacciAkkaActorBenchmark         Iteration-11:  2538.950 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+FibonacciAkkaActorBenchmark            Best Time:  2249.773 ms 
+FibonacciAkkaActorBenchmark           Worst Time:  2538.950 ms 
+FibonacciAkkaActorBenchmark               Median:  2381.064 ms 
+FibonacciAkkaActorBenchmark     Arith. Mean Time:  2383.731 ms 
+FibonacciAkkaActorBenchmark       Geo. Mean Time:  2382.073 ms 
+FibonacciAkkaActorBenchmark   Harmonic Mean Time:  2380.418 ms 
+FibonacciAkkaActorBenchmark        Std. Dev Time:    89.017 ms 
+FibonacciAkkaActorBenchmark     Lower Confidence:  2331.126 ms 
+FibonacciAkkaActorBenchmark    Higher Confidence:  2436.337 ms 
+FibonacciAkkaActorBenchmark         Error Window:    52.606 ms (2.207 percent) 
+FibonacciAkkaActorBenchmark  Coeff. of Variation:     0.037 
+FibonacciAkkaActorBenchmark             Skewness:     0.137 
+
+****************************************

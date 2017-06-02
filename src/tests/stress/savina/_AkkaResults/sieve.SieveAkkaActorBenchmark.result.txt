@@ -1,0 +1,330 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: SieveAkkaActorBenchmark
+Args: 
+           N (input size) = 100000     
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-0:   874.974 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-1:   459.917 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-2:   375.143 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-3:   337.757 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-4:   367.251 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-5:   343.783 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-6:   336.831 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-7:   353.252 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-8:   330.540 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-9:   341.306 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark         Iteration-10:   336.748 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark         Iteration-11:   351.781 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+SieveAkkaActorBenchmark            Best Time:   330.540 ms 
+SieveAkkaActorBenchmark           Worst Time:   375.143 ms 
+SieveAkkaActorBenchmark               Median:   342.544 ms 
+SieveAkkaActorBenchmark     Arith. Mean Time:   347.439 ms 
+SieveAkkaActorBenchmark       Geo. Mean Time:   347.176 ms 
+SieveAkkaActorBenchmark   Harmonic Mean Time:   346.917 ms 
+SieveAkkaActorBenchmark        Std. Dev Time:    13.674 ms 
+SieveAkkaActorBenchmark     Lower Confidence:   338.964 ms 
+SieveAkkaActorBenchmark    Higher Confidence:   355.914 ms 
+SieveAkkaActorBenchmark         Error Window:     8.475 ms (2.439 percent) 
+SieveAkkaActorBenchmark  Coeff. of Variation:     0.039 
+SieveAkkaActorBenchmark             Skewness:     0.908 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: SieveAkkaActorBenchmark
+Args: 
+           N (input size) = 100000     
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-0:   680.532 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-1:   285.405 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-2:   211.839 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-3:   207.822 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-4:   207.076 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-5:   210.720 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-6:   201.094 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-7:   201.887 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-8:   209.593 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-9:   197.561 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark         Iteration-10:   209.142 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark         Iteration-11:   201.545 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+SieveAkkaActorBenchmark            Best Time:   197.561 ms 
+SieveAkkaActorBenchmark           Worst Time:   211.839 ms 
+SieveAkkaActorBenchmark               Median:   207.449 ms 
+SieveAkkaActorBenchmark     Arith. Mean Time:   205.828 ms 
+SieveAkkaActorBenchmark       Geo. Mean Time:   205.775 ms 
+SieveAkkaActorBenchmark   Harmonic Mean Time:   205.722 ms 
+SieveAkkaActorBenchmark        Std. Dev Time:     4.641 ms 
+SieveAkkaActorBenchmark     Lower Confidence:   202.951 ms 
+SieveAkkaActorBenchmark    Higher Confidence:   208.704 ms 
+SieveAkkaActorBenchmark         Error Window:     2.877 ms (1.398 percent) 
+SieveAkkaActorBenchmark  Coeff. of Variation:     0.023 
+SieveAkkaActorBenchmark             Skewness:    -0.419 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: SieveAkkaActorBenchmark
+Args: 
+           N (input size) = 100000     
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-0:   637.900 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-1:   263.411 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-2:   175.921 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-3:   170.616 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-4:   189.699 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-5:   167.498 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-6:   164.539 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-7:   178.168 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-8:   165.026 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-9:   172.439 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark         Iteration-10:   171.888 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark         Iteration-11:   161.588 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+SieveAkkaActorBenchmark            Best Time:   161.588 ms 
+SieveAkkaActorBenchmark           Worst Time:   189.699 ms 
+SieveAkkaActorBenchmark               Median:   171.252 ms 
+SieveAkkaActorBenchmark     Arith. Mean Time:   171.738 ms 
+SieveAkkaActorBenchmark       Geo. Mean Time:   171.568 ms 
+SieveAkkaActorBenchmark   Harmonic Mean Time:   171.401 ms 
+SieveAkkaActorBenchmark        Std. Dev Time:     7.753 ms 
+SieveAkkaActorBenchmark     Lower Confidence:   166.933 ms 
+SieveAkkaActorBenchmark    Higher Confidence:   176.543 ms 
+SieveAkkaActorBenchmark         Error Window:     4.805 ms (2.798 percent) 
+SieveAkkaActorBenchmark  Coeff. of Variation:     0.045 
+SieveAkkaActorBenchmark             Skewness:     1.033 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: SieveAkkaActorBenchmark
+Args: 
+           N (input size) = 100000     
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-0:   751.442 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-1:   295.885 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-2:   215.063 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-3:   185.987 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-4:   186.534 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-5:   185.817 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-6:   186.449 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-7:   184.527 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-8:   181.998 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-9:   183.824 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark         Iteration-10:   199.277 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark         Iteration-11:   206.115 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+SieveAkkaActorBenchmark            Best Time:   181.998 ms 
+SieveAkkaActorBenchmark           Worst Time:   215.063 ms 
+SieveAkkaActorBenchmark               Median:   186.218 ms 
+SieveAkkaActorBenchmark     Arith. Mean Time:   191.559 ms 
+SieveAkkaActorBenchmark       Geo. Mean Time:   191.274 ms 
+SieveAkkaActorBenchmark   Harmonic Mean Time:   191.000 ms 
+SieveAkkaActorBenchmark        Std. Dev Time:    10.677 ms 
+SieveAkkaActorBenchmark     Lower Confidence:   184.942 ms 
+SieveAkkaActorBenchmark    Higher Confidence:   198.177 ms 
+SieveAkkaActorBenchmark         Error Window:     6.618 ms (3.455 percent) 
+SieveAkkaActorBenchmark  Coeff. of Variation:     0.056 
+SieveAkkaActorBenchmark             Skewness:     1.298 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: SieveAkkaActorBenchmark
+Args: 
+           N (input size) = 100000     
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-0:   848.192 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-1:   280.964 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-2:   201.748 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-3:   197.595 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-4:   190.150 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-5:   184.670 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-6:   186.803 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-7:   190.215 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-8:   184.343 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-9:   187.659 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark         Iteration-10:   188.785 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark         Iteration-11:   193.385 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+SieveAkkaActorBenchmark            Best Time:   184.343 ms 
+SieveAkkaActorBenchmark           Worst Time:   201.748 ms 
+SieveAkkaActorBenchmark               Median:   189.467 ms 
+SieveAkkaActorBenchmark     Arith. Mean Time:   190.535 ms 
+SieveAkkaActorBenchmark       Geo. Mean Time:   190.462 ms 
+SieveAkkaActorBenchmark   Harmonic Mean Time:   190.391 ms 
+SieveAkkaActorBenchmark        Std. Dev Time:     5.310 ms 
+SieveAkkaActorBenchmark     Lower Confidence:   187.244 ms 
+SieveAkkaActorBenchmark    Higher Confidence:   193.826 ms 
+SieveAkkaActorBenchmark         Error Window:     3.291 ms (1.727 percent) 
+SieveAkkaActorBenchmark  Coeff. of Variation:     0.028 
+SieveAkkaActorBenchmark             Skewness:     0.938 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: SieveAkkaActorBenchmark
+Args: 
+           N (input size) = 100000     
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-0:  1491.707 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-1:   200.380 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-2:   251.213 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-3:   225.106 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-4:   186.881 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-5:   189.153 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-6:   178.751 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-7:   264.712 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-8:   182.848 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark          Iteration-9:   186.893 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark         Iteration-10:   184.802 ms 
+Total primes = 9592
+SieveAkkaActorBenchmark         Iteration-11:   182.143 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 9          
+SieveAkkaActorBenchmark            Best Time:   178.751 ms 
+SieveAkkaActorBenchmark           Worst Time:   225.106 ms 
+SieveAkkaActorBenchmark               Median:   186.881 ms 
+SieveAkkaActorBenchmark     Arith. Mean Time:   190.773 ms 
+SieveAkkaActorBenchmark       Geo. Mean Time:   190.335 ms 
+SieveAkkaActorBenchmark   Harmonic Mean Time:   189.929 ms 
+SieveAkkaActorBenchmark        Std. Dev Time:    13.422 ms 
+SieveAkkaActorBenchmark     Lower Confidence:   182.004 ms 
+SieveAkkaActorBenchmark    Higher Confidence:   199.542 ms 
+SieveAkkaActorBenchmark         Error Window:     8.769 ms (4.597 percent) 
+SieveAkkaActorBenchmark  Coeff. of Variation:     0.070 
+SieveAkkaActorBenchmark             Skewness:     1.972 
+
+****************************************

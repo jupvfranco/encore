@@ -1,0 +1,264 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ForkJoinAkkaActorBenchmark
+Args: 
+          N (num workers) = 40000      
+         C (num channels) = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ForkJoinAkkaActorBenchmark          Iteration-0:  2482.837 ms 
+ForkJoinAkkaActorBenchmark          Iteration-1:  1355.638 ms 
+ForkJoinAkkaActorBenchmark          Iteration-2:  1107.679 ms 
+ForkJoinAkkaActorBenchmark          Iteration-3:   804.269 ms 
+ForkJoinAkkaActorBenchmark          Iteration-4:   716.964 ms 
+ForkJoinAkkaActorBenchmark          Iteration-5:   641.988 ms 
+ForkJoinAkkaActorBenchmark          Iteration-6:   516.723 ms 
+ForkJoinAkkaActorBenchmark          Iteration-7:   468.621 ms 
+ForkJoinAkkaActorBenchmark          Iteration-8:   553.903 ms 
+ForkJoinAkkaActorBenchmark          Iteration-9:   585.196 ms 
+ForkJoinAkkaActorBenchmark         Iteration-10:   564.430 ms 
+ForkJoinAkkaActorBenchmark         Iteration-11:   496.746 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 6          
+ForkJoinAkkaActorBenchmark            Best Time:   516.723 ms 
+ForkJoinAkkaActorBenchmark           Worst Time:   716.964 ms 
+ForkJoinAkkaActorBenchmark               Median:   574.813 ms 
+ForkJoinAkkaActorBenchmark     Arith. Mean Time:   596.534 ms 
+ForkJoinAkkaActorBenchmark       Geo. Mean Time:   593.068 ms 
+ForkJoinAkkaActorBenchmark   Harmonic Mean Time:   589.762 ms 
+ForkJoinAkkaActorBenchmark        Std. Dev Time:    65.721 ms 
+ForkJoinAkkaActorBenchmark     Lower Confidence:   543.946 ms 
+ForkJoinAkkaActorBenchmark    Higher Confidence:   649.122 ms 
+ForkJoinAkkaActorBenchmark         Error Window:    52.588 ms (8.816 percent) 
+ForkJoinAkkaActorBenchmark  Coeff. of Variation:     0.110 
+ForkJoinAkkaActorBenchmark             Skewness:     0.860 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ForkJoinAkkaActorBenchmark
+Args: 
+          N (num workers) = 40000      
+         C (num channels) = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ForkJoinAkkaActorBenchmark          Iteration-0:  1837.217 ms 
+ForkJoinAkkaActorBenchmark          Iteration-1:   857.005 ms 
+ForkJoinAkkaActorBenchmark          Iteration-2:   647.387 ms 
+ForkJoinAkkaActorBenchmark          Iteration-3:   467.093 ms 
+ForkJoinAkkaActorBenchmark          Iteration-4:   339.624 ms 
+ForkJoinAkkaActorBenchmark          Iteration-5:   319.620 ms 
+ForkJoinAkkaActorBenchmark          Iteration-6:   513.937 ms 
+ForkJoinAkkaActorBenchmark          Iteration-7:   568.986 ms 
+ForkJoinAkkaActorBenchmark          Iteration-8:   391.725 ms 
+ForkJoinAkkaActorBenchmark          Iteration-9:   334.882 ms 
+ForkJoinAkkaActorBenchmark         Iteration-10:   289.357 ms 
+ForkJoinAkkaActorBenchmark         Iteration-11:   307.653 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 3          
+ForkJoinAkkaActorBenchmark            Best Time:   391.725 ms 
+ForkJoinAkkaActorBenchmark           Worst Time:   513.937 ms 
+ForkJoinAkkaActorBenchmark               Median:   467.093 ms 
+ForkJoinAkkaActorBenchmark     Arith. Mean Time:   457.585 ms 
+ForkJoinAkkaActorBenchmark       Geo. Mean Time:   454.742 ms 
+ForkJoinAkkaActorBenchmark   Harmonic Mean Time:   451.843 ms 
+ForkJoinAkkaActorBenchmark        Std. Dev Time:    50.344 ms 
+ForkJoinAkkaActorBenchmark     Lower Confidence:   400.616 ms 
+ForkJoinAkkaActorBenchmark    Higher Confidence:   514.555 ms 
+ForkJoinAkkaActorBenchmark         Error Window:    56.969 ms (12.450 percent) 
+ForkJoinAkkaActorBenchmark  Coeff. of Variation:     0.110 
+ForkJoinAkkaActorBenchmark             Skewness:    -0.415 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ForkJoinAkkaActorBenchmark
+Args: 
+          N (num workers) = 40000      
+         C (num channels) = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ForkJoinAkkaActorBenchmark          Iteration-0:  1697.321 ms 
+ForkJoinAkkaActorBenchmark          Iteration-1:   672.413 ms 
+ForkJoinAkkaActorBenchmark          Iteration-2:   484.466 ms 
+ForkJoinAkkaActorBenchmark          Iteration-3:   463.268 ms 
+ForkJoinAkkaActorBenchmark          Iteration-4:   435.356 ms 
+ForkJoinAkkaActorBenchmark          Iteration-5:   410.058 ms 
+ForkJoinAkkaActorBenchmark          Iteration-6:   410.490 ms 
+ForkJoinAkkaActorBenchmark          Iteration-7:   406.455 ms 
+ForkJoinAkkaActorBenchmark          Iteration-8:   406.632 ms 
+ForkJoinAkkaActorBenchmark          Iteration-9:   425.372 ms 
+ForkJoinAkkaActorBenchmark         Iteration-10:   476.548 ms 
+ForkJoinAkkaActorBenchmark         Iteration-11:   480.777 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+ForkJoinAkkaActorBenchmark            Best Time:   406.455 ms 
+ForkJoinAkkaActorBenchmark           Worst Time:   484.466 ms 
+ForkJoinAkkaActorBenchmark               Median:   430.364 ms 
+ForkJoinAkkaActorBenchmark     Arith. Mean Time:   439.942 ms 
+ForkJoinAkkaActorBenchmark       Geo. Mean Time:   438.846 ms 
+ForkJoinAkkaActorBenchmark   Harmonic Mean Time:   437.766 ms 
+ForkJoinAkkaActorBenchmark        Std. Dev Time:    31.239 ms 
+ForkJoinAkkaActorBenchmark     Lower Confidence:   420.580 ms 
+ForkJoinAkkaActorBenchmark    Higher Confidence:   459.304 ms 
+ForkJoinAkkaActorBenchmark         Error Window:    19.362 ms (4.401 percent) 
+ForkJoinAkkaActorBenchmark  Coeff. of Variation:     0.071 
+ForkJoinAkkaActorBenchmark             Skewness:     0.321 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ForkJoinAkkaActorBenchmark
+Args: 
+          N (num workers) = 40000      
+         C (num channels) = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ForkJoinAkkaActorBenchmark          Iteration-0:  1873.445 ms 
+ForkJoinAkkaActorBenchmark          Iteration-1:   619.096 ms 
+ForkJoinAkkaActorBenchmark          Iteration-2:   504.295 ms 
+ForkJoinAkkaActorBenchmark          Iteration-3:   510.773 ms 
+ForkJoinAkkaActorBenchmark          Iteration-4:   456.382 ms 
+ForkJoinAkkaActorBenchmark          Iteration-5:   509.747 ms 
+ForkJoinAkkaActorBenchmark          Iteration-6:   516.242 ms 
+ForkJoinAkkaActorBenchmark          Iteration-7:   497.912 ms 
+ForkJoinAkkaActorBenchmark          Iteration-8:   449.052 ms 
+ForkJoinAkkaActorBenchmark          Iteration-9:   469.976 ms 
+ForkJoinAkkaActorBenchmark         Iteration-10:   451.293 ms 
+ForkJoinAkkaActorBenchmark         Iteration-11:   471.777 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+ForkJoinAkkaActorBenchmark            Best Time:   449.052 ms 
+ForkJoinAkkaActorBenchmark           Worst Time:   516.242 ms 
+ForkJoinAkkaActorBenchmark               Median:   484.844 ms 
+ForkJoinAkkaActorBenchmark     Arith. Mean Time:   483.745 ms 
+ForkJoinAkkaActorBenchmark       Geo. Mean Time:   483.078 ms 
+ForkJoinAkkaActorBenchmark   Harmonic Mean Time:   482.408 ms 
+ForkJoinAkkaActorBenchmark        Std. Dev Time:    25.346 ms 
+ForkJoinAkkaActorBenchmark     Lower Confidence:   468.036 ms 
+ForkJoinAkkaActorBenchmark    Higher Confidence:   499.454 ms 
+ForkJoinAkkaActorBenchmark         Error Window:    15.709 ms (3.247 percent) 
+ForkJoinAkkaActorBenchmark  Coeff. of Variation:     0.052 
+ForkJoinAkkaActorBenchmark             Skewness:    -0.120 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ForkJoinAkkaActorBenchmark
+Args: 
+          N (num workers) = 40000      
+         C (num channels) = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ForkJoinAkkaActorBenchmark          Iteration-0:  2305.855 ms 
+ForkJoinAkkaActorBenchmark          Iteration-1:   595.902 ms 
+ForkJoinAkkaActorBenchmark          Iteration-2:   503.514 ms 
+ForkJoinAkkaActorBenchmark          Iteration-3:   461.151 ms 
+ForkJoinAkkaActorBenchmark          Iteration-4:   509.727 ms 
+ForkJoinAkkaActorBenchmark          Iteration-5:   537.159 ms 
+ForkJoinAkkaActorBenchmark          Iteration-6:   459.090 ms 
+ForkJoinAkkaActorBenchmark          Iteration-7:   457.345 ms 
+ForkJoinAkkaActorBenchmark          Iteration-8:   462.188 ms 
+ForkJoinAkkaActorBenchmark          Iteration-9:   454.729 ms 
+ForkJoinAkkaActorBenchmark         Iteration-10:   457.460 ms 
+ForkJoinAkkaActorBenchmark         Iteration-11:   458.220 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+ForkJoinAkkaActorBenchmark            Best Time:   454.729 ms 
+ForkJoinAkkaActorBenchmark           Worst Time:   537.159 ms 
+ForkJoinAkkaActorBenchmark               Median:   460.120 ms 
+ForkJoinAkkaActorBenchmark     Arith. Mean Time:   476.058 ms 
+ForkJoinAkkaActorBenchmark       Geo. Mean Time:   475.273 ms 
+ForkJoinAkkaActorBenchmark   Harmonic Mean Time:   474.522 ms 
+ForkJoinAkkaActorBenchmark        Std. Dev Time:    27.915 ms 
+ForkJoinAkkaActorBenchmark     Lower Confidence:   458.756 ms 
+ForkJoinAkkaActorBenchmark    Higher Confidence:   493.360 ms 
+ForkJoinAkkaActorBenchmark         Error Window:    17.302 ms (3.634 percent) 
+ForkJoinAkkaActorBenchmark  Coeff. of Variation:     0.059 
+ForkJoinAkkaActorBenchmark             Skewness:     1.265 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ForkJoinAkkaActorBenchmark
+Args: 
+          N (num workers) = 40000      
+         C (num channels) = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ForkJoinAkkaActorBenchmark          Iteration-0:  1693.271 ms 
+ForkJoinAkkaActorBenchmark          Iteration-1:   659.570 ms 
+ForkJoinAkkaActorBenchmark          Iteration-2:   491.589 ms 
+ForkJoinAkkaActorBenchmark          Iteration-3:   484.574 ms 
+ForkJoinAkkaActorBenchmark          Iteration-4:   476.083 ms 
+ForkJoinAkkaActorBenchmark          Iteration-5:   487.652 ms 
+ForkJoinAkkaActorBenchmark          Iteration-6:   484.473 ms 
+ForkJoinAkkaActorBenchmark          Iteration-7:   460.304 ms 
+ForkJoinAkkaActorBenchmark          Iteration-8:   448.431 ms 
+ForkJoinAkkaActorBenchmark          Iteration-9:   502.204 ms 
+ForkJoinAkkaActorBenchmark         Iteration-10:   447.897 ms 
+ForkJoinAkkaActorBenchmark         Iteration-11:   450.908 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+ForkJoinAkkaActorBenchmark            Best Time:   447.897 ms 
+ForkJoinAkkaActorBenchmark           Worst Time:   502.204 ms 
+ForkJoinAkkaActorBenchmark               Median:   480.278 ms 
+ForkJoinAkkaActorBenchmark     Arith. Mean Time:   473.412 ms 
+ForkJoinAkkaActorBenchmark       Geo. Mean Time:   473.033 ms 
+ForkJoinAkkaActorBenchmark   Harmonic Mean Time:   472.652 ms 
+ForkJoinAkkaActorBenchmark        Std. Dev Time:    18.893 ms 
+ForkJoinAkkaActorBenchmark     Lower Confidence:   461.701 ms 
+ForkJoinAkkaActorBenchmark    Higher Confidence:   485.122 ms 
+ForkJoinAkkaActorBenchmark         Error Window:    11.710 ms (2.474 percent) 
+ForkJoinAkkaActorBenchmark  Coeff. of Variation:     0.040 
+ForkJoinAkkaActorBenchmark             Skewness:    -0.170 
+
+****************************************

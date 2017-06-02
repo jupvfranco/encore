@@ -1,0 +1,276 @@
+Core count: 2
+WARNING: AKKA version DEADLOCKS. Needs debugging!
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: FilterBankAkkaActorBenchmark
+Args: 
+           numSimulations = 34816      
+               numColumns = 16384      
+              numChannels = 8          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+FilterBankAkkaActorBenchmark          Iteration-0:  4479.947 ms 
+FilterBankAkkaActorBenchmark          Iteration-1:  3940.020 ms 
+FilterBankAkkaActorBenchmark          Iteration-2:  3715.278 ms 
+FilterBankAkkaActorBenchmark          Iteration-3:  3636.143 ms 
+FilterBankAkkaActorBenchmark          Iteration-4:  3618.948 ms 
+FilterBankAkkaActorBenchmark          Iteration-5:  3684.885 ms 
+FilterBankAkkaActorBenchmark          Iteration-6:  3638.359 ms 
+FilterBankAkkaActorBenchmark          Iteration-7:  3568.412 ms 
+FilterBankAkkaActorBenchmark          Iteration-8:  3616.475 ms 
+FilterBankAkkaActorBenchmark          Iteration-9:  3610.668 ms 
+FilterBankAkkaActorBenchmark         Iteration-10:  3635.518 ms 
+FilterBankAkkaActorBenchmark         Iteration-11:  3665.644 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+FilterBankAkkaActorBenchmark            Best Time:  3568.412 ms 
+FilterBankAkkaActorBenchmark           Worst Time:  3940.020 ms 
+FilterBankAkkaActorBenchmark               Median:  3636.143 ms 
+FilterBankAkkaActorBenchmark     Arith. Mean Time:  3666.395 ms 
+FilterBankAkkaActorBenchmark       Geo. Mean Time:  3665.225 ms 
+FilterBankAkkaActorBenchmark   Harmonic Mean Time:  3664.094 ms 
+FilterBankAkkaActorBenchmark        Std. Dev Time:    94.247 ms 
+FilterBankAkkaActorBenchmark     Lower Confidence:  3610.699 ms 
+FilterBankAkkaActorBenchmark    Higher Confidence:  3722.092 ms 
+FilterBankAkkaActorBenchmark         Error Window:    55.696 ms (1.519 percent) 
+FilterBankAkkaActorBenchmark  Coeff. of Variation:     0.026 
+FilterBankAkkaActorBenchmark             Skewness:     2.292 
+
+****************************************
+Core count: 4
+WARNING: AKKA version DEADLOCKS. Needs debugging!
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: FilterBankAkkaActorBenchmark
+Args: 
+           numSimulations = 34816      
+               numColumns = 16384      
+              numChannels = 8          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+FilterBankAkkaActorBenchmark          Iteration-0:  2628.969 ms 
+FilterBankAkkaActorBenchmark          Iteration-1:  2110.946 ms 
+FilterBankAkkaActorBenchmark          Iteration-2:  1904.424 ms 
+FilterBankAkkaActorBenchmark          Iteration-3:  1861.682 ms 
+FilterBankAkkaActorBenchmark          Iteration-4:  1894.500 ms 
+FilterBankAkkaActorBenchmark          Iteration-5:  1878.772 ms 
+FilterBankAkkaActorBenchmark          Iteration-6:  1818.530 ms 
+FilterBankAkkaActorBenchmark          Iteration-7:  1865.536 ms 
+FilterBankAkkaActorBenchmark          Iteration-8:  1858.769 ms 
+FilterBankAkkaActorBenchmark          Iteration-9:  1864.789 ms 
+FilterBankAkkaActorBenchmark         Iteration-10:  1887.666 ms 
+FilterBankAkkaActorBenchmark         Iteration-11:  1905.876 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+FilterBankAkkaActorBenchmark            Best Time:  1818.530 ms 
+FilterBankAkkaActorBenchmark           Worst Time:  2110.946 ms 
+FilterBankAkkaActorBenchmark               Median:  1878.772 ms 
+FilterBankAkkaActorBenchmark     Arith. Mean Time:  1895.590 ms 
+FilterBankAkkaActorBenchmark       Geo. Mean Time:  1894.291 ms 
+FilterBankAkkaActorBenchmark   Harmonic Mean Time:  1893.061 ms 
+FilterBankAkkaActorBenchmark        Std. Dev Time:    72.114 ms 
+FilterBankAkkaActorBenchmark     Lower Confidence:  1852.973 ms 
+FilterBankAkkaActorBenchmark    Higher Confidence:  1938.206 ms 
+FilterBankAkkaActorBenchmark         Error Window:    42.617 ms (2.248 percent) 
+FilterBankAkkaActorBenchmark  Coeff. of Variation:     0.038 
+FilterBankAkkaActorBenchmark             Skewness:     2.502 
+
+****************************************
+Core count: 8
+WARNING: AKKA version DEADLOCKS. Needs debugging!
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: FilterBankAkkaActorBenchmark
+Args: 
+           numSimulations = 34816      
+               numColumns = 16384      
+              numChannels = 8          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+FilterBankAkkaActorBenchmark          Iteration-0:  1945.486 ms 
+FilterBankAkkaActorBenchmark          Iteration-1:  1183.755 ms 
+FilterBankAkkaActorBenchmark          Iteration-2:  1191.468 ms 
+FilterBankAkkaActorBenchmark          Iteration-3:  1224.168 ms 
+FilterBankAkkaActorBenchmark          Iteration-4:  1066.769 ms 
+FilterBankAkkaActorBenchmark          Iteration-5:  1095.060 ms 
+FilterBankAkkaActorBenchmark          Iteration-6:  1122.284 ms 
+FilterBankAkkaActorBenchmark          Iteration-7:  1048.306 ms 
+FilterBankAkkaActorBenchmark          Iteration-8:  1071.343 ms 
+FilterBankAkkaActorBenchmark          Iteration-9:  1084.396 ms 
+FilterBankAkkaActorBenchmark         Iteration-10:  1142.704 ms 
+FilterBankAkkaActorBenchmark         Iteration-11:  1179.856 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+FilterBankAkkaActorBenchmark            Best Time:  1048.306 ms 
+FilterBankAkkaActorBenchmark           Worst Time:  1224.168 ms 
+FilterBankAkkaActorBenchmark               Median:  1122.284 ms 
+FilterBankAkkaActorBenchmark     Arith. Mean Time:  1128.192 ms 
+FilterBankAkkaActorBenchmark       Geo. Mean Time:  1126.764 ms 
+FilterBankAkkaActorBenchmark   Harmonic Mean Time:  1125.346 ms 
+FilterBankAkkaActorBenchmark        Std. Dev Time:    56.904 ms 
+FilterBankAkkaActorBenchmark     Lower Confidence:  1094.563 ms 
+FilterBankAkkaActorBenchmark    Higher Confidence:  1161.820 ms 
+FilterBankAkkaActorBenchmark         Error Window:    33.628 ms (2.981 percent) 
+FilterBankAkkaActorBenchmark  Coeff. of Variation:     0.050 
+FilterBankAkkaActorBenchmark             Skewness:     0.219 
+
+****************************************
+Core count: 16
+WARNING: AKKA version DEADLOCKS. Needs debugging!
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: FilterBankAkkaActorBenchmark
+Args: 
+           numSimulations = 34816      
+               numColumns = 16384      
+              numChannels = 8          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+FilterBankAkkaActorBenchmark          Iteration-0:  2251.669 ms 
+FilterBankAkkaActorBenchmark          Iteration-1:  1039.987 ms 
+FilterBankAkkaActorBenchmark          Iteration-2:  1131.896 ms 
+FilterBankAkkaActorBenchmark          Iteration-3:  1084.130 ms 
+FilterBankAkkaActorBenchmark          Iteration-4:  1025.770 ms 
+FilterBankAkkaActorBenchmark          Iteration-5:  1026.131 ms 
+FilterBankAkkaActorBenchmark          Iteration-6:  1145.690 ms 
+FilterBankAkkaActorBenchmark          Iteration-7:   976.456 ms 
+FilterBankAkkaActorBenchmark          Iteration-8:  1150.725 ms 
+FilterBankAkkaActorBenchmark          Iteration-9:  1000.843 ms 
+FilterBankAkkaActorBenchmark         Iteration-10:  1014.494 ms 
+FilterBankAkkaActorBenchmark         Iteration-11:  1047.755 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+FilterBankAkkaActorBenchmark            Best Time:   976.456 ms 
+FilterBankAkkaActorBenchmark           Worst Time:  1150.725 ms 
+FilterBankAkkaActorBenchmark               Median:  1039.987 ms 
+FilterBankAkkaActorBenchmark     Arith. Mean Time:  1058.534 ms 
+FilterBankAkkaActorBenchmark       Geo. Mean Time:  1056.980 ms 
+FilterBankAkkaActorBenchmark   Harmonic Mean Time:  1055.450 ms 
+FilterBankAkkaActorBenchmark        Std. Dev Time:    57.777 ms 
+FilterBankAkkaActorBenchmark     Lower Confidence:  1024.390 ms 
+FilterBankAkkaActorBenchmark    Higher Confidence:  1092.679 ms 
+FilterBankAkkaActorBenchmark         Error Window:    34.144 ms (3.226 percent) 
+FilterBankAkkaActorBenchmark  Coeff. of Variation:     0.055 
+FilterBankAkkaActorBenchmark             Skewness:     0.493 
+
+****************************************
+Core count: 32
+WARNING: AKKA version DEADLOCKS. Needs debugging!
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: FilterBankAkkaActorBenchmark
+Args: 
+           numSimulations = 34816      
+               numColumns = 16384      
+              numChannels = 8          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+FilterBankAkkaActorBenchmark          Iteration-0:  2613.336 ms 
+FilterBankAkkaActorBenchmark          Iteration-1:  1268.543 ms 
+FilterBankAkkaActorBenchmark          Iteration-2:  1254.346 ms 
+FilterBankAkkaActorBenchmark          Iteration-3:  1266.168 ms 
+FilterBankAkkaActorBenchmark          Iteration-4:  1319.041 ms 
+FilterBankAkkaActorBenchmark          Iteration-5:  1219.237 ms 
+FilterBankAkkaActorBenchmark          Iteration-6:  1205.214 ms 
+FilterBankAkkaActorBenchmark          Iteration-7:  1339.633 ms 
+FilterBankAkkaActorBenchmark          Iteration-8:  1189.830 ms 
+FilterBankAkkaActorBenchmark          Iteration-9:  1450.536 ms 
+FilterBankAkkaActorBenchmark         Iteration-10:  1239.298 ms 
+FilterBankAkkaActorBenchmark         Iteration-11:  1472.850 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+FilterBankAkkaActorBenchmark            Best Time:  1189.830 ms 
+FilterBankAkkaActorBenchmark           Worst Time:  1472.850 ms 
+FilterBankAkkaActorBenchmark               Median:  1266.168 ms 
+FilterBankAkkaActorBenchmark     Arith. Mean Time:  1293.154 ms 
+FilterBankAkkaActorBenchmark       Geo. Mean Time:  1290.127 ms 
+FilterBankAkkaActorBenchmark   Harmonic Mean Time:  1287.219 ms 
+FilterBankAkkaActorBenchmark        Std. Dev Time:    90.204 ms 
+FilterBankAkkaActorBenchmark     Lower Confidence:  1239.847 ms 
+FilterBankAkkaActorBenchmark    Higher Confidence:  1346.461 ms 
+FilterBankAkkaActorBenchmark         Error Window:    53.307 ms (4.122 percent) 
+FilterBankAkkaActorBenchmark  Coeff. of Variation:     0.070 
+FilterBankAkkaActorBenchmark             Skewness:     1.006 
+
+****************************************
+Core count: 64
+WARNING: AKKA version DEADLOCKS. Needs debugging!
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: FilterBankAkkaActorBenchmark
+Args: 
+           numSimulations = 34816      
+               numColumns = 16384      
+              numChannels = 8          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+FilterBankAkkaActorBenchmark          Iteration-0:  3764.333 ms 
+FilterBankAkkaActorBenchmark          Iteration-1:  2058.708 ms 
+FilterBankAkkaActorBenchmark          Iteration-2:  1659.853 ms 
+FilterBankAkkaActorBenchmark          Iteration-3:  1830.688 ms 
+FilterBankAkkaActorBenchmark          Iteration-4:  1712.918 ms 
+FilterBankAkkaActorBenchmark          Iteration-5:  1754.162 ms 
+FilterBankAkkaActorBenchmark          Iteration-6:  1448.611 ms 
+FilterBankAkkaActorBenchmark          Iteration-7:  1549.315 ms 
+FilterBankAkkaActorBenchmark          Iteration-8:  1761.128 ms 
+FilterBankAkkaActorBenchmark          Iteration-9:  1877.893 ms 
+FilterBankAkkaActorBenchmark         Iteration-10:  1718.108 ms 
+FilterBankAkkaActorBenchmark         Iteration-11:  1414.862 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+FilterBankAkkaActorBenchmark            Best Time:  1414.862 ms 
+FilterBankAkkaActorBenchmark           Worst Time:  2058.708 ms 
+FilterBankAkkaActorBenchmark               Median:  1718.108 ms 
+FilterBankAkkaActorBenchmark     Arith. Mean Time:  1707.840 ms 
+FilterBankAkkaActorBenchmark       Geo. Mean Time:  1698.387 ms 
+FilterBankAkkaActorBenchmark   Harmonic Mean Time:  1688.870 ms 
+FilterBankAkkaActorBenchmark        Std. Dev Time:   179.064 ms 
+FilterBankAkkaActorBenchmark     Lower Confidence:  1602.020 ms 
+FilterBankAkkaActorBenchmark    Higher Confidence:  1813.661 ms 
+FilterBankAkkaActorBenchmark         Error Window:   105.820 ms (6.196 percent) 
+FilterBankAkkaActorBenchmark  Coeff. of Variation:     0.105 
+FilterBankAkkaActorBenchmark             Skewness:     0.062 
+
+****************************************

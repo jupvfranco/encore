@@ -1,0 +1,348 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: TrapezoidalAkkaActorBenchmark
+Args: 
+       N (num trapezoids) = 10000000   
+          W (num workers) = 100        
+       L (left end-point) = 1.0        
+      R (right end-point) = 5.0        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  Area: 0.27108075195295744
+TrapezoidalAkkaActorBenchmark          Iteration-0:  6907.086 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-1:  6356.874 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-2:  6347.806 ms 
+  Area: 0.27108075195295767
+TrapezoidalAkkaActorBenchmark          Iteration-3:  6426.893 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-4:  6289.128 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-5:  6296.032 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-6:  6245.316 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-7:  6202.515 ms 
+  Area: 0.27108075195295767
+TrapezoidalAkkaActorBenchmark          Iteration-8:  6382.303 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-9:  6400.777 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark         Iteration-10:  6474.051 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark         Iteration-11:  6481.614 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 12         
+TrapezoidalAkkaActorBenchmark            Best Time:  6202.515 ms 
+TrapezoidalAkkaActorBenchmark           Worst Time:  6907.086 ms 
+TrapezoidalAkkaActorBenchmark               Median:  6369.589 ms 
+TrapezoidalAkkaActorBenchmark     Arith. Mean Time:  6400.866 ms 
+TrapezoidalAkkaActorBenchmark       Geo. Mean Time:  6398.591 ms 
+TrapezoidalAkkaActorBenchmark   Harmonic Mean Time:  6396.387 ms 
+TrapezoidalAkkaActorBenchmark        Std. Dev Time:   173.427 ms 
+TrapezoidalAkkaActorBenchmark     Lower Confidence:  6302.741 ms 
+TrapezoidalAkkaActorBenchmark    Higher Confidence:  6498.992 ms 
+TrapezoidalAkkaActorBenchmark         Error Window:    98.125 ms (1.533 percent) 
+TrapezoidalAkkaActorBenchmark  Coeff. of Variation:     0.027 
+TrapezoidalAkkaActorBenchmark             Skewness:     2.027 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: TrapezoidalAkkaActorBenchmark
+Args: 
+       N (num trapezoids) = 10000000   
+          W (num workers) = 100        
+       L (left end-point) = 1.0        
+      R (right end-point) = 5.0        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-0:  3677.491 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-1:  3398.466 ms 
+  Area: 0.27108075195295767
+TrapezoidalAkkaActorBenchmark          Iteration-2:  3280.369 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-3:  3290.894 ms 
+  Area: 0.2710807519529577
+TrapezoidalAkkaActorBenchmark          Iteration-4:  3136.660 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-5:  3212.617 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-6:  3266.203 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-7:  3257.925 ms 
+  Area: 0.27108075195295767
+TrapezoidalAkkaActorBenchmark          Iteration-8:  3206.995 ms 
+  Area: 0.27108075195295767
+TrapezoidalAkkaActorBenchmark          Iteration-9:  3154.407 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark         Iteration-10:  3314.337 ms 
+  Area: 0.2710807519529577
+TrapezoidalAkkaActorBenchmark         Iteration-11:  3179.441 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 12         
+TrapezoidalAkkaActorBenchmark            Best Time:  3136.660 ms 
+TrapezoidalAkkaActorBenchmark           Worst Time:  3677.491 ms 
+TrapezoidalAkkaActorBenchmark               Median:  3262.064 ms 
+TrapezoidalAkkaActorBenchmark     Arith. Mean Time:  3281.317 ms 
+TrapezoidalAkkaActorBenchmark       Geo. Mean Time:  3278.527 ms 
+TrapezoidalAkkaActorBenchmark   Harmonic Mean Time:  3275.864 ms 
+TrapezoidalAkkaActorBenchmark        Std. Dev Time:   138.531 ms 
+TrapezoidalAkkaActorBenchmark     Lower Confidence:  3202.936 ms 
+TrapezoidalAkkaActorBenchmark    Higher Confidence:  3359.698 ms 
+TrapezoidalAkkaActorBenchmark         Error Window:    78.381 ms (2.389 percent) 
+TrapezoidalAkkaActorBenchmark  Coeff. of Variation:     0.042 
+TrapezoidalAkkaActorBenchmark             Skewness:     1.947 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: TrapezoidalAkkaActorBenchmark
+Args: 
+       N (num trapezoids) = 10000000   
+          W (num workers) = 100        
+       L (left end-point) = 1.0        
+      R (right end-point) = 5.0        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  Area: 0.27108075195295744
+TrapezoidalAkkaActorBenchmark          Iteration-0:  2167.992 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-1:  1681.313 ms 
+  Area: 0.2710807519529576
+TrapezoidalAkkaActorBenchmark          Iteration-2:  1743.167 ms 
+  Area: 0.27108075195295767
+TrapezoidalAkkaActorBenchmark          Iteration-3:  1740.069 ms 
+  Area: 0.27108075195295767
+TrapezoidalAkkaActorBenchmark          Iteration-4:  1732.891 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-5:  1774.346 ms 
+  Area: 0.27108075195295767
+TrapezoidalAkkaActorBenchmark          Iteration-6:  1916.691 ms 
+  Area: 0.27108075195295767
+TrapezoidalAkkaActorBenchmark          Iteration-7:  1905.806 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-8:  1921.906 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-9:  1770.083 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark         Iteration-10:  1736.766 ms 
+  Area: 0.27108075195295744
+TrapezoidalAkkaActorBenchmark         Iteration-11:  1872.788 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+TrapezoidalAkkaActorBenchmark            Best Time:  1681.313 ms 
+TrapezoidalAkkaActorBenchmark           Worst Time:  1921.906 ms 
+TrapezoidalAkkaActorBenchmark               Median:  1770.083 ms 
+TrapezoidalAkkaActorBenchmark     Arith. Mean Time:  1799.620 ms 
+TrapezoidalAkkaActorBenchmark       Geo. Mean Time:  1797.723 ms 
+TrapezoidalAkkaActorBenchmark   Harmonic Mean Time:  1795.847 ms 
+TrapezoidalAkkaActorBenchmark        Std. Dev Time:    83.084 ms 
+TrapezoidalAkkaActorBenchmark     Lower Confidence:  1750.521 ms 
+TrapezoidalAkkaActorBenchmark    Higher Confidence:  1848.720 ms 
+TrapezoidalAkkaActorBenchmark         Error Window:    49.100 ms (2.728 percent) 
+TrapezoidalAkkaActorBenchmark  Coeff. of Variation:     0.046 
+TrapezoidalAkkaActorBenchmark             Skewness:     0.416 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: TrapezoidalAkkaActorBenchmark
+Args: 
+       N (num trapezoids) = 10000000   
+          W (num workers) = 100        
+       L (left end-point) = 1.0        
+      R (right end-point) = 5.0        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  Area: 0.2710807519529575
+TrapezoidalAkkaActorBenchmark          Iteration-0:  1367.320 ms 
+  Area: 0.2710807519529576
+TrapezoidalAkkaActorBenchmark          Iteration-1:   957.437 ms 
+  Area: 0.2710807519529575
+TrapezoidalAkkaActorBenchmark          Iteration-2:   936.531 ms 
+  Area: 0.27108075195295767
+TrapezoidalAkkaActorBenchmark          Iteration-3:  1016.242 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-4:   921.797 ms 
+  Area: 0.27108075195295744
+TrapezoidalAkkaActorBenchmark          Iteration-5:   936.720 ms 
+  Area: 0.27108075195295744
+TrapezoidalAkkaActorBenchmark          Iteration-6:   868.568 ms 
+  Area: 0.27108075195295744
+TrapezoidalAkkaActorBenchmark          Iteration-7:   866.522 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-8:   891.817 ms 
+  Area: 0.2710807519529575
+TrapezoidalAkkaActorBenchmark          Iteration-9:   883.635 ms 
+  Area: 0.27108075195295767
+TrapezoidalAkkaActorBenchmark         Iteration-10:   878.049 ms 
+  Area: 0.2710807519529574
+TrapezoidalAkkaActorBenchmark         Iteration-11:   965.229 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+TrapezoidalAkkaActorBenchmark            Best Time:   866.522 ms 
+TrapezoidalAkkaActorBenchmark           Worst Time:  1016.242 ms 
+TrapezoidalAkkaActorBenchmark               Median:   921.797 ms 
+TrapezoidalAkkaActorBenchmark     Arith. Mean Time:   920.231 ms 
+TrapezoidalAkkaActorBenchmark       Geo. Mean Time:   919.132 ms 
+TrapezoidalAkkaActorBenchmark   Harmonic Mean Time:   918.051 ms 
+TrapezoidalAkkaActorBenchmark        Std. Dev Time:    45.374 ms 
+TrapezoidalAkkaActorBenchmark     Lower Confidence:   893.417 ms 
+TrapezoidalAkkaActorBenchmark    Higher Confidence:   947.046 ms 
+TrapezoidalAkkaActorBenchmark         Error Window:    26.814 ms (2.914 percent) 
+TrapezoidalAkkaActorBenchmark  Coeff. of Variation:     0.049 
+TrapezoidalAkkaActorBenchmark             Skewness:     0.639 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: TrapezoidalAkkaActorBenchmark
+Args: 
+       N (num trapezoids) = 10000000   
+          W (num workers) = 100        
+       L (left end-point) = 1.0        
+      R (right end-point) = 5.0        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  Area: 0.2710807519529576
+TrapezoidalAkkaActorBenchmark          Iteration-0:  1036.810 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-1:   533.085 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-2:   516.462 ms 
+  Area: 0.2710807519529576
+TrapezoidalAkkaActorBenchmark          Iteration-3:   532.985 ms 
+  Area: 0.2710807519529577
+TrapezoidalAkkaActorBenchmark          Iteration-4:   515.057 ms 
+  Area: 0.27108075195295767
+TrapezoidalAkkaActorBenchmark          Iteration-5:   515.590 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-6:   506.698 ms 
+  Area: 0.2710807519529576
+TrapezoidalAkkaActorBenchmark          Iteration-7:   495.701 ms 
+  Area: 0.27108075195295744
+TrapezoidalAkkaActorBenchmark          Iteration-8:   498.415 ms 
+  Area: 0.2710807519529577
+TrapezoidalAkkaActorBenchmark          Iteration-9:   481.588 ms 
+  Area: 0.27108075195295767
+TrapezoidalAkkaActorBenchmark         Iteration-10:   572.111 ms 
+  Area: 0.2710807519529576
+TrapezoidalAkkaActorBenchmark         Iteration-11:   502.982 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+TrapezoidalAkkaActorBenchmark            Best Time:   481.588 ms 
+TrapezoidalAkkaActorBenchmark           Worst Time:   572.111 ms 
+TrapezoidalAkkaActorBenchmark               Median:   515.057 ms 
+TrapezoidalAkkaActorBenchmark     Arith. Mean Time:   515.516 ms 
+TrapezoidalAkkaActorBenchmark       Geo. Mean Time:   515.011 ms 
+TrapezoidalAkkaActorBenchmark   Harmonic Mean Time:   514.519 ms 
+TrapezoidalAkkaActorBenchmark        Std. Dev Time:    23.138 ms 
+TrapezoidalAkkaActorBenchmark     Lower Confidence:   501.842 ms 
+TrapezoidalAkkaActorBenchmark    Higher Confidence:   529.189 ms 
+TrapezoidalAkkaActorBenchmark         Error Window:    13.674 ms (2.652 percent) 
+TrapezoidalAkkaActorBenchmark  Coeff. of Variation:     0.045 
+TrapezoidalAkkaActorBenchmark             Skewness:     1.110 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: TrapezoidalAkkaActorBenchmark
+Args: 
+       N (num trapezoids) = 10000000   
+          W (num workers) = 100        
+       L (left end-point) = 1.0        
+      R (right end-point) = 5.0        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  Area: 0.27108075195295744
+TrapezoidalAkkaActorBenchmark          Iteration-0:  1110.676 ms 
+  Area: 0.2710807519529576
+TrapezoidalAkkaActorBenchmark          Iteration-1:   330.079 ms 
+  Area: 0.2710807519529576
+TrapezoidalAkkaActorBenchmark          Iteration-2:   323.918 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-3:   310.429 ms 
+  Area: 0.2710807519529577
+TrapezoidalAkkaActorBenchmark          Iteration-4:   308.913 ms 
+  Area: 0.2710807519529576
+TrapezoidalAkkaActorBenchmark          Iteration-5:   303.660 ms 
+  Area: 0.2710807519529576
+TrapezoidalAkkaActorBenchmark          Iteration-6:   302.776 ms 
+  Area: 0.2710807519529576
+TrapezoidalAkkaActorBenchmark          Iteration-7:   369.321 ms 
+  Area: 0.27108075195295755
+TrapezoidalAkkaActorBenchmark          Iteration-8:   344.411 ms 
+  Area: 0.2710807519529575
+TrapezoidalAkkaActorBenchmark          Iteration-9:   294.348 ms 
+  Area: 0.27108075195295767
+TrapezoidalAkkaActorBenchmark         Iteration-10:   309.460 ms 
+  Area: 0.2710807519529575
+TrapezoidalAkkaActorBenchmark         Iteration-11:   302.619 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+TrapezoidalAkkaActorBenchmark            Best Time:   294.348 ms 
+TrapezoidalAkkaActorBenchmark           Worst Time:   369.321 ms 
+TrapezoidalAkkaActorBenchmark               Median:   309.460 ms 
+TrapezoidalAkkaActorBenchmark     Arith. Mean Time:   318.176 ms 
+TrapezoidalAkkaActorBenchmark       Geo. Mean Time:   317.502 ms 
+TrapezoidalAkkaActorBenchmark   Harmonic Mean Time:   316.860 ms 
+TrapezoidalAkkaActorBenchmark        Std. Dev Time:    21.231 ms 
+TrapezoidalAkkaActorBenchmark     Lower Confidence:   305.629 ms 
+TrapezoidalAkkaActorBenchmark    Higher Confidence:   330.722 ms 
+TrapezoidalAkkaActorBenchmark         Error Window:    12.547 ms (3.943 percent) 
+TrapezoidalAkkaActorBenchmark  Coeff. of Variation:     0.067 
+TrapezoidalAkkaActorBenchmark             Skewness:     1.335 
+
+****************************************

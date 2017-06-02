@@ -1,0 +1,264 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: PiPrecisionAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+                Precision = 5000       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+PiPrecisionAkkaActorBenchmark          Iteration-0:  2826.635 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-1:  1802.627 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-2:  1249.218 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-3:  1082.794 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-4:  1000.756 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-5:  1005.600 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-6:   986.327 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-7:   982.170 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-8:   983.001 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-9:   983.981 ms 
+PiPrecisionAkkaActorBenchmark         Iteration-10:  1005.400 ms 
+PiPrecisionAkkaActorBenchmark         Iteration-11:  1005.995 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 9          
+PiPrecisionAkkaActorBenchmark            Best Time:   982.170 ms 
+PiPrecisionAkkaActorBenchmark           Worst Time:  1082.794 ms 
+PiPrecisionAkkaActorBenchmark               Median:  1000.756 ms 
+PiPrecisionAkkaActorBenchmark     Arith. Mean Time:  1004.003 ms 
+PiPrecisionAkkaActorBenchmark       Geo. Mean Time:  1003.584 ms 
+PiPrecisionAkkaActorBenchmark   Harmonic Mean Time:  1003.180 ms 
+PiPrecisionAkkaActorBenchmark        Std. Dev Time:    29.549 ms 
+PiPrecisionAkkaActorBenchmark     Lower Confidence:   984.698 ms 
+PiPrecisionAkkaActorBenchmark    Higher Confidence:  1023.308 ms 
+PiPrecisionAkkaActorBenchmark         Error Window:    19.305 ms (1.923 percent) 
+PiPrecisionAkkaActorBenchmark  Coeff. of Variation:     0.029 
+PiPrecisionAkkaActorBenchmark             Skewness:     2.209 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: PiPrecisionAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+                Precision = 5000       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+PiPrecisionAkkaActorBenchmark          Iteration-0:  1565.579 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-1:   933.316 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-2:   762.305 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-3:   517.106 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-4:   512.609 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-5:   514.447 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-6:   503.414 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-7:   513.023 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-8:   510.284 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-9:   498.479 ms 
+PiPrecisionAkkaActorBenchmark         Iteration-10:   507.645 ms 
+PiPrecisionAkkaActorBenchmark         Iteration-11:   513.051 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 9          
+PiPrecisionAkkaActorBenchmark            Best Time:   498.479 ms 
+PiPrecisionAkkaActorBenchmark           Worst Time:   517.106 ms 
+PiPrecisionAkkaActorBenchmark               Median:   512.609 ms 
+PiPrecisionAkkaActorBenchmark     Arith. Mean Time:   510.007 ms 
+PiPrecisionAkkaActorBenchmark       Geo. Mean Time:   509.976 ms 
+PiPrecisionAkkaActorBenchmark   Harmonic Mean Time:   509.946 ms 
+PiPrecisionAkkaActorBenchmark        Std. Dev Time:     5.550 ms 
+PiPrecisionAkkaActorBenchmark     Lower Confidence:   506.380 ms 
+PiPrecisionAkkaActorBenchmark    Higher Confidence:   513.633 ms 
+PiPrecisionAkkaActorBenchmark         Error Window:     3.626 ms (0.711 percent) 
+PiPrecisionAkkaActorBenchmark  Coeff. of Variation:     0.011 
+PiPrecisionAkkaActorBenchmark             Skewness:    -0.960 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: PiPrecisionAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+                Precision = 5000       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+PiPrecisionAkkaActorBenchmark          Iteration-0:  1185.870 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-1:  1619.469 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-2:   384.218 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-3:   362.823 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-4:   339.169 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-5:   266.306 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-6:   287.124 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-7:   297.229 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-8:   257.919 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-9:   301.133 ms 
+PiPrecisionAkkaActorBenchmark         Iteration-10:   305.734 ms 
+PiPrecisionAkkaActorBenchmark         Iteration-11:   302.484 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 9          
+PiPrecisionAkkaActorBenchmark            Best Time:   257.919 ms 
+PiPrecisionAkkaActorBenchmark           Worst Time:   362.823 ms 
+PiPrecisionAkkaActorBenchmark               Median:   301.133 ms 
+PiPrecisionAkkaActorBenchmark     Arith. Mean Time:   302.213 ms 
+PiPrecisionAkkaActorBenchmark       Geo. Mean Time:   300.680 ms 
+PiPrecisionAkkaActorBenchmark   Harmonic Mean Time:   299.186 ms 
+PiPrecisionAkkaActorBenchmark        Std. Dev Time:    30.834 ms 
+PiPrecisionAkkaActorBenchmark     Lower Confidence:   282.068 ms 
+PiPrecisionAkkaActorBenchmark    Higher Confidence:   322.358 ms 
+PiPrecisionAkkaActorBenchmark         Error Window:    20.145 ms (6.666 percent) 
+PiPrecisionAkkaActorBenchmark  Coeff. of Variation:     0.102 
+PiPrecisionAkkaActorBenchmark             Skewness:     0.582 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: PiPrecisionAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+                Precision = 5000       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+PiPrecisionAkkaActorBenchmark          Iteration-0:  1213.612 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-1:   472.293 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-2:   342.129 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-3:   312.634 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-4:   293.760 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-5:   288.835 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-6:   289.670 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-7:   197.015 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-8:   175.811 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-9:   179.974 ms 
+PiPrecisionAkkaActorBenchmark         Iteration-10:   182.895 ms 
+PiPrecisionAkkaActorBenchmark         Iteration-11:   174.068 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 5          
+PiPrecisionAkkaActorBenchmark            Best Time:   288.835 ms 
+PiPrecisionAkkaActorBenchmark           Worst Time:   342.129 ms 
+PiPrecisionAkkaActorBenchmark               Median:   293.760 ms 
+PiPrecisionAkkaActorBenchmark     Arith. Mean Time:   305.406 ms 
+PiPrecisionAkkaActorBenchmark       Geo. Mean Time:   304.758 ms 
+PiPrecisionAkkaActorBenchmark   Harmonic Mean Time:   304.136 ms 
+PiPrecisionAkkaActorBenchmark        Std. Dev Time:    20.291 ms 
+PiPrecisionAkkaActorBenchmark     Lower Confidence:   287.620 ms 
+PiPrecisionAkkaActorBenchmark    Higher Confidence:   323.192 ms 
+PiPrecisionAkkaActorBenchmark         Error Window:    17.786 ms (5.824 percent) 
+PiPrecisionAkkaActorBenchmark  Coeff. of Variation:     0.066 
+PiPrecisionAkkaActorBenchmark             Skewness:     1.193 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: PiPrecisionAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+                Precision = 5000       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+PiPrecisionAkkaActorBenchmark          Iteration-0:  1083.850 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-1:   308.481 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-2:   150.796 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-3:   166.619 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-4:   140.421 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-5:   170.028 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-6:   147.275 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-7:   132.460 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-8:   125.017 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-9:   134.666 ms 
+PiPrecisionAkkaActorBenchmark         Iteration-10:   125.639 ms 
+PiPrecisionAkkaActorBenchmark         Iteration-11:   121.002 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+PiPrecisionAkkaActorBenchmark            Best Time:   121.002 ms 
+PiPrecisionAkkaActorBenchmark           Worst Time:   170.028 ms 
+PiPrecisionAkkaActorBenchmark               Median:   137.543 ms 
+PiPrecisionAkkaActorBenchmark     Arith. Mean Time:   141.392 ms 
+PiPrecisionAkkaActorBenchmark       Geo. Mean Time:   140.489 ms 
+PiPrecisionAkkaActorBenchmark   Harmonic Mean Time:   139.618 ms 
+PiPrecisionAkkaActorBenchmark        Std. Dev Time:    16.240 ms 
+PiPrecisionAkkaActorBenchmark     Lower Confidence:   131.327 ms 
+PiPrecisionAkkaActorBenchmark    Higher Confidence:   151.458 ms 
+PiPrecisionAkkaActorBenchmark         Error Window:    10.066 ms (7.119 percent) 
+PiPrecisionAkkaActorBenchmark  Coeff. of Variation:     0.115 
+PiPrecisionAkkaActorBenchmark             Skewness:     0.591 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: PiPrecisionAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+                Precision = 5000       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+PiPrecisionAkkaActorBenchmark          Iteration-0:  1178.028 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-1:   196.811 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-2:   140.948 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-3:   194.175 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-4:   139.047 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-5:   165.166 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-6:   145.662 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-7:   161.165 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-8:   123.069 ms 
+PiPrecisionAkkaActorBenchmark          Iteration-9:   134.293 ms 
+PiPrecisionAkkaActorBenchmark         Iteration-10:   121.347 ms 
+PiPrecisionAkkaActorBenchmark         Iteration-11:   124.479 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 9          
+PiPrecisionAkkaActorBenchmark            Best Time:   121.347 ms 
+PiPrecisionAkkaActorBenchmark           Worst Time:   165.166 ms 
+PiPrecisionAkkaActorBenchmark               Median:   139.047 ms 
+PiPrecisionAkkaActorBenchmark     Arith. Mean Time:   139.464 ms 
+PiPrecisionAkkaActorBenchmark       Geo. Mean Time:   138.679 ms 
+PiPrecisionAkkaActorBenchmark   Harmonic Mean Time:   137.915 ms 
+PiPrecisionAkkaActorBenchmark        Std. Dev Time:    14.984 ms 
+PiPrecisionAkkaActorBenchmark     Lower Confidence:   129.675 ms 
+PiPrecisionAkkaActorBenchmark    Higher Confidence:   149.253 ms 
+PiPrecisionAkkaActorBenchmark         Error Window:     9.789 ms (7.019 percent) 
+PiPrecisionAkkaActorBenchmark  Coeff. of Variation:     0.107 
+PiPrecisionAkkaActorBenchmark             Skewness:     0.505 
+
+****************************************

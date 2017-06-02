@@ -1,0 +1,354 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: PhilosopherAkkaActorBenchmark
+Args: 
+     N (num philosophers) = 20         
+    M (num eating rounds) = 10000      
+         C (num channels) = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  Num retries: 1024960000
+PhilosopherAkkaActorBenchmark          Iteration-0:  1298.794 ms 
+  Num retries: 1010417800
+PhilosopherAkkaActorBenchmark          Iteration-1:   838.575 ms 
+  Num retries: 1001100000
+PhilosopherAkkaActorBenchmark          Iteration-2:   757.709 ms 
+  Num retries: 1001070000
+PhilosopherAkkaActorBenchmark          Iteration-3:   737.757 ms 
+  Num retries: 1057970026
+PhilosopherAkkaActorBenchmark          Iteration-4:   880.867 ms 
+  Num retries: 1000949912
+PhilosopherAkkaActorBenchmark          Iteration-5:   692.194 ms 
+  Num retries: 1002431178
+PhilosopherAkkaActorBenchmark          Iteration-6:   734.180 ms 
+  Num retries: 1000660000
+PhilosopherAkkaActorBenchmark          Iteration-7:   683.512 ms 
+  Num retries: 1112066889
+PhilosopherAkkaActorBenchmark          Iteration-8:   790.067 ms 
+  Num retries: 999670000
+PhilosopherAkkaActorBenchmark          Iteration-9:   719.000 ms 
+  Num retries: 1059003801
+PhilosopherAkkaActorBenchmark         Iteration-10:   681.848 ms 
+  Num retries: 1001340000
+PhilosopherAkkaActorBenchmark         Iteration-11:   734.502 ms 
+
+
+Attributes - Summary: 
+PhilosopherAkkaActorBenchmark     Avg. Retry Count: 1022636633.833 [ 12 of  12 values] 
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+PhilosopherAkkaActorBenchmark            Best Time:   681.848 ms 
+PhilosopherAkkaActorBenchmark           Worst Time:   880.867 ms 
+PhilosopherAkkaActorBenchmark               Median:   734.502 ms 
+PhilosopherAkkaActorBenchmark     Arith. Mean Time:   750.019 ms 
+PhilosopherAkkaActorBenchmark       Geo. Mean Time:   747.656 ms 
+PhilosopherAkkaActorBenchmark   Harmonic Mean Time:   745.391 ms 
+PhilosopherAkkaActorBenchmark        Std. Dev Time:    60.786 ms 
+PhilosopherAkkaActorBenchmark     Lower Confidence:   714.097 ms 
+PhilosopherAkkaActorBenchmark    Higher Confidence:   785.942 ms 
+PhilosopherAkkaActorBenchmark         Error Window:    35.922 ms (4.790 percent) 
+PhilosopherAkkaActorBenchmark  Coeff. of Variation:     0.081 
+PhilosopherAkkaActorBenchmark             Skewness:     0.960 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: PhilosopherAkkaActorBenchmark
+Args: 
+     N (num philosophers) = 20         
+    M (num eating rounds) = 10000      
+         C (num channels) = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  Num retries: 1021334495
+PhilosopherAkkaActorBenchmark          Iteration-0:  1667.884 ms 
+  Num retries: 1004420412
+PhilosopherAkkaActorBenchmark          Iteration-1:  1013.312 ms 
+  Num retries: 1008765922
+PhilosopherAkkaActorBenchmark          Iteration-2:   952.498 ms 
+  Num retries: 1006172093
+PhilosopherAkkaActorBenchmark          Iteration-3:  1067.197 ms 
+  Num retries: 999897413
+PhilosopherAkkaActorBenchmark          Iteration-4:   956.926 ms 
+  Num retries: 1001709538
+PhilosopherAkkaActorBenchmark          Iteration-5:   901.632 ms 
+  Num retries: 1000220000
+PhilosopherAkkaActorBenchmark          Iteration-6:   894.431 ms 
+  Num retries: 1001380000
+PhilosopherAkkaActorBenchmark          Iteration-7:   921.925 ms 
+  Num retries: 1003647298
+PhilosopherAkkaActorBenchmark          Iteration-8:   920.488 ms 
+  Num retries: 1001509832
+PhilosopherAkkaActorBenchmark          Iteration-9:   879.804 ms 
+  Num retries: 998380000
+PhilosopherAkkaActorBenchmark         Iteration-10:   881.235 ms 
+  Num retries: 1000280000
+PhilosopherAkkaActorBenchmark         Iteration-11:   878.697 ms 
+
+
+Attributes - Summary: 
+PhilosopherAkkaActorBenchmark     Avg. Retry Count: 1003976416.917 [ 12 of  12 values] 
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+PhilosopherAkkaActorBenchmark            Best Time:   878.697 ms 
+PhilosopherAkkaActorBenchmark           Worst Time:  1067.197 ms 
+PhilosopherAkkaActorBenchmark               Median:   920.488 ms 
+PhilosopherAkkaActorBenchmark     Arith. Mean Time:   933.468 ms 
+PhilosopherAkkaActorBenchmark       Geo. Mean Time:   931.759 ms 
+PhilosopherAkkaActorBenchmark   Harmonic Mean Time:   930.121 ms 
+PhilosopherAkkaActorBenchmark        Std. Dev Time:    57.697 ms 
+PhilosopherAkkaActorBenchmark     Lower Confidence:   899.371 ms 
+PhilosopherAkkaActorBenchmark    Higher Confidence:   967.564 ms 
+PhilosopherAkkaActorBenchmark         Error Window:    34.097 ms (3.653 percent) 
+PhilosopherAkkaActorBenchmark  Coeff. of Variation:     0.062 
+PhilosopherAkkaActorBenchmark             Skewness:     1.231 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: PhilosopherAkkaActorBenchmark
+Args: 
+     N (num philosophers) = 20         
+    M (num eating rounds) = 10000      
+         C (num channels) = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  Num retries: 1041170621
+PhilosopherAkkaActorBenchmark          Iteration-0:  2019.962 ms 
+  Num retries: 1003163439
+PhilosopherAkkaActorBenchmark          Iteration-1:  1525.331 ms 
+  Num retries: 1000840000
+PhilosopherAkkaActorBenchmark          Iteration-2:  1434.737 ms 
+  Num retries: 1002320000
+PhilosopherAkkaActorBenchmark          Iteration-3:  1139.015 ms 
+  Num retries: 1000680000
+PhilosopherAkkaActorBenchmark          Iteration-4:  1366.171 ms 
+  Num retries: 1005360559
+PhilosopherAkkaActorBenchmark          Iteration-5:  1365.718 ms 
+  Num retries: 1005758548
+PhilosopherAkkaActorBenchmark          Iteration-6:  1283.284 ms 
+  Num retries: 999090000
+PhilosopherAkkaActorBenchmark          Iteration-7:  1268.252 ms 
+  Num retries: 1000910000
+PhilosopherAkkaActorBenchmark          Iteration-8:  1339.402 ms 
+  Num retries: 1000140000
+PhilosopherAkkaActorBenchmark          Iteration-9:  1363.787 ms 
+  Num retries: 1010499232
+PhilosopherAkkaActorBenchmark         Iteration-10:  1141.641 ms 
+  Num retries: 1000060000
+PhilosopherAkkaActorBenchmark         Iteration-11:  1193.640 ms 
+
+
+Attributes - Summary: 
+PhilosopherAkkaActorBenchmark     Avg. Retry Count: 1005832699.917 [ 12 of  12 values] 
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+PhilosopherAkkaActorBenchmark            Best Time:  1139.015 ms 
+PhilosopherAkkaActorBenchmark           Worst Time:  1525.331 ms 
+PhilosopherAkkaActorBenchmark               Median:  1339.402 ms 
+PhilosopherAkkaActorBenchmark     Arith. Mean Time:  1310.998 ms 
+PhilosopherAkkaActorBenchmark       Geo. Mean Time:  1305.930 ms 
+PhilosopherAkkaActorBenchmark   Harmonic Mean Time:  1300.848 ms 
+PhilosopherAkkaActorBenchmark        Std. Dev Time:   115.014 ms 
+PhilosopherAkkaActorBenchmark     Lower Confidence:  1243.029 ms 
+PhilosopherAkkaActorBenchmark    Higher Confidence:  1378.967 ms 
+PhilosopherAkkaActorBenchmark         Error Window:    67.969 ms (5.185 percent) 
+PhilosopherAkkaActorBenchmark  Coeff. of Variation:     0.088 
+PhilosopherAkkaActorBenchmark             Skewness:     0.038 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: PhilosopherAkkaActorBenchmark
+Args: 
+     N (num philosophers) = 20         
+    M (num eating rounds) = 10000      
+         C (num channels) = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  Num retries: 1043320088
+PhilosopherAkkaActorBenchmark          Iteration-0:  2324.395 ms 
+  Num retries: 1219151673
+PhilosopherAkkaActorBenchmark          Iteration-1:  2464.777 ms 
+  Num retries: 1000279986
+PhilosopherAkkaActorBenchmark          Iteration-2:  2087.455 ms 
+  Num retries: 1228524270
+PhilosopherAkkaActorBenchmark          Iteration-3:  2265.769 ms 
+  Num retries: 1019588406
+PhilosopherAkkaActorBenchmark          Iteration-4:  2123.330 ms 
+  Num retries: 1000260000
+PhilosopherAkkaActorBenchmark          Iteration-5:  2045.684 ms 
+  Num retries: 1000160000
+PhilosopherAkkaActorBenchmark          Iteration-6:  1954.531 ms 
+  Num retries: 1029474865
+PhilosopherAkkaActorBenchmark          Iteration-7:  2002.393 ms 
+  Num retries: 1000550000
+PhilosopherAkkaActorBenchmark          Iteration-8:  1910.007 ms 
+  Num retries: 999870000
+PhilosopherAkkaActorBenchmark          Iteration-9:  1816.896 ms 
+  Num retries: 1268078081
+PhilosopherAkkaActorBenchmark         Iteration-10:  2246.084 ms 
+  Num retries: 1290824717
+PhilosopherAkkaActorBenchmark         Iteration-11:  2102.992 ms 
+
+
+Attributes - Summary: 
+PhilosopherAkkaActorBenchmark     Avg. Retry Count: 1091673507.167 [ 12 of  12 values] 
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 12         
+PhilosopherAkkaActorBenchmark            Best Time:  1816.896 ms 
+PhilosopherAkkaActorBenchmark           Worst Time:  2464.777 ms 
+PhilosopherAkkaActorBenchmark               Median:  2095.224 ms 
+PhilosopherAkkaActorBenchmark     Arith. Mean Time:  2112.026 ms 
+PhilosopherAkkaActorBenchmark       Geo. Mean Time:  2104.585 ms 
+PhilosopherAkkaActorBenchmark   Harmonic Mean Time:  2097.225 ms 
+PhilosopherAkkaActorBenchmark        Std. Dev Time:   178.207 ms 
+PhilosopherAkkaActorBenchmark     Lower Confidence:  2011.196 ms 
+PhilosopherAkkaActorBenchmark    Higher Confidence:  2212.856 ms 
+PhilosopherAkkaActorBenchmark         Error Window:   100.830 ms (4.774 percent) 
+PhilosopherAkkaActorBenchmark  Coeff. of Variation:     0.084 
+PhilosopherAkkaActorBenchmark             Skewness:     0.322 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: PhilosopherAkkaActorBenchmark
+Args: 
+     N (num philosophers) = 20         
+    M (num eating rounds) = 10000      
+         C (num channels) = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  Num retries: 1014235213
+PhilosopherAkkaActorBenchmark          Iteration-0:  3417.716 ms 
+  Num retries: 1000560000
+PhilosopherAkkaActorBenchmark          Iteration-1:  2149.766 ms 
+  Num retries: 1190557292
+PhilosopherAkkaActorBenchmark          Iteration-2:  2465.875 ms 
+  Num retries: 1235849722
+PhilosopherAkkaActorBenchmark          Iteration-3:  2569.746 ms 
+  Num retries: 1165513460
+PhilosopherAkkaActorBenchmark          Iteration-4:  2362.582 ms 
+  Num retries: 1000310000
+PhilosopherAkkaActorBenchmark          Iteration-5:  2107.813 ms 
+  Num retries: 1243096857
+PhilosopherAkkaActorBenchmark          Iteration-6:  2479.598 ms 
+  Num retries: 1000160000
+PhilosopherAkkaActorBenchmark          Iteration-7:  2020.763 ms 
+  Num retries: 1262266300
+PhilosopherAkkaActorBenchmark          Iteration-8:  2315.948 ms 
+  Num retries: 1000100000
+PhilosopherAkkaActorBenchmark          Iteration-9:  2052.120 ms 
+  Num retries: 1208953940
+PhilosopherAkkaActorBenchmark         Iteration-10:  2175.244 ms 
+  Num retries: 1000150000
+PhilosopherAkkaActorBenchmark         Iteration-11:  2049.312 ms 
+
+
+Attributes - Summary: 
+PhilosopherAkkaActorBenchmark     Avg. Retry Count: 1110146065.333 [ 12 of  12 values] 
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+PhilosopherAkkaActorBenchmark            Best Time:  2020.763 ms 
+PhilosopherAkkaActorBenchmark           Worst Time:  2569.746 ms 
+PhilosopherAkkaActorBenchmark               Median:  2175.244 ms 
+PhilosopherAkkaActorBenchmark     Arith. Mean Time:  2249.888 ms 
+PhilosopherAkkaActorBenchmark       Geo. Mean Time:  2242.199 ms 
+PhilosopherAkkaActorBenchmark   Harmonic Mean Time:  2234.652 ms 
+PhilosopherAkkaActorBenchmark        Std. Dev Time:   187.426 ms 
+PhilosopherAkkaActorBenchmark     Lower Confidence:  2139.127 ms 
+PhilosopherAkkaActorBenchmark    Higher Confidence:  2360.650 ms 
+PhilosopherAkkaActorBenchmark         Error Window:   110.762 ms (4.923 percent) 
+PhilosopherAkkaActorBenchmark  Coeff. of Variation:     0.083 
+PhilosopherAkkaActorBenchmark             Skewness:     0.372 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: PhilosopherAkkaActorBenchmark
+Args: 
+     N (num philosophers) = 20         
+    M (num eating rounds) = 10000      
+         C (num channels) = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  Num retries: 1012583243
+PhilosopherAkkaActorBenchmark          Iteration-0:  3260.882 ms 
+  Num retries: 1013502030
+PhilosopherAkkaActorBenchmark          Iteration-1:  1908.254 ms 
+  Num retries: 1001020000
+PhilosopherAkkaActorBenchmark          Iteration-2:  1641.242 ms 
+  Num retries: 1101741596
+PhilosopherAkkaActorBenchmark          Iteration-3:  1987.323 ms 
+  Num retries: 1009087725
+PhilosopherAkkaActorBenchmark          Iteration-4:  1605.110 ms 
+  Num retries: 1000560000
+PhilosopherAkkaActorBenchmark          Iteration-5:  1646.689 ms 
+  Num retries: 1089222654
+PhilosopherAkkaActorBenchmark          Iteration-6:  1682.340 ms 
+  Num retries: 1026884471
+PhilosopherAkkaActorBenchmark          Iteration-7:  1717.835 ms 
+  Num retries: 1027540209
+PhilosopherAkkaActorBenchmark          Iteration-8:  1737.706 ms 
+  Num retries: 1001679872
+PhilosopherAkkaActorBenchmark          Iteration-9:  1553.672 ms 
+  Num retries: 1006165808
+PhilosopherAkkaActorBenchmark         Iteration-10:  1718.164 ms 
+  Num retries: 1024762712
+PhilosopherAkkaActorBenchmark         Iteration-11:  1634.211 ms 
+
+
+Attributes - Summary: 
+PhilosopherAkkaActorBenchmark     Avg. Retry Count: 1026229193.333 [ 12 of  12 values] 
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+PhilosopherAkkaActorBenchmark            Best Time:  1553.672 ms 
+PhilosopherAkkaActorBenchmark           Worst Time:  1987.323 ms 
+PhilosopherAkkaActorBenchmark               Median:  1682.340 ms 
+PhilosopherAkkaActorBenchmark     Arith. Mean Time:  1712.050 ms 
+PhilosopherAkkaActorBenchmark       Geo. Mean Time:  1707.796 ms 
+PhilosopherAkkaActorBenchmark   Harmonic Mean Time:  1703.738 ms 
+PhilosopherAkkaActorBenchmark        Std. Dev Time:   123.490 ms 
+PhilosopherAkkaActorBenchmark     Lower Confidence:  1639.072 ms 
+PhilosopherAkkaActorBenchmark    Higher Confidence:  1785.027 ms 
+PhilosopherAkkaActorBenchmark         Error Window:    72.978 ms (4.263 percent) 
+PhilosopherAkkaActorBenchmark  Coeff. of Variation:     0.072 
+PhilosopherAkkaActorBenchmark             Skewness:     1.174 
+
+****************************************

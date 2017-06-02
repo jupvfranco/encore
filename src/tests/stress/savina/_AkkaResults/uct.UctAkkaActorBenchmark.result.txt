@@ -1,0 +1,426 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: UctAkkaActorBenchmark
+Args: 
+               Max. nodes = 200000     
+           Avg. comp size = 500        
+      Std. dev. comp size = 100        
+           Binomial Param = 10         
+      Urgent node percent = 50         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-0:  7115.690 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-1:  5690.195 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-2:  3753.328 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-3:  3739.024 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-4:  3762.726 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-5:  3325.702 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-6:  4349.958 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-7:  3123.563 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-8:  2997.816 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-9:  3375.842 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark         Iteration-10:  3113.569 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark         Iteration-11:  3164.752 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+UctAkkaActorBenchmark            Best Time:  2997.816 ms 
+UctAkkaActorBenchmark           Worst Time:  4349.958 ms 
+UctAkkaActorBenchmark               Median:  3350.772 ms 
+UctAkkaActorBenchmark     Arith. Mean Time:  3470.628 ms 
+UctAkkaActorBenchmark       Geo. Mean Time:  3448.642 ms 
+UctAkkaActorBenchmark   Harmonic Mean Time:  3427.802 ms 
+UctAkkaActorBenchmark        Std. Dev Time:   400.692 ms 
+UctAkkaActorBenchmark     Lower Confidence:  3222.276 ms 
+UctAkkaActorBenchmark    Higher Confidence:  3718.979 ms 
+UctAkkaActorBenchmark         Error Window:   248.352 ms (7.156 percent) 
+UctAkkaActorBenchmark  Coeff. of Variation:     0.115 
+UctAkkaActorBenchmark             Skewness:     0.900 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: UctAkkaActorBenchmark
+Args: 
+               Max. nodes = 200000     
+           Avg. comp size = 500        
+      Std. dev. comp size = 100        
+           Binomial Param = 10         
+      Urgent node percent = 50         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-0:  4898.017 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-1:  3113.109 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-2:  3113.010 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-3:  2685.268 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-4:  2211.063 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-5:  3018.461 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-6:  2118.841 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-7:  2439.851 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-8:  2139.731 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-9:  2120.988 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark         Iteration-10:  2411.083 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark         Iteration-11:  2581.045 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 9          
+UctAkkaActorBenchmark            Best Time:  2118.841 ms 
+UctAkkaActorBenchmark           Worst Time:  3018.461 ms 
+UctAkkaActorBenchmark               Median:  2411.083 ms 
+UctAkkaActorBenchmark     Arith. Mean Time:  2414.037 ms 
+UctAkkaActorBenchmark       Geo. Mean Time:  2397.447 ms 
+UctAkkaActorBenchmark   Harmonic Mean Time:  2381.706 ms 
+UctAkkaActorBenchmark        Std. Dev Time:   290.004 ms 
+UctAkkaActorBenchmark     Lower Confidence:  2224.567 ms 
+UctAkkaActorBenchmark    Higher Confidence:  2603.506 ms 
+UctAkkaActorBenchmark         Error Window:   189.469 ms (7.849 percent) 
+UctAkkaActorBenchmark  Coeff. of Variation:     0.120 
+UctAkkaActorBenchmark             Skewness:     0.848 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: UctAkkaActorBenchmark
+Args: 
+               Max. nodes = 200000     
+           Avg. comp size = 500        
+      Std. dev. comp size = 100        
+           Binomial Param = 10         
+      Urgent node percent = 50         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-0:  4449.019 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-1:  2243.974 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-2:  2138.094 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-3:  1928.534 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-4:  2149.036 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-5:  1644.238 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-6:  1877.663 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-7:  1546.887 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-8:  1820.699 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-9:  1970.372 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark         Iteration-10:  1537.507 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark         Iteration-11:  1599.669 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+UctAkkaActorBenchmark            Best Time:  1546.887 ms 
+UctAkkaActorBenchmark           Worst Time:  2243.974 ms 
+UctAkkaActorBenchmark               Median:  1903.098 ms 
+UctAkkaActorBenchmark     Arith. Mean Time:  1891.917 ms 
+UctAkkaActorBenchmark       Geo. Mean Time:  1877.748 ms 
+UctAkkaActorBenchmark   Harmonic Mean Time:  1863.479 ms 
+UctAkkaActorBenchmark        Std. Dev Time:   230.050 ms 
+UctAkkaActorBenchmark     Lower Confidence:  1749.330 ms 
+UctAkkaActorBenchmark    Higher Confidence:  2034.503 ms 
+UctAkkaActorBenchmark         Error Window:   142.586 ms (7.537 percent) 
+UctAkkaActorBenchmark  Coeff. of Variation:     0.122 
+UctAkkaActorBenchmark             Skewness:    -0.050 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: UctAkkaActorBenchmark
+Args: 
+               Max. nodes = 200000     
+           Avg. comp size = 500        
+      Std. dev. comp size = 100        
+           Binomial Param = 10         
+      Urgent node percent = 50         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-0:  4387.261 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-1:  2083.202 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-2:  2026.684 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-3:  2011.007 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-4:  1939.424 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-5:  1835.098 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-6:  2008.967 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-7:  1784.633 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-8:  2093.221 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-9:  1735.868 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark         Iteration-10:  2133.251 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark         Iteration-11:  1800.441 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+UctAkkaActorBenchmark            Best Time:  1735.868 ms 
+UctAkkaActorBenchmark           Worst Time:  2133.251 ms 
+UctAkkaActorBenchmark               Median:  2008.967 ms 
+UctAkkaActorBenchmark     Arith. Mean Time:  1950.163 ms 
+UctAkkaActorBenchmark       Geo. Mean Time:  1945.579 ms 
+UctAkkaActorBenchmark   Harmonic Mean Time:  1940.937 ms 
+UctAkkaActorBenchmark        Std. Dev Time:   132.732 ms 
+UctAkkaActorBenchmark     Lower Confidence:  1871.723 ms 
+UctAkkaActorBenchmark    Higher Confidence:  2028.603 ms 
+UctAkkaActorBenchmark         Error Window:    78.440 ms (4.022 percent) 
+UctAkkaActorBenchmark  Coeff. of Variation:     0.068 
+UctAkkaActorBenchmark             Skewness:    -0.298 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: UctAkkaActorBenchmark
+Args: 
+               Max. nodes = 200000     
+           Avg. comp size = 500        
+      Std. dev. comp size = 100        
+           Binomial Param = 10         
+      Urgent node percent = 50         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-0:  5000.105 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-1:  3409.863 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-2:  3616.822 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-3:  2896.885 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-4:  3639.083 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-5:  2656.296 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-6:  3151.093 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-7:  3312.830 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-8:  3033.595 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-9:  3176.965 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark         Iteration-10:  3142.036 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark         Iteration-11:  3223.192 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+UctAkkaActorBenchmark            Best Time:  2656.296 ms 
+UctAkkaActorBenchmark           Worst Time:  3639.083 ms 
+UctAkkaActorBenchmark               Median:  3176.965 ms 
+UctAkkaActorBenchmark     Arith. Mean Time:  3205.333 ms 
+UctAkkaActorBenchmark       Geo. Mean Time:  3193.136 ms 
+UctAkkaActorBenchmark   Harmonic Mean Time:  3180.716 ms 
+UctAkkaActorBenchmark        Std. Dev Time:   277.161 ms 
+UctAkkaActorBenchmark     Lower Confidence:  3041.541 ms 
+UctAkkaActorBenchmark    Higher Confidence:  3369.124 ms 
+UctAkkaActorBenchmark         Error Window:   163.791 ms (5.110 percent) 
+UctAkkaActorBenchmark  Coeff. of Variation:     0.086 
+UctAkkaActorBenchmark             Skewness:    -0.184 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: UctAkkaActorBenchmark
+Args: 
+               Max. nodes = 200000     
+           Avg. comp size = 500        
+      Std. dev. comp size = 100        
+           Binomial Param = 10         
+      Urgent node percent = 50         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+final size= 199991
+final height= 10
+UctAkkaActorBenchmark          Iteration-0:  7252.956 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-1:  4529.535 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-2:  4494.717 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-3:  4409.735 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-4:  4195.671 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-5:  4591.102 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-6:  4600.945 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-7:  3872.587 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-8:  4603.331 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark          Iteration-9:  4384.336 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark         Iteration-10:  4588.819 ms 
+final size= 199991
+final height= 9
+UctAkkaActorBenchmark         Iteration-11:  4702.080 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+UctAkkaActorBenchmark            Best Time:  3872.587 ms 
+UctAkkaActorBenchmark           Worst Time:  4702.080 ms 
+UctAkkaActorBenchmark               Median:  4529.535 ms 
+UctAkkaActorBenchmark     Arith. Mean Time:  4452.078 ms 
+UctAkkaActorBenchmark       Geo. Mean Time:  4446.035 ms 
+UctAkkaActorBenchmark   Harmonic Mean Time:  4439.665 ms 
+UctAkkaActorBenchmark        Std. Dev Time:   225.896 ms 
+UctAkkaActorBenchmark     Lower Confidence:  4318.582 ms 
+UctAkkaActorBenchmark    Higher Confidence:  4585.574 ms 
+UctAkkaActorBenchmark         Error Window:   133.496 ms (2.999 percent) 
+UctAkkaActorBenchmark  Coeff. of Variation:     0.051 
+UctAkkaActorBenchmark             Skewness:    -1.593 
+
+****************************************

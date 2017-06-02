@@ -1,0 +1,258 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: PingPongAkkaActorBenchmark
+Args: 
+            N (num pings) = 40000      
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+PingPongAkkaActorBenchmark          Iteration-0:   584.933 ms 
+PingPongAkkaActorBenchmark          Iteration-1:   245.652 ms 
+PingPongAkkaActorBenchmark          Iteration-2:   123.666 ms 
+PingPongAkkaActorBenchmark          Iteration-3:   139.375 ms 
+PingPongAkkaActorBenchmark          Iteration-4:   151.866 ms 
+PingPongAkkaActorBenchmark          Iteration-5:   172.550 ms 
+PingPongAkkaActorBenchmark          Iteration-6:   158.708 ms 
+PingPongAkkaActorBenchmark          Iteration-7:   153.289 ms 
+PingPongAkkaActorBenchmark          Iteration-8:   170.657 ms 
+PingPongAkkaActorBenchmark          Iteration-9:   150.448 ms 
+PingPongAkkaActorBenchmark         Iteration-10:   169.011 ms 
+PingPongAkkaActorBenchmark         Iteration-11:   174.330 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 9          
+PingPongAkkaActorBenchmark            Best Time:   139.375 ms 
+PingPongAkkaActorBenchmark           Worst Time:   174.330 ms 
+PingPongAkkaActorBenchmark               Median:   158.708 ms 
+PingPongAkkaActorBenchmark     Arith. Mean Time:   160.026 ms 
+PingPongAkkaActorBenchmark       Geo. Mean Time:   159.607 ms 
+PingPongAkkaActorBenchmark   Harmonic Mean Time:   159.182 ms 
+PingPongAkkaActorBenchmark        Std. Dev Time:    11.485 ms 
+PingPongAkkaActorBenchmark     Lower Confidence:   152.523 ms 
+PingPongAkkaActorBenchmark    Higher Confidence:   167.530 ms 
+PingPongAkkaActorBenchmark         Error Window:     7.503 ms (4.689 percent) 
+PingPongAkkaActorBenchmark  Coeff. of Variation:     0.072 
+PingPongAkkaActorBenchmark             Skewness:    -0.307 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: PingPongAkkaActorBenchmark
+Args: 
+            N (num pings) = 40000      
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+PingPongAkkaActorBenchmark          Iteration-0:   668.119 ms 
+PingPongAkkaActorBenchmark          Iteration-1:   342.343 ms 
+PingPongAkkaActorBenchmark          Iteration-2:   251.646 ms 
+PingPongAkkaActorBenchmark          Iteration-3:   235.245 ms 
+PingPongAkkaActorBenchmark          Iteration-4:   240.899 ms 
+PingPongAkkaActorBenchmark          Iteration-5:   235.129 ms 
+PingPongAkkaActorBenchmark          Iteration-6:   235.889 ms 
+PingPongAkkaActorBenchmark          Iteration-7:   239.400 ms 
+PingPongAkkaActorBenchmark          Iteration-8:   237.022 ms 
+PingPongAkkaActorBenchmark          Iteration-9:   225.955 ms 
+PingPongAkkaActorBenchmark         Iteration-10:   233.475 ms 
+PingPongAkkaActorBenchmark         Iteration-11:   235.035 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+PingPongAkkaActorBenchmark            Best Time:   225.955 ms 
+PingPongAkkaActorBenchmark           Worst Time:   251.646 ms 
+PingPongAkkaActorBenchmark               Median:   235.567 ms 
+PingPongAkkaActorBenchmark     Arith. Mean Time:   236.969 ms 
+PingPongAkkaActorBenchmark       Geo. Mean Time:   236.890 ms 
+PingPongAkkaActorBenchmark   Harmonic Mean Time:   236.811 ms 
+PingPongAkkaActorBenchmark        Std. Dev Time:     6.177 ms 
+PingPongAkkaActorBenchmark     Lower Confidence:   233.141 ms 
+PingPongAkkaActorBenchmark    Higher Confidence:   240.798 ms 
+PingPongAkkaActorBenchmark         Error Window:     3.829 ms (1.616 percent) 
+PingPongAkkaActorBenchmark  Coeff. of Variation:     0.026 
+PingPongAkkaActorBenchmark             Skewness:     0.866 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: PingPongAkkaActorBenchmark
+Args: 
+            N (num pings) = 40000      
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+PingPongAkkaActorBenchmark          Iteration-0:   803.949 ms 
+PingPongAkkaActorBenchmark          Iteration-1:   351.909 ms 
+PingPongAkkaActorBenchmark          Iteration-2:   297.840 ms 
+PingPongAkkaActorBenchmark          Iteration-3:   265.942 ms 
+PingPongAkkaActorBenchmark          Iteration-4:   268.862 ms 
+PingPongAkkaActorBenchmark          Iteration-5:   289.661 ms 
+PingPongAkkaActorBenchmark          Iteration-6:   273.985 ms 
+PingPongAkkaActorBenchmark          Iteration-7:   294.320 ms 
+PingPongAkkaActorBenchmark          Iteration-8:   257.260 ms 
+PingPongAkkaActorBenchmark          Iteration-9:   282.142 ms 
+PingPongAkkaActorBenchmark         Iteration-10:   259.616 ms 
+PingPongAkkaActorBenchmark         Iteration-11:   253.550 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+PingPongAkkaActorBenchmark            Best Time:   253.550 ms 
+PingPongAkkaActorBenchmark           Worst Time:   297.840 ms 
+PingPongAkkaActorBenchmark               Median:   271.423 ms 
+PingPongAkkaActorBenchmark     Arith. Mean Time:   274.318 ms 
+PingPongAkkaActorBenchmark       Geo. Mean Time:   273.903 ms 
+PingPongAkkaActorBenchmark   Harmonic Mean Time:   273.492 ms 
+PingPongAkkaActorBenchmark        Std. Dev Time:    15.128 ms 
+PingPongAkkaActorBenchmark     Lower Confidence:   264.942 ms 
+PingPongAkkaActorBenchmark    Higher Confidence:   283.694 ms 
+PingPongAkkaActorBenchmark         Error Window:     9.376 ms (3.418 percent) 
+PingPongAkkaActorBenchmark  Coeff. of Variation:     0.055 
+PingPongAkkaActorBenchmark             Skewness:     0.233 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: PingPongAkkaActorBenchmark
+Args: 
+            N (num pings) = 40000      
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+PingPongAkkaActorBenchmark          Iteration-0:  1053.897 ms 
+PingPongAkkaActorBenchmark          Iteration-1:   449.976 ms 
+PingPongAkkaActorBenchmark          Iteration-2:   382.707 ms 
+PingPongAkkaActorBenchmark          Iteration-3:   362.620 ms 
+PingPongAkkaActorBenchmark          Iteration-4:   370.086 ms 
+PingPongAkkaActorBenchmark          Iteration-5:   360.355 ms 
+PingPongAkkaActorBenchmark          Iteration-6:   340.004 ms 
+PingPongAkkaActorBenchmark          Iteration-7:   370.073 ms 
+PingPongAkkaActorBenchmark          Iteration-8:   354.919 ms 
+PingPongAkkaActorBenchmark          Iteration-9:   362.338 ms 
+PingPongAkkaActorBenchmark         Iteration-10:   356.097 ms 
+PingPongAkkaActorBenchmark         Iteration-11:   353.124 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+PingPongAkkaActorBenchmark            Best Time:   340.004 ms 
+PingPongAkkaActorBenchmark           Worst Time:   382.707 ms 
+PingPongAkkaActorBenchmark               Median:   361.347 ms 
+PingPongAkkaActorBenchmark     Arith. Mean Time:   361.232 ms 
+PingPongAkkaActorBenchmark       Geo. Mean Time:   361.066 ms 
+PingPongAkkaActorBenchmark   Harmonic Mean Time:   360.899 ms 
+PingPongAkkaActorBenchmark        Std. Dev Time:    10.974 ms 
+PingPongAkkaActorBenchmark     Lower Confidence:   354.431 ms 
+PingPongAkkaActorBenchmark    Higher Confidence:   368.034 ms 
+PingPongAkkaActorBenchmark         Error Window:     6.802 ms (1.883 percent) 
+PingPongAkkaActorBenchmark  Coeff. of Variation:     0.030 
+PingPongAkkaActorBenchmark             Skewness:     0.068 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: PingPongAkkaActorBenchmark
+Args: 
+            N (num pings) = 40000      
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+PingPongAkkaActorBenchmark          Iteration-0:   961.609 ms 
+PingPongAkkaActorBenchmark          Iteration-1:   856.038 ms 
+PingPongAkkaActorBenchmark          Iteration-2:   446.412 ms 
+PingPongAkkaActorBenchmark          Iteration-3:   400.577 ms 
+PingPongAkkaActorBenchmark          Iteration-4:   359.970 ms 
+PingPongAkkaActorBenchmark          Iteration-5:   371.467 ms 
+PingPongAkkaActorBenchmark          Iteration-6:   361.395 ms 
+PingPongAkkaActorBenchmark          Iteration-7:   355.905 ms 
+PingPongAkkaActorBenchmark          Iteration-8:   358.339 ms 
+PingPongAkkaActorBenchmark          Iteration-9:   366.122 ms 
+PingPongAkkaActorBenchmark         Iteration-10:   371.894 ms 
+PingPongAkkaActorBenchmark         Iteration-11:   354.084 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 9          
+PingPongAkkaActorBenchmark            Best Time:   354.084 ms 
+PingPongAkkaActorBenchmark           Worst Time:   400.577 ms 
+PingPongAkkaActorBenchmark               Median:   361.395 ms 
+PingPongAkkaActorBenchmark     Arith. Mean Time:   366.639 ms 
+PingPongAkkaActorBenchmark       Geo. Mean Time:   366.403 ms 
+PingPongAkkaActorBenchmark   Harmonic Mean Time:   366.176 ms 
+PingPongAkkaActorBenchmark        Std. Dev Time:    13.403 ms 
+PingPongAkkaActorBenchmark     Lower Confidence:   357.883 ms 
+PingPongAkkaActorBenchmark    Higher Confidence:   375.396 ms 
+PingPongAkkaActorBenchmark         Error Window:     8.757 ms (2.388 percent) 
+PingPongAkkaActorBenchmark  Coeff. of Variation:     0.037 
+PingPongAkkaActorBenchmark             Skewness:     1.823 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: PingPongAkkaActorBenchmark
+Args: 
+            N (num pings) = 40000      
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+PingPongAkkaActorBenchmark          Iteration-0:  1392.359 ms 
+PingPongAkkaActorBenchmark          Iteration-1:   530.981 ms 
+PingPongAkkaActorBenchmark          Iteration-2:   536.112 ms 
+PingPongAkkaActorBenchmark          Iteration-3:   297.854 ms 
+PingPongAkkaActorBenchmark          Iteration-4:   590.312 ms 
+PingPongAkkaActorBenchmark          Iteration-5:   271.287 ms 
+PingPongAkkaActorBenchmark          Iteration-6:   279.165 ms 
+PingPongAkkaActorBenchmark          Iteration-7:   287.029 ms 
+PingPongAkkaActorBenchmark          Iteration-8:   277.724 ms 
+PingPongAkkaActorBenchmark          Iteration-9:   281.866 ms 
+PingPongAkkaActorBenchmark         Iteration-10:   289.820 ms 
+PingPongAkkaActorBenchmark         Iteration-11:   280.554 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 8          
+PingPongAkkaActorBenchmark            Best Time:   271.287 ms 
+PingPongAkkaActorBenchmark           Worst Time:   297.854 ms 
+PingPongAkkaActorBenchmark               Median:   281.210 ms 
+PingPongAkkaActorBenchmark     Arith. Mean Time:   283.162 ms 
+PingPongAkkaActorBenchmark       Geo. Mean Time:   283.059 ms 
+PingPongAkkaActorBenchmark   Harmonic Mean Time:   282.957 ms 
+PingPongAkkaActorBenchmark        Std. Dev Time:     7.666 ms 
+PingPongAkkaActorBenchmark     Lower Confidence:   277.850 ms 
+PingPongAkkaActorBenchmark    Higher Confidence:   288.475 ms 
+PingPongAkkaActorBenchmark         Error Window:     5.313 ms (1.876 percent) 
+PingPongAkkaActorBenchmark  Coeff. of Variation:     0.027 
+PingPongAkkaActorBenchmark             Skewness:     0.509 
+
+****************************************

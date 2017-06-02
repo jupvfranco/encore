@@ -1,0 +1,342 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: RadixSortAkkaActorBenchmark
+Args: 
+           N (num values) = 100000     
+            M (max value) = 1152921504606846976 
+                 S (seed) = 2048       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-0:  4031.254 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-1:  3269.906 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-2:  3119.585 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-3:  2998.689 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-4:  3110.746 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-5:  3094.943 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-6:  3105.090 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-7:  3050.187 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-8:  3081.855 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-9:  3101.546 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark         Iteration-10:  3048.648 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark         Iteration-11:  3037.462 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+RadixSortAkkaActorBenchmark            Best Time:  2998.689 ms 
+RadixSortAkkaActorBenchmark           Worst Time:  3269.906 ms 
+RadixSortAkkaActorBenchmark               Median:  3094.943 ms 
+RadixSortAkkaActorBenchmark     Arith. Mean Time:  3092.605 ms 
+RadixSortAkkaActorBenchmark       Geo. Mean Time:  3091.907 ms 
+RadixSortAkkaActorBenchmark   Harmonic Mean Time:  3091.221 ms 
+RadixSortAkkaActorBenchmark        Std. Dev Time:    66.361 ms 
+RadixSortAkkaActorBenchmark     Lower Confidence:  3053.388 ms 
+RadixSortAkkaActorBenchmark    Higher Confidence:  3131.822 ms 
+RadixSortAkkaActorBenchmark         Error Window:    39.217 ms (1.268 percent) 
+RadixSortAkkaActorBenchmark  Coeff. of Variation:     0.021 
+RadixSortAkkaActorBenchmark             Skewness:     1.520 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: RadixSortAkkaActorBenchmark
+Args: 
+           N (num values) = 100000     
+            M (max value) = 1152921504606846976 
+                 S (seed) = 2048       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-0:  4172.476 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-1:  3436.138 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-2:  3432.555 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-3:  3219.209 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-4:  3344.075 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-5:  3243.982 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-6:  3341.934 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-7:  3349.021 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-8:  3360.317 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-9:  3428.628 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark         Iteration-10:  3386.978 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark         Iteration-11:  3480.919 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+RadixSortAkkaActorBenchmark            Best Time:  3219.209 ms 
+RadixSortAkkaActorBenchmark           Worst Time:  3480.919 ms 
+RadixSortAkkaActorBenchmark               Median:  3360.317 ms 
+RadixSortAkkaActorBenchmark     Arith. Mean Time:  3365.796 ms 
+RadixSortAkkaActorBenchmark       Geo. Mean Time:  3364.915 ms 
+RadixSortAkkaActorBenchmark   Harmonic Mean Time:  3364.026 ms 
+RadixSortAkkaActorBenchmark        Std. Dev Time:    76.713 ms 
+RadixSortAkkaActorBenchmark     Lower Confidence:  3320.462 ms 
+RadixSortAkkaActorBenchmark    Higher Confidence:  3411.130 ms 
+RadixSortAkkaActorBenchmark         Error Window:    45.334 ms (1.347 percent) 
+RadixSortAkkaActorBenchmark  Coeff. of Variation:     0.023 
+RadixSortAkkaActorBenchmark             Skewness:    -0.566 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: RadixSortAkkaActorBenchmark
+Args: 
+           N (num values) = 100000     
+            M (max value) = 1152921504606846976 
+                 S (seed) = 2048       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-0:  4814.187 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-1:  4721.680 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-2:  4341.794 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-3:  4120.105 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-4:  4243.414 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-5:  4353.190 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-6:  4481.815 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-7:  4045.657 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-8:  4029.094 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-9:  4048.613 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark         Iteration-10:  4217.693 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark         Iteration-11:  4106.882 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 12         
+RadixSortAkkaActorBenchmark            Best Time:  4029.094 ms 
+RadixSortAkkaActorBenchmark           Worst Time:  4814.187 ms 
+RadixSortAkkaActorBenchmark               Median:  4230.553 ms 
+RadixSortAkkaActorBenchmark     Arith. Mean Time:  4293.677 ms 
+RadixSortAkkaActorBenchmark       Geo. Mean Time:  4286.525 ms 
+RadixSortAkkaActorBenchmark   Harmonic Mean Time:  4279.598 ms 
+RadixSortAkkaActorBenchmark        Std. Dev Time:   251.705 ms 
+RadixSortAkkaActorBenchmark     Lower Confidence:  4151.262 ms 
+RadixSortAkkaActorBenchmark    Higher Confidence:  4436.092 ms 
+RadixSortAkkaActorBenchmark         Error Window:   142.415 ms (3.317 percent) 
+RadixSortAkkaActorBenchmark  Coeff. of Variation:     0.059 
+RadixSortAkkaActorBenchmark             Skewness:     0.944 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: RadixSortAkkaActorBenchmark
+Args: 
+           N (num values) = 100000     
+            M (max value) = 1152921504606846976 
+                 S (seed) = 2048       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-0:  6247.507 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-1:  5176.310 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-2:  5181.296 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-3:  5182.355 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-4:  5431.184 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-5:  5302.461 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-6:  5222.300 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-7:  5358.853 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-8:  5277.828 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-9:  5369.301 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark         Iteration-10:  5011.235 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark         Iteration-11:  5398.326 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 12         
+RadixSortAkkaActorBenchmark            Best Time:  5011.235 ms 
+RadixSortAkkaActorBenchmark           Worst Time:  6247.507 ms 
+RadixSortAkkaActorBenchmark               Median:  5290.144 ms 
+RadixSortAkkaActorBenchmark     Arith. Mean Time:  5346.580 ms 
+RadixSortAkkaActorBenchmark       Geo. Mean Time:  5339.057 ms 
+RadixSortAkkaActorBenchmark   Harmonic Mean Time:  5332.069 ms 
+RadixSortAkkaActorBenchmark        Std. Dev Time:   294.396 ms 
+RadixSortAkkaActorBenchmark     Lower Confidence:  5180.009 ms 
+RadixSortAkkaActorBenchmark    Higher Confidence:  5513.150 ms 
+RadixSortAkkaActorBenchmark         Error Window:   166.570 ms (3.115 percent) 
+RadixSortAkkaActorBenchmark  Coeff. of Variation:     0.055 
+RadixSortAkkaActorBenchmark             Skewness:     2.416 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: RadixSortAkkaActorBenchmark
+Args: 
+           N (num values) = 100000     
+            M (max value) = 1152921504606846976 
+                 S (seed) = 2048       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-0:  6433.071 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-1:  5729.876 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-2:  5902.161 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-3:  5897.843 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-4:  6062.987 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-5:  5599.584 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-6:  5831.203 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-7:  5944.487 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-8:  6108.048 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-9:  5756.223 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark         Iteration-10:  6110.115 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark         Iteration-11:  6143.467 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 12         
+RadixSortAkkaActorBenchmark            Best Time:  5599.584 ms 
+RadixSortAkkaActorBenchmark           Worst Time:  6433.071 ms 
+RadixSortAkkaActorBenchmark               Median:  5923.324 ms 
+RadixSortAkkaActorBenchmark     Arith. Mean Time:  5959.922 ms 
+RadixSortAkkaActorBenchmark       Geo. Mean Time:  5956.034 ms 
+RadixSortAkkaActorBenchmark   Harmonic Mean Time:  5952.178 ms 
+RadixSortAkkaActorBenchmark        Std. Dev Time:   216.205 ms 
+RadixSortAkkaActorBenchmark     Lower Confidence:  5837.593 ms 
+RadixSortAkkaActorBenchmark    Higher Confidence:  6082.252 ms 
+RadixSortAkkaActorBenchmark         Error Window:   122.329 ms (2.053 percent) 
+RadixSortAkkaActorBenchmark  Coeff. of Variation:     0.036 
+RadixSortAkkaActorBenchmark             Skewness:     0.448 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: RadixSortAkkaActorBenchmark
+Args: 
+           N (num values) = 100000     
+            M (max value) = 1152921504606846976 
+                 S (seed) = 2048       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-0:  6929.202 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-1:  5595.783 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-2:  5422.268 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-3:  5492.339 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-4:  5449.680 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-5:  5457.268 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-6:  5654.072 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-7:  5635.293 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-8:  5704.836 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark          Iteration-9:  5605.263 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark         Iteration-10:  5553.648 ms 
+Elements sum: 5.767387585834838E22
+RadixSortAkkaActorBenchmark         Iteration-11:  5620.572 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+RadixSortAkkaActorBenchmark            Best Time:  5422.268 ms 
+RadixSortAkkaActorBenchmark           Worst Time:  5704.836 ms 
+RadixSortAkkaActorBenchmark               Median:  5595.783 ms 
+RadixSortAkkaActorBenchmark     Arith. Mean Time:  5562.820 ms 
+RadixSortAkkaActorBenchmark       Geo. Mean Time:  5562.094 ms 
+RadixSortAkkaActorBenchmark   Harmonic Mean Time:  5561.366 ms 
+RadixSortAkkaActorBenchmark        Std. Dev Time:    89.808 ms 
+RadixSortAkkaActorBenchmark     Lower Confidence:  5509.747 ms 
+RadixSortAkkaActorBenchmark    Higher Confidence:  5615.893 ms 
+RadixSortAkkaActorBenchmark         Error Window:    53.073 ms (0.954 percent) 
+RadixSortAkkaActorBenchmark  Coeff. of Variation:     0.016 
+RadixSortAkkaActorBenchmark             Skewness:    -0.199 
+
+****************************************

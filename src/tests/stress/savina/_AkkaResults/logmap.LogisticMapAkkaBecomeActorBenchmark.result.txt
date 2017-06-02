@@ -1,0 +1,20 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: LogisticMapAkkaBecomeActorBenchmark
+Args: 
+                num terms = 25000      
+               num series = 10         
+               start rate = 3.46       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+Terms sum: 6.38783514460412
+LogisticMapAkkaBecomeActorBenchmark          Iteration-0: 1082266.352 ms 
+Terms sum: 6.38783514460412
+LogisticMapAkkaBecomeActorBenchmark          Iteration-1: 1061212.165 ms 
+****************************************
+Core count: 4

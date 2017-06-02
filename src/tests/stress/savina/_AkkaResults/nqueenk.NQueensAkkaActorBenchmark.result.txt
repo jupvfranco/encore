@@ -1,0 +1,282 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: NQueensAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+                     Size = 12         
+            Max Solutions = 1500000    
+                Threshold = 4          
+               Priorities = 10         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+NQueensAkkaActorBenchmark          Iteration-0:  1421.452 ms 
+NQueensAkkaActorBenchmark          Iteration-1:  1024.074 ms 
+NQueensAkkaActorBenchmark          Iteration-2:   900.229 ms 
+NQueensAkkaActorBenchmark          Iteration-3:   849.892 ms 
+NQueensAkkaActorBenchmark          Iteration-4:   850.856 ms 
+NQueensAkkaActorBenchmark          Iteration-5:   854.184 ms 
+NQueensAkkaActorBenchmark          Iteration-6:   864.109 ms 
+NQueensAkkaActorBenchmark          Iteration-7:   831.597 ms 
+NQueensAkkaActorBenchmark          Iteration-8:   840.023 ms 
+NQueensAkkaActorBenchmark          Iteration-9:   832.472 ms 
+NQueensAkkaActorBenchmark         Iteration-10:   836.653 ms 
+NQueensAkkaActorBenchmark         Iteration-11:   834.018 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+NQueensAkkaActorBenchmark            Best Time:   831.597 ms 
+NQueensAkkaActorBenchmark           Worst Time:   900.229 ms 
+NQueensAkkaActorBenchmark               Median:   844.958 ms 
+NQueensAkkaActorBenchmark     Arith. Mean Time:   849.404 ms 
+NQueensAkkaActorBenchmark       Geo. Mean Time:   849.178 ms 
+NQueensAkkaActorBenchmark   Harmonic Mean Time:   848.958 ms 
+NQueensAkkaActorBenchmark        Std. Dev Time:    19.788 ms 
+NQueensAkkaActorBenchmark     Lower Confidence:   837.139 ms 
+NQueensAkkaActorBenchmark    Higher Confidence:   861.668 ms 
+NQueensAkkaActorBenchmark         Error Window:    12.265 ms (1.444 percent) 
+NQueensAkkaActorBenchmark  Coeff. of Variation:     0.023 
+NQueensAkkaActorBenchmark             Skewness:     1.686 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: NQueensAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+                     Size = 12         
+            Max Solutions = 1500000    
+                Threshold = 4          
+               Priorities = 10         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+NQueensAkkaActorBenchmark          Iteration-0:   984.725 ms 
+NQueensAkkaActorBenchmark          Iteration-1:   550.841 ms 
+NQueensAkkaActorBenchmark          Iteration-2:   503.368 ms 
+NQueensAkkaActorBenchmark          Iteration-3:   458.768 ms 
+NQueensAkkaActorBenchmark          Iteration-4:   478.903 ms 
+NQueensAkkaActorBenchmark          Iteration-5:   433.859 ms 
+NQueensAkkaActorBenchmark          Iteration-6:   436.764 ms 
+NQueensAkkaActorBenchmark          Iteration-7:   440.519 ms 
+NQueensAkkaActorBenchmark          Iteration-8:   453.406 ms 
+NQueensAkkaActorBenchmark          Iteration-9:   430.954 ms 
+NQueensAkkaActorBenchmark         Iteration-10:   447.199 ms 
+NQueensAkkaActorBenchmark         Iteration-11:   445.552 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+NQueensAkkaActorBenchmark            Best Time:   430.954 ms 
+NQueensAkkaActorBenchmark           Worst Time:   503.368 ms 
+NQueensAkkaActorBenchmark               Median:   446.375 ms 
+NQueensAkkaActorBenchmark     Arith. Mean Time:   452.929 ms 
+NQueensAkkaActorBenchmark       Geo. Mean Time:   452.439 ms 
+NQueensAkkaActorBenchmark   Harmonic Mean Time:   451.967 ms 
+NQueensAkkaActorBenchmark        Std. Dev Time:    21.453 ms 
+NQueensAkkaActorBenchmark     Lower Confidence:   439.633 ms 
+NQueensAkkaActorBenchmark    Higher Confidence:   466.226 ms 
+NQueensAkkaActorBenchmark         Error Window:    13.297 ms (2.936 percent) 
+NQueensAkkaActorBenchmark  Coeff. of Variation:     0.047 
+NQueensAkkaActorBenchmark             Skewness:     1.370 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: NQueensAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+                     Size = 12         
+            Max Solutions = 1500000    
+                Threshold = 4          
+               Priorities = 10         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+NQueensAkkaActorBenchmark          Iteration-0:   785.944 ms 
+NQueensAkkaActorBenchmark          Iteration-1:   360.231 ms 
+NQueensAkkaActorBenchmark          Iteration-2:   294.438 ms 
+NQueensAkkaActorBenchmark          Iteration-3:   259.605 ms 
+NQueensAkkaActorBenchmark          Iteration-4:   270.523 ms 
+NQueensAkkaActorBenchmark          Iteration-5:   284.928 ms 
+NQueensAkkaActorBenchmark          Iteration-6:   279.965 ms 
+NQueensAkkaActorBenchmark          Iteration-7:   255.274 ms 
+NQueensAkkaActorBenchmark          Iteration-8:   281.670 ms 
+NQueensAkkaActorBenchmark          Iteration-9:   263.794 ms 
+NQueensAkkaActorBenchmark         Iteration-10:   275.433 ms 
+NQueensAkkaActorBenchmark         Iteration-11:   322.662 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+NQueensAkkaActorBenchmark            Best Time:   255.274 ms 
+NQueensAkkaActorBenchmark           Worst Time:   322.662 ms 
+NQueensAkkaActorBenchmark               Median:   277.699 ms 
+NQueensAkkaActorBenchmark     Arith. Mean Time:   278.829 ms 
+NQueensAkkaActorBenchmark       Geo. Mean Time:   278.236 ms 
+NQueensAkkaActorBenchmark   Harmonic Mean Time:   277.665 ms 
+NQueensAkkaActorBenchmark        Std. Dev Time:    18.554 ms 
+NQueensAkkaActorBenchmark     Lower Confidence:   267.329 ms 
+NQueensAkkaActorBenchmark    Higher Confidence:   290.329 ms 
+NQueensAkkaActorBenchmark         Error Window:    11.500 ms (4.124 percent) 
+NQueensAkkaActorBenchmark  Coeff. of Variation:     0.067 
+NQueensAkkaActorBenchmark             Skewness:     1.115 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: NQueensAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+                     Size = 12         
+            Max Solutions = 1500000    
+                Threshold = 4          
+               Priorities = 10         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+NQueensAkkaActorBenchmark          Iteration-0:   801.210 ms 
+NQueensAkkaActorBenchmark          Iteration-1:   222.841 ms 
+NQueensAkkaActorBenchmark          Iteration-2:   206.073 ms 
+NQueensAkkaActorBenchmark          Iteration-3:   182.365 ms 
+NQueensAkkaActorBenchmark          Iteration-4:   152.811 ms 
+NQueensAkkaActorBenchmark          Iteration-5:   161.553 ms 
+NQueensAkkaActorBenchmark          Iteration-6:   147.856 ms 
+NQueensAkkaActorBenchmark          Iteration-7:   157.141 ms 
+NQueensAkkaActorBenchmark          Iteration-8:   179.755 ms 
+NQueensAkkaActorBenchmark          Iteration-9:   148.260 ms 
+NQueensAkkaActorBenchmark         Iteration-10:   149.591 ms 
+NQueensAkkaActorBenchmark         Iteration-11:   151.106 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 9          
+NQueensAkkaActorBenchmark            Best Time:   147.856 ms 
+NQueensAkkaActorBenchmark           Worst Time:   182.365 ms 
+NQueensAkkaActorBenchmark               Median:   152.811 ms 
+NQueensAkkaActorBenchmark     Arith. Mean Time:   158.937 ms 
+NQueensAkkaActorBenchmark       Geo. Mean Time:   158.466 ms 
+NQueensAkkaActorBenchmark   Harmonic Mean Time:   158.019 ms 
+NQueensAkkaActorBenchmark        Std. Dev Time:    12.540 ms 
+NQueensAkkaActorBenchmark     Lower Confidence:   150.745 ms 
+NQueensAkkaActorBenchmark    Higher Confidence:   167.130 ms 
+NQueensAkkaActorBenchmark         Error Window:     8.193 ms (5.155 percent) 
+NQueensAkkaActorBenchmark  Coeff. of Variation:     0.079 
+NQueensAkkaActorBenchmark             Skewness:     1.127 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: NQueensAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+                     Size = 12         
+            Max Solutions = 1500000    
+                Threshold = 4          
+               Priorities = 10         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+NQueensAkkaActorBenchmark          Iteration-0:   704.324 ms 
+NQueensAkkaActorBenchmark          Iteration-1:   247.727 ms 
+NQueensAkkaActorBenchmark          Iteration-2:   123.254 ms 
+NQueensAkkaActorBenchmark          Iteration-3:   113.888 ms 
+NQueensAkkaActorBenchmark          Iteration-4:   109.591 ms 
+NQueensAkkaActorBenchmark          Iteration-5:   112.568 ms 
+NQueensAkkaActorBenchmark          Iteration-6:   107.871 ms 
+NQueensAkkaActorBenchmark          Iteration-7:   141.476 ms 
+NQueensAkkaActorBenchmark          Iteration-8:   117.883 ms 
+NQueensAkkaActorBenchmark          Iteration-9:   109.458 ms 
+NQueensAkkaActorBenchmark         Iteration-10:   104.651 ms 
+NQueensAkkaActorBenchmark         Iteration-11:   106.724 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 9          
+NQueensAkkaActorBenchmark            Best Time:   104.651 ms 
+NQueensAkkaActorBenchmark           Worst Time:   123.254 ms 
+NQueensAkkaActorBenchmark               Median:   109.591 ms 
+NQueensAkkaActorBenchmark     Arith. Mean Time:   111.765 ms 
+NQueensAkkaActorBenchmark       Geo. Mean Time:   111.631 ms 
+NQueensAkkaActorBenchmark   Harmonic Mean Time:   111.501 ms 
+NQueensAkkaActorBenchmark        Std. Dev Time:     5.536 ms 
+NQueensAkkaActorBenchmark     Lower Confidence:   108.148 ms 
+NQueensAkkaActorBenchmark    Higher Confidence:   115.382 ms 
+NQueensAkkaActorBenchmark         Error Window:     3.617 ms (3.236 percent) 
+NQueensAkkaActorBenchmark  Coeff. of Variation:     0.050 
+NQueensAkkaActorBenchmark             Skewness:     0.873 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: NQueensAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+                     Size = 12         
+            Max Solutions = 1500000    
+                Threshold = 4          
+               Priorities = 10         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+NQueensAkkaActorBenchmark          Iteration-0:  1071.249 ms 
+NQueensAkkaActorBenchmark          Iteration-1:   140.353 ms 
+NQueensAkkaActorBenchmark          Iteration-2:   125.565 ms 
+NQueensAkkaActorBenchmark          Iteration-3:   122.354 ms 
+NQueensAkkaActorBenchmark          Iteration-4:   122.212 ms 
+NQueensAkkaActorBenchmark          Iteration-5:   126.211 ms 
+NQueensAkkaActorBenchmark          Iteration-6:   118.495 ms 
+NQueensAkkaActorBenchmark          Iteration-7:   116.187 ms 
+NQueensAkkaActorBenchmark          Iteration-8:   112.700 ms 
+NQueensAkkaActorBenchmark          Iteration-9:   116.908 ms 
+NQueensAkkaActorBenchmark         Iteration-10:   112.022 ms 
+NQueensAkkaActorBenchmark         Iteration-11:   112.416 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+NQueensAkkaActorBenchmark            Best Time:   112.022 ms 
+NQueensAkkaActorBenchmark           Worst Time:   140.353 ms 
+NQueensAkkaActorBenchmark               Median:   118.495 ms 
+NQueensAkkaActorBenchmark     Arith. Mean Time:   120.493 ms 
+NQueensAkkaActorBenchmark       Geo. Mean Time:   120.243 ms 
+NQueensAkkaActorBenchmark   Harmonic Mean Time:   120.005 ms 
+NQueensAkkaActorBenchmark        Std. Dev Time:     7.934 ms 
+NQueensAkkaActorBenchmark     Lower Confidence:   115.805 ms 
+NQueensAkkaActorBenchmark    Higher Confidence:   125.182 ms 
+NQueensAkkaActorBenchmark         Error Window:     4.689 ms (3.891 percent) 
+NQueensAkkaActorBenchmark  Coeff. of Variation:     0.066 
+NQueensAkkaActorBenchmark             Skewness:     1.286 
+
+****************************************

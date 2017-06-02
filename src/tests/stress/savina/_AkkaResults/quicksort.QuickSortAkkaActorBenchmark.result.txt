@@ -1,0 +1,276 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: QuickSortAkkaActorBenchmark
+Args: 
+           N (num values) = 1000000    
+            M (max value) = 1152921504606846976 
+    T (sequential cutoff) = 2048       
+                 S (seed) = 1024       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+QuickSortAkkaActorBenchmark          Iteration-0:  3164.058 ms 
+QuickSortAkkaActorBenchmark          Iteration-1:  1910.033 ms 
+QuickSortAkkaActorBenchmark          Iteration-2:  2452.814 ms 
+QuickSortAkkaActorBenchmark          Iteration-3:  1814.070 ms 
+QuickSortAkkaActorBenchmark          Iteration-4:  1558.408 ms 
+QuickSortAkkaActorBenchmark          Iteration-5:  1683.181 ms 
+QuickSortAkkaActorBenchmark          Iteration-6:  1731.477 ms 
+QuickSortAkkaActorBenchmark          Iteration-7:  1427.972 ms 
+QuickSortAkkaActorBenchmark          Iteration-8:  1427.549 ms 
+QuickSortAkkaActorBenchmark          Iteration-9:  1469.612 ms 
+QuickSortAkkaActorBenchmark         Iteration-10:  1424.176 ms 
+QuickSortAkkaActorBenchmark         Iteration-11:  1434.185 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+QuickSortAkkaActorBenchmark            Best Time:  1424.176 ms 
+QuickSortAkkaActorBenchmark           Worst Time:  1910.033 ms 
+QuickSortAkkaActorBenchmark               Median:  1514.010 ms 
+QuickSortAkkaActorBenchmark     Arith. Mean Time:  1588.066 ms 
+QuickSortAkkaActorBenchmark       Geo. Mean Time:  1578.922 ms 
+QuickSortAkkaActorBenchmark   Harmonic Mean Time:  1570.154 ms 
+QuickSortAkkaActorBenchmark        Std. Dev Time:   173.551 ms 
+QuickSortAkkaActorBenchmark     Lower Confidence:  1480.498 ms 
+QuickSortAkkaActorBenchmark    Higher Confidence:  1695.634 ms 
+QuickSortAkkaActorBenchmark         Error Window:   107.568 ms (6.774 percent) 
+QuickSortAkkaActorBenchmark  Coeff. of Variation:     0.109 
+QuickSortAkkaActorBenchmark             Skewness:     0.654 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: QuickSortAkkaActorBenchmark
+Args: 
+           N (num values) = 1000000    
+            M (max value) = 1152921504606846976 
+    T (sequential cutoff) = 2048       
+                 S (seed) = 1024       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+QuickSortAkkaActorBenchmark          Iteration-0:  2014.097 ms 
+QuickSortAkkaActorBenchmark          Iteration-1:  1117.174 ms 
+QuickSortAkkaActorBenchmark          Iteration-2:  1193.533 ms 
+QuickSortAkkaActorBenchmark          Iteration-3:  1003.033 ms 
+QuickSortAkkaActorBenchmark          Iteration-4:   816.512 ms 
+QuickSortAkkaActorBenchmark          Iteration-5:   918.335 ms 
+QuickSortAkkaActorBenchmark          Iteration-6:   911.782 ms 
+QuickSortAkkaActorBenchmark          Iteration-7:   807.618 ms 
+QuickSortAkkaActorBenchmark          Iteration-8:   805.737 ms 
+QuickSortAkkaActorBenchmark          Iteration-9:   852.026 ms 
+QuickSortAkkaActorBenchmark         Iteration-10:   800.027 ms 
+QuickSortAkkaActorBenchmark         Iteration-11:   840.277 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 9          
+QuickSortAkkaActorBenchmark            Best Time:   800.027 ms 
+QuickSortAkkaActorBenchmark           Worst Time:  1003.033 ms 
+QuickSortAkkaActorBenchmark               Median:   840.277 ms 
+QuickSortAkkaActorBenchmark     Arith. Mean Time:   861.705 ms 
+QuickSortAkkaActorBenchmark       Geo. Mean Time:   859.354 ms 
+QuickSortAkkaActorBenchmark   Harmonic Mean Time:   857.110 ms 
+QuickSortAkkaActorBenchmark        Std. Dev Time:    65.103 ms 
+QuickSortAkkaActorBenchmark     Lower Confidence:   819.172 ms 
+QuickSortAkkaActorBenchmark    Higher Confidence:   904.239 ms 
+QuickSortAkkaActorBenchmark         Error Window:    42.534 ms (4.936 percent) 
+QuickSortAkkaActorBenchmark  Coeff. of Variation:     0.076 
+QuickSortAkkaActorBenchmark             Skewness:     1.114 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: QuickSortAkkaActorBenchmark
+Args: 
+           N (num values) = 1000000    
+            M (max value) = 1152921504606846976 
+    T (sequential cutoff) = 2048       
+                 S (seed) = 1024       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+QuickSortAkkaActorBenchmark          Iteration-0:  1659.823 ms 
+QuickSortAkkaActorBenchmark          Iteration-1:   697.738 ms 
+QuickSortAkkaActorBenchmark          Iteration-2:   712.555 ms 
+QuickSortAkkaActorBenchmark          Iteration-3:   638.672 ms 
+QuickSortAkkaActorBenchmark          Iteration-4:   569.712 ms 
+QuickSortAkkaActorBenchmark          Iteration-5:   618.989 ms 
+QuickSortAkkaActorBenchmark          Iteration-6:   648.467 ms 
+QuickSortAkkaActorBenchmark          Iteration-7:   535.808 ms 
+QuickSortAkkaActorBenchmark          Iteration-8:   594.052 ms 
+QuickSortAkkaActorBenchmark          Iteration-9:   576.062 ms 
+QuickSortAkkaActorBenchmark         Iteration-10:   567.914 ms 
+QuickSortAkkaActorBenchmark         Iteration-11:   564.416 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+QuickSortAkkaActorBenchmark            Best Time:   535.808 ms 
+QuickSortAkkaActorBenchmark           Worst Time:   712.555 ms 
+QuickSortAkkaActorBenchmark               Median:   594.052 ms 
+QuickSortAkkaActorBenchmark     Arith. Mean Time:   611.308 ms 
+QuickSortAkkaActorBenchmark       Geo. Mean Time:   608.925 ms 
+QuickSortAkkaActorBenchmark   Harmonic Mean Time:   606.614 ms 
+QuickSortAkkaActorBenchmark        Std. Dev Time:    54.741 ms 
+QuickSortAkkaActorBenchmark     Lower Confidence:   578.958 ms 
+QuickSortAkkaActorBenchmark    Higher Confidence:   643.657 ms 
+QuickSortAkkaActorBenchmark         Error Window:    32.350 ms (5.292 percent) 
+QuickSortAkkaActorBenchmark  Coeff. of Variation:     0.090 
+QuickSortAkkaActorBenchmark             Skewness:     0.622 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: QuickSortAkkaActorBenchmark
+Args: 
+           N (num values) = 1000000    
+            M (max value) = 1152921504606846976 
+    T (sequential cutoff) = 2048       
+                 S (seed) = 1024       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+QuickSortAkkaActorBenchmark          Iteration-0:  1565.013 ms 
+QuickSortAkkaActorBenchmark          Iteration-1:   630.516 ms 
+QuickSortAkkaActorBenchmark          Iteration-2:   538.624 ms 
+QuickSortAkkaActorBenchmark          Iteration-3:   490.544 ms 
+QuickSortAkkaActorBenchmark          Iteration-4:   532.540 ms 
+QuickSortAkkaActorBenchmark          Iteration-5:   601.675 ms 
+QuickSortAkkaActorBenchmark          Iteration-6:   496.490 ms 
+QuickSortAkkaActorBenchmark          Iteration-7:   502.769 ms 
+QuickSortAkkaActorBenchmark          Iteration-8:   547.850 ms 
+QuickSortAkkaActorBenchmark          Iteration-9:   549.410 ms 
+QuickSortAkkaActorBenchmark         Iteration-10:   517.877 ms 
+QuickSortAkkaActorBenchmark         Iteration-11:   497.936 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+QuickSortAkkaActorBenchmark            Best Time:   490.544 ms 
+QuickSortAkkaActorBenchmark           Worst Time:   630.516 ms 
+QuickSortAkkaActorBenchmark               Median:   532.540 ms 
+QuickSortAkkaActorBenchmark     Arith. Mean Time:   536.930 ms 
+QuickSortAkkaActorBenchmark       Geo. Mean Time:   535.304 ms 
+QuickSortAkkaActorBenchmark   Harmonic Mean Time:   533.753 ms 
+QuickSortAkkaActorBenchmark        Std. Dev Time:    42.731 ms 
+QuickSortAkkaActorBenchmark     Lower Confidence:   511.678 ms 
+QuickSortAkkaActorBenchmark    Higher Confidence:   562.182 ms 
+QuickSortAkkaActorBenchmark         Error Window:    25.252 ms (4.703 percent) 
+QuickSortAkkaActorBenchmark  Coeff. of Variation:     0.080 
+QuickSortAkkaActorBenchmark             Skewness:     1.054 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: QuickSortAkkaActorBenchmark
+Args: 
+           N (num values) = 1000000    
+            M (max value) = 1152921504606846976 
+    T (sequential cutoff) = 2048       
+                 S (seed) = 1024       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+QuickSortAkkaActorBenchmark          Iteration-0:  1508.390 ms 
+QuickSortAkkaActorBenchmark          Iteration-1:   703.117 ms 
+QuickSortAkkaActorBenchmark          Iteration-2:   504.713 ms 
+QuickSortAkkaActorBenchmark          Iteration-3:   585.083 ms 
+QuickSortAkkaActorBenchmark          Iteration-4:   405.567 ms 
+QuickSortAkkaActorBenchmark          Iteration-5:   471.521 ms 
+QuickSortAkkaActorBenchmark          Iteration-6:   394.315 ms 
+QuickSortAkkaActorBenchmark          Iteration-7:   384.402 ms 
+QuickSortAkkaActorBenchmark          Iteration-8:   417.446 ms 
+QuickSortAkkaActorBenchmark          Iteration-9:   379.270 ms 
+QuickSortAkkaActorBenchmark         Iteration-10:   407.490 ms 
+QuickSortAkkaActorBenchmark         Iteration-11:   537.235 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 9          
+QuickSortAkkaActorBenchmark            Best Time:   379.270 ms 
+QuickSortAkkaActorBenchmark           Worst Time:   537.235 ms 
+QuickSortAkkaActorBenchmark               Median:   407.490 ms 
+QuickSortAkkaActorBenchmark     Arith. Mean Time:   433.551 ms 
+QuickSortAkkaActorBenchmark       Geo. Mean Time:   430.424 ms 
+QuickSortAkkaActorBenchmark   Harmonic Mean Time:   427.495 ms 
+QuickSortAkkaActorBenchmark        Std. Dev Time:    53.624 ms 
+QuickSortAkkaActorBenchmark     Lower Confidence:   398.517 ms 
+QuickSortAkkaActorBenchmark    Higher Confidence:   468.585 ms 
+QuickSortAkkaActorBenchmark         Error Window:    35.034 ms (8.081 percent) 
+QuickSortAkkaActorBenchmark  Coeff. of Variation:     0.124 
+QuickSortAkkaActorBenchmark             Skewness:     0.930 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: QuickSortAkkaActorBenchmark
+Args: 
+           N (num values) = 1000000    
+            M (max value) = 1152921504606846976 
+    T (sequential cutoff) = 2048       
+                 S (seed) = 1024       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+QuickSortAkkaActorBenchmark          Iteration-0:  1759.505 ms 
+QuickSortAkkaActorBenchmark          Iteration-1:   847.411 ms 
+QuickSortAkkaActorBenchmark          Iteration-2:   462.263 ms 
+QuickSortAkkaActorBenchmark          Iteration-3:   411.306 ms 
+QuickSortAkkaActorBenchmark          Iteration-4:   413.466 ms 
+QuickSortAkkaActorBenchmark          Iteration-5:   495.908 ms 
+QuickSortAkkaActorBenchmark          Iteration-6:   456.360 ms 
+QuickSortAkkaActorBenchmark          Iteration-7:   461.252 ms 
+QuickSortAkkaActorBenchmark          Iteration-8:   397.446 ms 
+QuickSortAkkaActorBenchmark          Iteration-9:   380.555 ms 
+QuickSortAkkaActorBenchmark         Iteration-10:   404.682 ms 
+QuickSortAkkaActorBenchmark         Iteration-11:   563.335 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 9          
+QuickSortAkkaActorBenchmark            Best Time:   380.555 ms 
+QuickSortAkkaActorBenchmark           Worst Time:   495.908 ms 
+QuickSortAkkaActorBenchmark               Median:   413.466 ms 
+QuickSortAkkaActorBenchmark     Arith. Mean Time:   431.471 ms 
+QuickSortAkkaActorBenchmark       Geo. Mean Time:   429.971 ms 
+QuickSortAkkaActorBenchmark   Harmonic Mean Time:   428.494 ms 
+QuickSortAkkaActorBenchmark        Std. Dev Time:    36.217 ms 
+QuickSortAkkaActorBenchmark     Lower Confidence:   407.809 ms 
+QuickSortAkkaActorBenchmark    Higher Confidence:   455.133 ms 
+QuickSortAkkaActorBenchmark         Error Window:    23.662 ms (5.484 percent) 
+QuickSortAkkaActorBenchmark  Coeff. of Variation:     0.084 
+QuickSortAkkaActorBenchmark             Skewness:     0.352 
+
+****************************************

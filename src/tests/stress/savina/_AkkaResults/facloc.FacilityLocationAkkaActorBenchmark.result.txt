@@ -16,46 +16,46 @@ Args:
                  O/S Arch = amd64      
 Execution - Iterations: 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-0:  2276.088 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-0:  1969.808 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-1:  1434.340 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-1:  1240.387 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-2:  1188.345 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-2:  1088.519 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-3:  1041.290 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-3:  1039.453 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-4:   874.925 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-4:   869.784 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-5:   913.077 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-5:   903.522 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-6:   857.700 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-6:   871.738 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-7:   852.963 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-7:   860.331 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-8:   855.755 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-8:   847.504 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-9:   818.678 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-9:   789.524 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark         Iteration-10:   805.414 ms 
+FacilityLocationAkkaActorBenchmark         Iteration-10:   794.341 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark         Iteration-11:   804.091 ms 
+FacilityLocationAkkaActorBenchmark         Iteration-11:   768.460 ms 
 
 
 Execution - Summary: 
          Total executions = 12         
       Filtered executions = 9          
-FacilityLocationAkkaActorBenchmark            Best Time:   804.091 ms 
-FacilityLocationAkkaActorBenchmark           Worst Time:  1041.290 ms 
-FacilityLocationAkkaActorBenchmark               Median:   855.755 ms 
-FacilityLocationAkkaActorBenchmark     Arith. Mean Time:   869.321 ms 
-FacilityLocationAkkaActorBenchmark       Geo. Mean Time:   866.763 ms 
-FacilityLocationAkkaActorBenchmark   Harmonic Mean Time:   864.381 ms 
-FacilityLocationAkkaActorBenchmark        Std. Dev Time:    69.129 ms 
-FacilityLocationAkkaActorBenchmark     Lower Confidence:   824.157 ms 
-FacilityLocationAkkaActorBenchmark    Higher Confidence:   914.486 ms 
-FacilityLocationAkkaActorBenchmark         Error Window:    45.164 ms (5.195 percent) 
-FacilityLocationAkkaActorBenchmark  Coeff. of Variation:     0.080 
-FacilityLocationAkkaActorBenchmark             Skewness:     1.700 
+FacilityLocationAkkaActorBenchmark            Best Time:   768.460 ms 
+FacilityLocationAkkaActorBenchmark           Worst Time:  1039.453 ms 
+FacilityLocationAkkaActorBenchmark               Median:   860.331 ms 
+FacilityLocationAkkaActorBenchmark     Arith. Mean Time:   860.517 ms 
+FacilityLocationAkkaActorBenchmark       Geo. Mean Time:   857.332 ms 
+FacilityLocationAkkaActorBenchmark   Harmonic Mean Time:   854.316 ms 
+FacilityLocationAkkaActorBenchmark        Std. Dev Time:    76.116 ms 
+FacilityLocationAkkaActorBenchmark     Lower Confidence:   810.788 ms 
+FacilityLocationAkkaActorBenchmark    Higher Confidence:   910.246 ms 
+FacilityLocationAkkaActorBenchmark         Error Window:    49.729 ms (5.779 percent) 
+FacilityLocationAkkaActorBenchmark  Coeff. of Variation:     0.088 
+FacilityLocationAkkaActorBenchmark             Skewness:     1.242 
 
 ****************************************
 Core count: 4
@@ -76,46 +76,46 @@ Args:
                  O/S Arch = amd64      
 Execution - Iterations: 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-0:  1576.010 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-0:  1508.087 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-1:   885.850 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-1:   974.535 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-2:   852.002 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-2:   890.842 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-3:   757.437 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-3:   709.562 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-4:   720.626 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-4:   653.954 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-5:   655.934 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-5:   667.041 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-6:   632.810 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-6:   676.743 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-7:   650.360 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-7:   671.160 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-8:   618.953 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-8:   619.452 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-9:   599.405 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-9:   599.718 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark         Iteration-10:   608.611 ms 
+FacilityLocationAkkaActorBenchmark         Iteration-10:   611.150 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark         Iteration-11:   619.020 ms 
+FacilityLocationAkkaActorBenchmark         Iteration-11:   612.682 ms 
 
 
 Execution - Summary: 
          Total executions = 12         
       Filtered executions = 9          
-FacilityLocationAkkaActorBenchmark            Best Time:   599.405 ms 
-FacilityLocationAkkaActorBenchmark           Worst Time:   757.437 ms 
-FacilityLocationAkkaActorBenchmark               Median:   632.810 ms 
-FacilityLocationAkkaActorBenchmark     Arith. Mean Time:   651.462 ms 
-FacilityLocationAkkaActorBenchmark       Geo. Mean Time:   649.592 ms 
-FacilityLocationAkkaActorBenchmark   Harmonic Mean Time:   647.816 ms 
-FacilityLocationAkkaActorBenchmark        Std. Dev Time:    50.595 ms 
-FacilityLocationAkkaActorBenchmark     Lower Confidence:   618.406 ms 
-FacilityLocationAkkaActorBenchmark    Higher Confidence:   684.517 ms 
-FacilityLocationAkkaActorBenchmark         Error Window:    33.056 ms (5.074 percent) 
-FacilityLocationAkkaActorBenchmark  Coeff. of Variation:     0.078 
-FacilityLocationAkkaActorBenchmark             Skewness:     1.184 
+FacilityLocationAkkaActorBenchmark            Best Time:   599.718 ms 
+FacilityLocationAkkaActorBenchmark           Worst Time:   709.562 ms 
+FacilityLocationAkkaActorBenchmark               Median:   653.954 ms 
+FacilityLocationAkkaActorBenchmark     Arith. Mean Time:   646.829 ms 
+FacilityLocationAkkaActorBenchmark       Geo. Mean Time:   645.865 ms 
+FacilityLocationAkkaActorBenchmark   Harmonic Mean Time:   644.909 ms 
+FacilityLocationAkkaActorBenchmark        Std. Dev Time:    35.417 ms 
+FacilityLocationAkkaActorBenchmark     Lower Confidence:   623.690 ms 
+FacilityLocationAkkaActorBenchmark    Higher Confidence:   669.969 ms 
+FacilityLocationAkkaActorBenchmark         Error Window:    23.139 ms (3.577 percent) 
+FacilityLocationAkkaActorBenchmark  Coeff. of Variation:     0.055 
+FacilityLocationAkkaActorBenchmark             Skewness:     0.243 
 
 ****************************************
 Core count: 8
@@ -136,46 +136,46 @@ Args:
                  O/S Arch = amd64      
 Execution - Iterations: 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-0:  1733.837 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-0:  1513.072 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-1:   964.336 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-1:  1043.571 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-2:   946.297 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-2:   963.521 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-3:   853.313 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-3:   837.491 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-4:   841.944 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-4:   861.918 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-5:   825.362 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-5:   818.444 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-6:   858.661 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-6:   891.597 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-7:   808.611 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-7:   815.631 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-8:   824.675 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-8:   803.968 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-9:   802.946 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-9:   803.309 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark         Iteration-10:   771.939 ms 
+FacilityLocationAkkaActorBenchmark         Iteration-10:   809.020 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark         Iteration-11:   863.950 ms 
+FacilityLocationAkkaActorBenchmark         Iteration-11:   832.846 ms 
 
 
 Execution - Summary: 
          Total executions = 12         
-      Filtered executions = 11         
-FacilityLocationAkkaActorBenchmark            Best Time:   771.939 ms 
-FacilityLocationAkkaActorBenchmark           Worst Time:   964.336 ms 
-FacilityLocationAkkaActorBenchmark               Median:   841.944 ms 
-FacilityLocationAkkaActorBenchmark     Arith. Mean Time:   851.094 ms 
-FacilityLocationAkkaActorBenchmark       Geo. Mean Time:   849.339 ms 
-FacilityLocationAkkaActorBenchmark   Harmonic Mean Time:   847.642 ms 
-FacilityLocationAkkaActorBenchmark        Std. Dev Time:    55.553 ms 
-FacilityLocationAkkaActorBenchmark     Lower Confidence:   818.265 ms 
-FacilityLocationAkkaActorBenchmark    Higher Confidence:   883.924 ms 
-FacilityLocationAkkaActorBenchmark         Error Window:    32.830 ms (3.857 percent) 
-FacilityLocationAkkaActorBenchmark  Coeff. of Variation:     0.065 
-FacilityLocationAkkaActorBenchmark             Skewness:     0.932 
+      Filtered executions = 10         
+FacilityLocationAkkaActorBenchmark            Best Time:   803.309 ms 
+FacilityLocationAkkaActorBenchmark           Worst Time:   963.521 ms 
+FacilityLocationAkkaActorBenchmark               Median:   825.645 ms 
+FacilityLocationAkkaActorBenchmark     Arith. Mean Time:   843.775 ms 
+FacilityLocationAkkaActorBenchmark       Geo. Mean Time:   842.482 ms 
+FacilityLocationAkkaActorBenchmark   Harmonic Mean Time:   841.254 ms 
+FacilityLocationAkkaActorBenchmark        Std. Dev Time:    47.935 ms 
+FacilityLocationAkkaActorBenchmark     Lower Confidence:   814.064 ms 
+FacilityLocationAkkaActorBenchmark    Higher Confidence:   873.485 ms 
+FacilityLocationAkkaActorBenchmark         Error Window:    29.711 ms (3.521 percent) 
+FacilityLocationAkkaActorBenchmark  Coeff. of Variation:     0.057 
+FacilityLocationAkkaActorBenchmark             Skewness:     1.635 
 
 ****************************************
 Core count: 16
@@ -196,46 +196,46 @@ Args:
                  O/S Arch = amd64      
 Execution - Iterations: 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-0:  2096.189 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-0:  2141.311 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-1:  1325.828 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-1:  1384.860 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-2:  1261.658 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-2:  1250.251 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-3:  1204.349 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-3:  1190.474 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-4:  1195.694 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-4:  1203.869 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-5:  1231.082 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-5:  1249.434 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-6:  1174.150 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-6:  1203.443 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-7:  1141.203 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-7:  1153.261 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-8:  1157.127 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-8:  1176.966 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-9:  1230.441 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-9:  1203.854 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark         Iteration-10:  1248.763 ms 
+FacilityLocationAkkaActorBenchmark         Iteration-10:  1232.678 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark         Iteration-11:  1180.620 ms 
+FacilityLocationAkkaActorBenchmark         Iteration-11:  1161.594 ms 
 
 
 Execution - Summary: 
          Total executions = 12         
       Filtered executions = 11         
-FacilityLocationAkkaActorBenchmark            Best Time:  1141.203 ms 
-FacilityLocationAkkaActorBenchmark           Worst Time:  1325.828 ms 
-FacilityLocationAkkaActorBenchmark               Median:  1204.349 ms 
-FacilityLocationAkkaActorBenchmark     Arith. Mean Time:  1213.719 ms 
-FacilityLocationAkkaActorBenchmark       Geo. Mean Time:  1212.679 ms 
-FacilityLocationAkkaActorBenchmark   Harmonic Mean Time:  1211.656 ms 
-FacilityLocationAkkaActorBenchmark        Std. Dev Time:    50.642 ms 
-FacilityLocationAkkaActorBenchmark     Lower Confidence:  1183.792 ms 
-FacilityLocationAkkaActorBenchmark    Higher Confidence:  1243.647 ms 
-FacilityLocationAkkaActorBenchmark         Error Window:    29.928 ms (2.466 percent) 
-FacilityLocationAkkaActorBenchmark  Coeff. of Variation:     0.042 
-FacilityLocationAkkaActorBenchmark             Skewness:     0.697 
+FacilityLocationAkkaActorBenchmark            Best Time:  1153.261 ms 
+FacilityLocationAkkaActorBenchmark           Worst Time:  1384.860 ms 
+FacilityLocationAkkaActorBenchmark               Median:  1203.854 ms 
+FacilityLocationAkkaActorBenchmark     Arith. Mean Time:  1219.153 ms 
+FacilityLocationAkkaActorBenchmark       Geo. Mean Time:  1217.717 ms 
+FacilityLocationAkkaActorBenchmark   Harmonic Mean Time:  1216.351 ms 
+FacilityLocationAkkaActorBenchmark        Std. Dev Time:    60.676 ms 
+FacilityLocationAkkaActorBenchmark     Lower Confidence:  1183.296 ms 
+FacilityLocationAkkaActorBenchmark    Higher Confidence:  1255.010 ms 
+FacilityLocationAkkaActorBenchmark         Error Window:    35.857 ms (2.941 percent) 
+FacilityLocationAkkaActorBenchmark  Coeff. of Variation:     0.050 
+FacilityLocationAkkaActorBenchmark             Skewness:     1.801 
 
 ****************************************
 Core count: 32
@@ -256,46 +256,46 @@ Args:
                  O/S Arch = amd64      
 Execution - Iterations: 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-0:  2649.647 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-0:  2705.401 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-1:  1498.585 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-1:  1545.670 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-2:  1544.189 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-2:  1491.140 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-3:  1453.289 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-3:  1434.775 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-4:  1380.398 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-4:  1374.934 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-5:  1357.046 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-5:  1395.946 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-6:  1292.284 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-6:  1326.278 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-7:  1378.715 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-7:  1353.790 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-8:  1388.058 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-8:  1398.542 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-9:  1345.455 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-9:  1352.100 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark         Iteration-10:  1280.568 ms 
+FacilityLocationAkkaActorBenchmark         Iteration-10:  1337.903 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark         Iteration-11:  1329.828 ms 
+FacilityLocationAkkaActorBenchmark         Iteration-11:  1339.933 ms 
 
 
 Execution - Summary: 
          Total executions = 12         
       Filtered executions = 11         
-FacilityLocationAkkaActorBenchmark            Best Time:  1280.568 ms 
-FacilityLocationAkkaActorBenchmark           Worst Time:  1544.189 ms 
-FacilityLocationAkkaActorBenchmark               Median:  1378.715 ms 
-FacilityLocationAkkaActorBenchmark     Arith. Mean Time:  1386.220 ms 
-FacilityLocationAkkaActorBenchmark       Geo. Mean Time:  1384.042 ms 
-FacilityLocationAkkaActorBenchmark   Harmonic Mean Time:  1381.911 ms 
-FacilityLocationAkkaActorBenchmark        Std. Dev Time:    78.538 ms 
-FacilityLocationAkkaActorBenchmark     Lower Confidence:  1339.806 ms 
-FacilityLocationAkkaActorBenchmark    Higher Confidence:  1432.633 ms 
-FacilityLocationAkkaActorBenchmark         Error Window:    46.413 ms (3.348 percent) 
-FacilityLocationAkkaActorBenchmark  Coeff. of Variation:     0.057 
-FacilityLocationAkkaActorBenchmark             Skewness:     0.698 
+FacilityLocationAkkaActorBenchmark            Best Time:  1326.278 ms 
+FacilityLocationAkkaActorBenchmark           Worst Time:  1545.670 ms 
+FacilityLocationAkkaActorBenchmark               Median:  1374.934 ms 
+FacilityLocationAkkaActorBenchmark     Arith. Mean Time:  1395.547 ms 
+FacilityLocationAkkaActorBenchmark       Geo. Mean Time:  1394.017 ms 
+FacilityLocationAkkaActorBenchmark   Harmonic Mean Time:  1392.536 ms 
+FacilityLocationAkkaActorBenchmark        Std. Dev Time:    66.396 ms 
+FacilityLocationAkkaActorBenchmark     Lower Confidence:  1356.309 ms 
+FacilityLocationAkkaActorBenchmark    Higher Confidence:  1434.784 ms 
+FacilityLocationAkkaActorBenchmark         Error Window:    39.238 ms (2.812 percent) 
+FacilityLocationAkkaActorBenchmark  Coeff. of Variation:     0.048 
+FacilityLocationAkkaActorBenchmark             Skewness:     1.181 
 
 ****************************************
 Core count: 64
@@ -316,44 +316,45 @@ Args:
                  O/S Arch = amd64      
 Execution - Iterations: 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-0:  2132.665 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-0:  2795.050 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-1:  1598.933 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-1:  1568.439 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-2:  1522.264 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-2:  1555.399 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-3:  1420.313 ms 
+FacilityLocationAkkaActorBenchmark          Iteration-3:  1501.816 ms 
   Num Facilities: 341, Num customers: 100000
-FacilityLocationAkkaActorBenchmark          Iteration-4:  1362.289 ms 
-[ERROR] [06/01/2017 21:48:04.696] [FacilityLocation-akka.actor.default-dispatcher-29] [akka://FacilityLocation/user/$Ld] null
-akka.actor.ActorInitializationException: exception during creation
-	at akka.actor.ActorInitializationException$.apply(Actor.scala:164)
-	at akka.actor.ActorCell.create(ActorCell.scala:596)
-	at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:456)
-	at akka.actor.ActorCell.systemInvoke(ActorCell.scala:478)
-	at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:263)
-	at akka.dispatch.Mailbox.run(Mailbox.scala:219)
-	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393)
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
-Caused by: java.lang.NullPointerException
-	at edu.rice.habanero.benchmarks.facloc.FacilityLocationAkkaActorBenchmark$QuadrantActor$$anon$2.accept(FacilityLocationAkkaActorBenchmark.scala:249)
-	at edu.rice.habanero.benchmarks.facloc.FacilityLocationAkkaActorBenchmark$QuadrantActor$$anon$2.accept(FacilityLocationAkkaActorBenchmark.scala:247)
-	at java.util.ArrayList.forEach(ArrayList.java:1249)
-	at edu.rice.habanero.benchmarks.facloc.FacilityLocationAkkaActorBenchmark$QuadrantActor.findCost(FacilityLocationAkkaActorBenchmark.scala:247)
-	at edu.rice.habanero.benchmarks.facloc.FacilityLocationAkkaActorBenchmark$QuadrantActor.edu$rice$habanero$benchmarks$facloc$FacilityLocationAkkaActorBenchmark$QuadrantActor$$addCustomer(FacilityLocationAkkaActorBenchmark.scala:239)
-	at edu.rice.habanero.benchmarks.facloc.FacilityLocationAkkaActorBenchmark$QuadrantActor$$anon$1.accept(FacilityLocationAkkaActorBenchmark.scala:130)
-	at edu.rice.habanero.benchmarks.facloc.FacilityLocationAkkaActorBenchmark$QuadrantActor$$anon$1.accept(FacilityLocationAkkaActorBenchmark.scala:127)
-	at java.util.ArrayList.forEach(ArrayList.java:1249)
-	at edu.rice.habanero.benchmarks.facloc.FacilityLocationAkkaActorBenchmark$QuadrantActor.<init>(FacilityLocationAkkaActorBenchmark.scala:127)
-	at edu.rice.habanero.benchmarks.facloc.FacilityLocationAkkaActorBenchmark$QuadrantActor$$anonfun$5.apply(FacilityLocationAkkaActorBenchmark.scala:296)
-	at edu.rice.habanero.benchmarks.facloc.FacilityLocationAkkaActorBenchmark$QuadrantActor$$anonfun$5.apply(FacilityLocationAkkaActorBenchmark.scala:296)
-	at akka.actor.TypedCreatorFunctionConsumer.produce(Props.scala:340)
-	at akka.actor.Props.newActor(Props.scala:249)
-	at akka.actor.ActorCell.newActor(ActorCell.scala:552)
-	at akka.actor.ActorCell.create(ActorCell.scala:578)
-	... 9 more
+FacilityLocationAkkaActorBenchmark          Iteration-4:  1447.434 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-5:  1348.948 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-6:  1557.282 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-7:  1506.271 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-8:  1439.600 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-9:  1719.741 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark         Iteration-10:  1478.868 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark         Iteration-11:  1500.139 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+FacilityLocationAkkaActorBenchmark            Best Time:  1348.948 ms 
+FacilityLocationAkkaActorBenchmark           Worst Time:  1719.741 ms 
+FacilityLocationAkkaActorBenchmark               Median:  1501.816 ms 
+FacilityLocationAkkaActorBenchmark     Arith. Mean Time:  1511.267 ms 
+FacilityLocationAkkaActorBenchmark       Geo. Mean Time:  1508.676 ms 
+FacilityLocationAkkaActorBenchmark   Harmonic Mean Time:  1506.125 ms 
+FacilityLocationAkkaActorBenchmark        Std. Dev Time:    89.260 ms 
+FacilityLocationAkkaActorBenchmark     Lower Confidence:  1458.518 ms 
+FacilityLocationAkkaActorBenchmark    Higher Confidence:  1564.016 ms 
+FacilityLocationAkkaActorBenchmark         Error Window:    52.749 ms (3.490 percent) 
+FacilityLocationAkkaActorBenchmark  Coeff. of Variation:     0.059 
+FacilityLocationAkkaActorBenchmark             Skewness:     0.631 
 
 ****************************************

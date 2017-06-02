@@ -1,0 +1,276 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ThroughputAkkaActorBenchmark
+Args: 
+   N (messages per actor) = 10000      
+           A (num actors) = 60         
+         C (num channels) = 1          
+       P (use priorities) = true       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ThroughputAkkaActorBenchmark          Iteration-0:   951.247 ms 
+ThroughputAkkaActorBenchmark          Iteration-1:   517.654 ms 
+ThroughputAkkaActorBenchmark          Iteration-2:   274.310 ms 
+ThroughputAkkaActorBenchmark          Iteration-3:   276.109 ms 
+ThroughputAkkaActorBenchmark          Iteration-4:   288.675 ms 
+ThroughputAkkaActorBenchmark          Iteration-5:   271.948 ms 
+ThroughputAkkaActorBenchmark          Iteration-6:   260.114 ms 
+ThroughputAkkaActorBenchmark          Iteration-7:   300.044 ms 
+ThroughputAkkaActorBenchmark          Iteration-8:   275.443 ms 
+ThroughputAkkaActorBenchmark          Iteration-9:   244.432 ms 
+ThroughputAkkaActorBenchmark         Iteration-10:   247.340 ms 
+ThroughputAkkaActorBenchmark         Iteration-11:   277.965 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+ThroughputAkkaActorBenchmark            Best Time:   244.432 ms 
+ThroughputAkkaActorBenchmark           Worst Time:   300.044 ms 
+ThroughputAkkaActorBenchmark               Median:   274.877 ms 
+ThroughputAkkaActorBenchmark     Arith. Mean Time:   271.638 ms 
+ThroughputAkkaActorBenchmark       Geo. Mean Time:   271.147 ms 
+ThroughputAkkaActorBenchmark   Harmonic Mean Time:   270.650 ms 
+ThroughputAkkaActorBenchmark        Std. Dev Time:    16.255 ms 
+ThroughputAkkaActorBenchmark     Lower Confidence:   261.563 ms 
+ThroughputAkkaActorBenchmark    Higher Confidence:   281.713 ms 
+ThroughputAkkaActorBenchmark         Error Window:    10.075 ms (3.709 percent) 
+ThroughputAkkaActorBenchmark  Coeff. of Variation:     0.060 
+ThroughputAkkaActorBenchmark             Skewness:    -0.200 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ThroughputAkkaActorBenchmark
+Args: 
+   N (messages per actor) = 10000      
+           A (num actors) = 60         
+         C (num channels) = 1          
+       P (use priorities) = true       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ThroughputAkkaActorBenchmark          Iteration-0:   825.540 ms 
+ThroughputAkkaActorBenchmark          Iteration-1:   337.879 ms 
+ThroughputAkkaActorBenchmark          Iteration-2:   387.914 ms 
+ThroughputAkkaActorBenchmark          Iteration-3:   192.729 ms 
+ThroughputAkkaActorBenchmark          Iteration-4:   400.280 ms 
+ThroughputAkkaActorBenchmark          Iteration-5:   334.490 ms 
+ThroughputAkkaActorBenchmark          Iteration-6:   177.745 ms 
+ThroughputAkkaActorBenchmark          Iteration-7:   151.371 ms 
+ThroughputAkkaActorBenchmark          Iteration-8:   614.286 ms 
+ThroughputAkkaActorBenchmark          Iteration-9:   211.648 ms 
+ThroughputAkkaActorBenchmark         Iteration-10:   160.976 ms 
+ThroughputAkkaActorBenchmark         Iteration-11:   161.334 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 4          
+ThroughputAkkaActorBenchmark            Best Time:   334.490 ms 
+ThroughputAkkaActorBenchmark           Worst Time:   400.280 ms 
+ThroughputAkkaActorBenchmark               Median:   362.897 ms 
+ThroughputAkkaActorBenchmark     Arith. Mean Time:   365.141 ms 
+ThroughputAkkaActorBenchmark       Geo. Mean Time:   363.966 ms 
+ThroughputAkkaActorBenchmark   Harmonic Mean Time:   362.798 ms 
+ThroughputAkkaActorBenchmark        Std. Dev Time:    29.309 ms 
+ThroughputAkkaActorBenchmark     Lower Confidence:   336.418 ms 
+ThroughputAkkaActorBenchmark    Higher Confidence:   393.864 ms 
+ThroughputAkkaActorBenchmark         Error Window:    28.723 ms (7.866 percent) 
+ThroughputAkkaActorBenchmark  Coeff. of Variation:     0.080 
+ThroughputAkkaActorBenchmark             Skewness:     0.081 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ThroughputAkkaActorBenchmark
+Args: 
+   N (messages per actor) = 10000      
+           A (num actors) = 60         
+         C (num channels) = 1          
+       P (use priorities) = true       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ThroughputAkkaActorBenchmark          Iteration-0:   683.386 ms 
+ThroughputAkkaActorBenchmark          Iteration-1:   319.250 ms 
+ThroughputAkkaActorBenchmark          Iteration-2:   905.983 ms 
+ThroughputAkkaActorBenchmark          Iteration-3:   575.566 ms 
+ThroughputAkkaActorBenchmark          Iteration-4:  1667.137 ms 
+ThroughputAkkaActorBenchmark          Iteration-5:  1680.132 ms 
+ThroughputAkkaActorBenchmark          Iteration-6:   790.526 ms 
+ThroughputAkkaActorBenchmark          Iteration-7:  1053.058 ms 
+ThroughputAkkaActorBenchmark          Iteration-8:  1134.591 ms 
+ThroughputAkkaActorBenchmark          Iteration-9:  1536.539 ms 
+ThroughputAkkaActorBenchmark         Iteration-10:  1152.682 ms 
+ThroughputAkkaActorBenchmark         Iteration-11:  1631.637 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 3          
+ThroughputAkkaActorBenchmark            Best Time:  1053.058 ms 
+ThroughputAkkaActorBenchmark           Worst Time:  1152.682 ms 
+ThroughputAkkaActorBenchmark               Median:  1134.591 ms 
+ThroughputAkkaActorBenchmark     Arith. Mean Time:  1113.443 ms 
+ThroughputAkkaActorBenchmark       Geo. Mean Time:  1112.586 ms 
+ThroughputAkkaActorBenchmark   Harmonic Mean Time:  1111.715 ms 
+ThroughputAkkaActorBenchmark        Std. Dev Time:    43.333 ms 
+ThroughputAkkaActorBenchmark     Lower Confidence:  1064.407 ms 
+ThroughputAkkaActorBenchmark    Higher Confidence:  1162.479 ms 
+ThroughputAkkaActorBenchmark         Error Window:    49.036 ms (4.404 percent) 
+ThroughputAkkaActorBenchmark  Coeff. of Variation:     0.039 
+ThroughputAkkaActorBenchmark             Skewness:    -0.924 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ThroughputAkkaActorBenchmark
+Args: 
+   N (messages per actor) = 10000      
+           A (num actors) = 60         
+         C (num channels) = 1          
+       P (use priorities) = true       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ThroughputAkkaActorBenchmark          Iteration-0:  1037.725 ms 
+ThroughputAkkaActorBenchmark          Iteration-1:  1827.551 ms 
+ThroughputAkkaActorBenchmark          Iteration-2:  3123.611 ms 
+ThroughputAkkaActorBenchmark          Iteration-3:  3259.404 ms 
+ThroughputAkkaActorBenchmark          Iteration-4:  2491.656 ms 
+ThroughputAkkaActorBenchmark          Iteration-5:  2797.530 ms 
+ThroughputAkkaActorBenchmark          Iteration-6:  2715.403 ms 
+ThroughputAkkaActorBenchmark          Iteration-7:  3277.533 ms 
+ThroughputAkkaActorBenchmark          Iteration-8:  1760.792 ms 
+ThroughputAkkaActorBenchmark          Iteration-9:  1883.142 ms 
+ThroughputAkkaActorBenchmark         Iteration-10:  2310.877 ms 
+ThroughputAkkaActorBenchmark         Iteration-11:  2590.579 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 5          
+ThroughputAkkaActorBenchmark            Best Time:  2310.877 ms 
+ThroughputAkkaActorBenchmark           Worst Time:  2797.530 ms 
+ThroughputAkkaActorBenchmark               Median:  2590.579 ms 
+ThroughputAkkaActorBenchmark     Arith. Mean Time:  2581.209 ms 
+ThroughputAkkaActorBenchmark       Geo. Mean Time:  2575.456 ms 
+ThroughputAkkaActorBenchmark   Harmonic Mean Time:  2569.614 ms 
+ThroughputAkkaActorBenchmark        Std. Dev Time:   170.874 ms 
+ThroughputAkkaActorBenchmark     Lower Confidence:  2431.431 ms 
+ThroughputAkkaActorBenchmark    Higher Confidence:  2730.987 ms 
+ThroughputAkkaActorBenchmark         Error Window:   149.778 ms (5.803 percent) 
+ThroughputAkkaActorBenchmark  Coeff. of Variation:     0.066 
+ThroughputAkkaActorBenchmark             Skewness:    -0.398 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ThroughputAkkaActorBenchmark
+Args: 
+   N (messages per actor) = 10000      
+           A (num actors) = 60         
+         C (num channels) = 1          
+       P (use priorities) = true       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ThroughputAkkaActorBenchmark          Iteration-0:  1680.452 ms 
+ThroughputAkkaActorBenchmark          Iteration-1:  3299.114 ms 
+ThroughputAkkaActorBenchmark          Iteration-2:  3278.889 ms 
+ThroughputAkkaActorBenchmark          Iteration-3:  3188.759 ms 
+ThroughputAkkaActorBenchmark          Iteration-4:  3095.028 ms 
+ThroughputAkkaActorBenchmark          Iteration-5:  3004.627 ms 
+ThroughputAkkaActorBenchmark          Iteration-6:  3302.932 ms 
+ThroughputAkkaActorBenchmark          Iteration-7:  3428.040 ms 
+ThroughputAkkaActorBenchmark          Iteration-8:  2398.436 ms 
+ThroughputAkkaActorBenchmark          Iteration-9:  3270.234 ms 
+ThroughputAkkaActorBenchmark         Iteration-10:  3268.255 ms 
+ThroughputAkkaActorBenchmark         Iteration-11:  3683.463 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+ThroughputAkkaActorBenchmark            Best Time:  3004.627 ms 
+ThroughputAkkaActorBenchmark           Worst Time:  3683.463 ms 
+ThroughputAkkaActorBenchmark               Median:  3274.562 ms 
+ThroughputAkkaActorBenchmark     Arith. Mean Time:  3281.934 ms 
+ThroughputAkkaActorBenchmark       Geo. Mean Time:  3277.402 ms 
+ThroughputAkkaActorBenchmark   Harmonic Mean Time:  3272.966 ms 
+ThroughputAkkaActorBenchmark        Std. Dev Time:   174.401 ms 
+ThroughputAkkaActorBenchmark     Lower Confidence:  3173.839 ms 
+ThroughputAkkaActorBenchmark    Higher Confidence:  3390.029 ms 
+ThroughputAkkaActorBenchmark         Error Window:   108.095 ms (3.294 percent) 
+ThroughputAkkaActorBenchmark  Coeff. of Variation:     0.053 
+ThroughputAkkaActorBenchmark             Skewness:     0.821 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ThroughputAkkaActorBenchmark
+Args: 
+   N (messages per actor) = 10000      
+           A (num actors) = 60         
+         C (num channels) = 1          
+       P (use priorities) = true       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ThroughputAkkaActorBenchmark          Iteration-0:  2587.743 ms 
+ThroughputAkkaActorBenchmark          Iteration-1:  1895.194 ms 
+ThroughputAkkaActorBenchmark          Iteration-2:  1908.872 ms 
+ThroughputAkkaActorBenchmark          Iteration-3:  2109.940 ms 
+ThroughputAkkaActorBenchmark          Iteration-4:  1973.711 ms 
+ThroughputAkkaActorBenchmark          Iteration-5:  2114.389 ms 
+ThroughputAkkaActorBenchmark          Iteration-6:  1924.258 ms 
+ThroughputAkkaActorBenchmark          Iteration-7:  2168.909 ms 
+ThroughputAkkaActorBenchmark          Iteration-8:  1915.813 ms 
+ThroughputAkkaActorBenchmark          Iteration-9:  2058.245 ms 
+ThroughputAkkaActorBenchmark         Iteration-10:  2238.424 ms 
+ThroughputAkkaActorBenchmark         Iteration-11:  2024.073 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+ThroughputAkkaActorBenchmark            Best Time:  1895.194 ms 
+ThroughputAkkaActorBenchmark           Worst Time:  2238.424 ms 
+ThroughputAkkaActorBenchmark               Median:  2024.073 ms 
+ThroughputAkkaActorBenchmark     Arith. Mean Time:  2030.166 ms 
+ThroughputAkkaActorBenchmark       Geo. Mean Time:  2027.128 ms 
+ThroughputAkkaActorBenchmark   Harmonic Mean Time:  2024.129 ms 
+ThroughputAkkaActorBenchmark        Std. Dev Time:   111.728 ms 
+ThroughputAkkaActorBenchmark     Lower Confidence:  1964.140 ms 
+ThroughputAkkaActorBenchmark    Higher Confidence:  2096.193 ms 
+ThroughputAkkaActorBenchmark         Error Window:    66.027 ms (3.252 percent) 
+ThroughputAkkaActorBenchmark  Coeff. of Variation:     0.055 
+ThroughputAkkaActorBenchmark             Skewness:     0.410 
+
+****************************************

@@ -1,0 +1,348 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: MatMulAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+              Data length = 1024       
+                Threshold = 16384      
+               Priorities = 10         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+MatMulAkkaActorBenchmark          Iteration-0:  4085.926 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-1:  3673.951 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-2:  3735.449 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-3:  3657.927 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-4:  3641.243 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-5:  3693.284 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-6:  3680.185 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-7:  3660.109 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-8:  3670.319 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-9:  3633.783 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark         Iteration-10:  3639.880 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark         Iteration-11:  3690.739 ms 
+             Result valid = true       
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 12         
+MatMulAkkaActorBenchmark            Best Time:  3633.783 ms 
+MatMulAkkaActorBenchmark           Worst Time:  4085.926 ms 
+MatMulAkkaActorBenchmark               Median:  3672.135 ms 
+MatMulAkkaActorBenchmark     Arith. Mean Time:  3705.233 ms 
+MatMulAkkaActorBenchmark       Geo. Mean Time:  3703.459 ms 
+MatMulAkkaActorBenchmark   Harmonic Mean Time:  3701.782 ms 
+MatMulAkkaActorBenchmark        Std. Dev Time:   117.885 ms 
+MatMulAkkaActorBenchmark     Lower Confidence:  3638.533 ms 
+MatMulAkkaActorBenchmark    Higher Confidence:  3771.933 ms 
+MatMulAkkaActorBenchmark         Error Window:    66.700 ms (1.800 percent) 
+MatMulAkkaActorBenchmark  Coeff. of Variation:     0.032 
+MatMulAkkaActorBenchmark             Skewness:     2.997 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: MatMulAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+              Data length = 1024       
+                Threshold = 16384      
+               Priorities = 10         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+MatMulAkkaActorBenchmark          Iteration-0:  2423.544 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-1:  1983.887 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-2:  2147.210 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-3:  2082.952 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-4:  2157.776 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-5:  1929.527 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-6:  1936.055 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-7:  1913.268 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-8:  1916.291 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-9:  1891.403 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark         Iteration-10:  1943.482 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark         Iteration-11:  1936.258 ms 
+             Result valid = true       
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+MatMulAkkaActorBenchmark            Best Time:  1891.403 ms 
+MatMulAkkaActorBenchmark           Worst Time:  2157.776 ms 
+MatMulAkkaActorBenchmark               Median:  1936.258 ms 
+MatMulAkkaActorBenchmark     Arith. Mean Time:  1985.283 ms 
+MatMulAkkaActorBenchmark       Geo. Mean Time:  1983.191 ms 
+MatMulAkkaActorBenchmark   Harmonic Mean Time:  1981.160 ms 
+MatMulAkkaActorBenchmark        Std. Dev Time:    92.421 ms 
+MatMulAkkaActorBenchmark     Lower Confidence:  1930.665 ms 
+MatMulAkkaActorBenchmark    Higher Confidence:  2039.900 ms 
+MatMulAkkaActorBenchmark         Error Window:    54.617 ms (2.751 percent) 
+MatMulAkkaActorBenchmark  Coeff. of Variation:     0.047 
+MatMulAkkaActorBenchmark             Skewness:     1.051 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: MatMulAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+              Data length = 1024       
+                Threshold = 16384      
+               Priorities = 10         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+MatMulAkkaActorBenchmark          Iteration-0:  1984.732 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-1:  1587.551 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-2:  1571.595 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-3:  1576.844 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-4:  1569.821 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-5:  1555.597 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-6:  1570.080 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-7:  1559.447 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-8:  1558.175 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-9:  1566.232 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark         Iteration-10:  1559.185 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark         Iteration-11:  1566.604 ms 
+             Result valid = true       
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+MatMulAkkaActorBenchmark            Best Time:  1555.597 ms 
+MatMulAkkaActorBenchmark           Worst Time:  1587.551 ms 
+MatMulAkkaActorBenchmark               Median:  1566.604 ms 
+MatMulAkkaActorBenchmark     Arith. Mean Time:  1567.376 ms 
+MatMulAkkaActorBenchmark       Geo. Mean Time:  1567.350 ms 
+MatMulAkkaActorBenchmark   Harmonic Mean Time:  1567.325 ms 
+MatMulAkkaActorBenchmark        Std. Dev Time:     8.960 ms 
+MatMulAkkaActorBenchmark     Lower Confidence:  1562.081 ms 
+MatMulAkkaActorBenchmark    Higher Confidence:  1572.670 ms 
+MatMulAkkaActorBenchmark         Error Window:     5.295 ms (0.338 percent) 
+MatMulAkkaActorBenchmark  Coeff. of Variation:     0.006 
+MatMulAkkaActorBenchmark             Skewness:     0.794 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: MatMulAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+              Data length = 1024       
+                Threshold = 16384      
+               Priorities = 10         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+MatMulAkkaActorBenchmark          Iteration-0:  1961.084 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-1:  1581.499 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-2:  1565.848 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-3:  1572.028 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-4:  1563.616 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-5:  1566.073 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-6:  1563.586 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-7:  1567.249 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-8:  1570.786 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-9:  1570.711 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark         Iteration-10:  1558.404 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark         Iteration-11:  1561.687 ms 
+             Result valid = true       
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+MatMulAkkaActorBenchmark            Best Time:  1558.404 ms 
+MatMulAkkaActorBenchmark           Worst Time:  1581.499 ms 
+MatMulAkkaActorBenchmark               Median:  1566.073 ms 
+MatMulAkkaActorBenchmark     Arith. Mean Time:  1567.408 ms 
+MatMulAkkaActorBenchmark       Geo. Mean Time:  1567.397 ms 
+MatMulAkkaActorBenchmark   Harmonic Mean Time:  1567.385 ms 
+MatMulAkkaActorBenchmark        Std. Dev Time:     5.949 ms 
+MatMulAkkaActorBenchmark     Lower Confidence:  1563.893 ms 
+MatMulAkkaActorBenchmark    Higher Confidence:  1570.923 ms 
+MatMulAkkaActorBenchmark         Error Window:     3.515 ms (0.224 percent) 
+MatMulAkkaActorBenchmark  Coeff. of Variation:     0.004 
+MatMulAkkaActorBenchmark             Skewness:     0.920 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: MatMulAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+              Data length = 1024       
+                Threshold = 16384      
+               Priorities = 10         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+MatMulAkkaActorBenchmark          Iteration-0:  1967.200 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-1:  1577.154 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-2:  1583.743 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-3:  1575.241 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-4:  1567.341 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-5:  1574.163 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-6:  1571.487 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-7:  1568.561 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-8:  1589.707 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-9:  1575.932 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark         Iteration-10:  1564.578 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark         Iteration-11:  1576.341 ms 
+             Result valid = true       
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+MatMulAkkaActorBenchmark            Best Time:  1564.578 ms 
+MatMulAkkaActorBenchmark           Worst Time:  1589.707 ms 
+MatMulAkkaActorBenchmark               Median:  1575.241 ms 
+MatMulAkkaActorBenchmark     Arith. Mean Time:  1574.931 ms 
+MatMulAkkaActorBenchmark       Geo. Mean Time:  1574.916 ms 
+MatMulAkkaActorBenchmark   Harmonic Mean Time:  1574.901 ms 
+MatMulAkkaActorBenchmark        Std. Dev Time:     6.888 ms 
+MatMulAkkaActorBenchmark     Lower Confidence:  1570.861 ms 
+MatMulAkkaActorBenchmark    Higher Confidence:  1579.002 ms 
+MatMulAkkaActorBenchmark         Error Window:     4.070 ms (0.258 percent) 
+MatMulAkkaActorBenchmark  Coeff. of Variation:     0.004 
+MatMulAkkaActorBenchmark             Skewness:     0.636 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: MatMulAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+              Data length = 1024       
+                Threshold = 16384      
+               Priorities = 10         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+MatMulAkkaActorBenchmark          Iteration-0:  2019.831 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-1:  1589.049 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-2:  1567.945 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-3:  1576.865 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-4:  1566.192 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-5:  1576.054 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-6:  1562.892 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-7:  1569.708 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-8:  1577.986 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark          Iteration-9:  1577.330 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark         Iteration-10:  1565.604 ms 
+             Result valid = true       
+MatMulAkkaActorBenchmark         Iteration-11:  1570.729 ms 
+             Result valid = true       
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+MatMulAkkaActorBenchmark            Best Time:  1562.892 ms 
+MatMulAkkaActorBenchmark           Worst Time:  1589.049 ms 
+MatMulAkkaActorBenchmark               Median:  1570.729 ms 
+MatMulAkkaActorBenchmark     Arith. Mean Time:  1572.759 ms 
+MatMulAkkaActorBenchmark       Geo. Mean Time:  1572.743 ms 
+MatMulAkkaActorBenchmark   Harmonic Mean Time:  1572.727 ms 
+MatMulAkkaActorBenchmark        Std. Dev Time:     7.196 ms 
+MatMulAkkaActorBenchmark     Lower Confidence:  1568.507 ms 
+MatMulAkkaActorBenchmark    Higher Confidence:  1577.012 ms 
+MatMulAkkaActorBenchmark         Error Window:     4.253 ms (0.270 percent) 
+MatMulAkkaActorBenchmark  Coeff. of Variation:     0.005 
+MatMulAkkaActorBenchmark             Skewness:     0.780 
+
+****************************************

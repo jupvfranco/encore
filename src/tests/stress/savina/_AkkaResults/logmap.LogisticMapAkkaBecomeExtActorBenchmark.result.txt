@@ -1,0 +1,118 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: LogisticMapAkkaBecomeExtActorBenchmark
+Args: 
+                num terms = 25000      
+               num series = 10         
+               start rate = 3.46       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+Terms sum: 6.38783514460412
+LogisticMapAkkaBecomeExtActorBenchmark          Iteration-0:  1724.985 ms 
+Terms sum: 6.38783514460412
+LogisticMapAkkaBecomeExtActorBenchmark          Iteration-1:  1031.971 ms 
+Terms sum: 6.38783514460412
+LogisticMapAkkaBecomeExtActorBenchmark          Iteration-2:   909.085 ms 
+Terms sum: 6.38783514460412
+LogisticMapAkkaBecomeExtActorBenchmark          Iteration-3:   843.604 ms 
+Terms sum: 6.387835144604121
+LogisticMapAkkaBecomeExtActorBenchmark          Iteration-4:   723.412 ms 
+Terms sum: 6.387835144604121
+LogisticMapAkkaBecomeExtActorBenchmark          Iteration-5:   748.116 ms 
+Terms sum: 6.387835144604121
+LogisticMapAkkaBecomeExtActorBenchmark          Iteration-6:   719.940 ms 
+Terms sum: 6.387835144604121
+LogisticMapAkkaBecomeExtActorBenchmark          Iteration-7:   821.008 ms 
+Terms sum: 6.38783514460412
+LogisticMapAkkaBecomeExtActorBenchmark          Iteration-8:   747.059 ms 
+Terms sum: 6.387835144604121
+LogisticMapAkkaBecomeExtActorBenchmark          Iteration-9:   808.079 ms 
+Terms sum: 6.387835144604121
+LogisticMapAkkaBecomeExtActorBenchmark         Iteration-10:   809.451 ms 
+Terms sum: 6.38783514460412
+LogisticMapAkkaBecomeExtActorBenchmark         Iteration-11:   808.480 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+LogisticMapAkkaBecomeExtActorBenchmark            Best Time:   719.940 ms 
+LogisticMapAkkaBecomeExtActorBenchmark           Worst Time:   909.085 ms 
+LogisticMapAkkaBecomeExtActorBenchmark               Median:   808.280 ms 
+LogisticMapAkkaBecomeExtActorBenchmark     Arith. Mean Time:   793.823 ms 
+LogisticMapAkkaBecomeExtActorBenchmark       Geo. Mean Time:   791.846 ms 
+LogisticMapAkkaBecomeExtActorBenchmark   Harmonic Mean Time:   789.900 ms 
+LogisticMapAkkaBecomeExtActorBenchmark        Std. Dev Time:    56.442 ms 
+LogisticMapAkkaBecomeExtActorBenchmark     Lower Confidence:   758.840 ms 
+LogisticMapAkkaBecomeExtActorBenchmark    Higher Confidence:   828.807 ms 
+LogisticMapAkkaBecomeExtActorBenchmark         Error Window:    34.983 ms (4.407 percent) 
+LogisticMapAkkaBecomeExtActorBenchmark  Coeff. of Variation:     0.071 
+LogisticMapAkkaBecomeExtActorBenchmark             Skewness:     0.454 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: LogisticMapAkkaBecomeExtActorBenchmark
+Args: 
+                num terms = 25000      
+               num series = 10         
+               start rate = 3.46       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+Terms sum: 6.38783514460412
+LogisticMapAkkaBecomeExtActorBenchmark          Iteration-0:  1315.474 ms 
+Terms sum: 6.387835144604121
+LogisticMapAkkaBecomeExtActorBenchmark          Iteration-1:   718.218 ms 
+Terms sum: 6.387835144604121
+LogisticMapAkkaBecomeExtActorBenchmark          Iteration-2:   569.394 ms 
+Terms sum: 6.387835144604121
+LogisticMapAkkaBecomeExtActorBenchmark          Iteration-3:   539.570 ms 
+Terms sum: 6.387835144604121
+LogisticMapAkkaBecomeExtActorBenchmark          Iteration-4:   543.107 ms 
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: LogisticMapAkkaBecomeExtActorBenchmark
+Args: 
+                num terms = 25000      
+               num series = 10         
+               start rate = 3.46       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+Terms sum: 6.387835144604121
+LogisticMapAkkaBecomeExtActorBenchmark          Iteration-0:  1177.274 ms 
+****************************************
+Core count: 16
+****************************************
+Core count: 32
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: LogisticMapAkkaBecomeExtActorBenchmark
+Args: 
+                num terms = 25000      
+               num series = 10         
+               start rate = 3.46       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+****************************************
