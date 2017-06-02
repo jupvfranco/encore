@@ -1,0 +1,270 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ApspAkkaActorBenchmark
+Args: 
+          N (num workers) = 300        
+           B (block size) = 50         
+      W (max edge weight) = 100        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ApspAkkaActorBenchmark          Iteration-0:  2203.754 ms 
+ApspAkkaActorBenchmark          Iteration-1:  1764.654 ms 
+ApspAkkaActorBenchmark          Iteration-2:  1508.485 ms 
+ApspAkkaActorBenchmark          Iteration-3:  1479.541 ms 
+ApspAkkaActorBenchmark          Iteration-4:  1474.177 ms 
+ApspAkkaActorBenchmark          Iteration-5:  1460.702 ms 
+ApspAkkaActorBenchmark          Iteration-6:  1458.047 ms 
+ApspAkkaActorBenchmark          Iteration-7:  1458.687 ms 
+ApspAkkaActorBenchmark          Iteration-8:  1444.206 ms 
+ApspAkkaActorBenchmark          Iteration-9:  1470.946 ms 
+ApspAkkaActorBenchmark         Iteration-10:  1452.228 ms 
+ApspAkkaActorBenchmark         Iteration-11:  1508.465 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+ApspAkkaActorBenchmark            Best Time:  1444.206 ms 
+ApspAkkaActorBenchmark           Worst Time:  1764.654 ms 
+ApspAkkaActorBenchmark               Median:  1470.946 ms 
+ApspAkkaActorBenchmark     Arith. Mean Time:  1498.194 ms 
+ApspAkkaActorBenchmark       Geo. Mean Time:  1495.913 ms 
+ApspAkkaActorBenchmark   Harmonic Mean Time:  1493.833 ms 
+ApspAkkaActorBenchmark        Std. Dev Time:    86.595 ms 
+ApspAkkaActorBenchmark     Lower Confidence:  1447.020 ms 
+ApspAkkaActorBenchmark    Higher Confidence:  1549.369 ms 
+ApspAkkaActorBenchmark         Error Window:    51.174 ms (3.416 percent) 
+ApspAkkaActorBenchmark  Coeff. of Variation:     0.058 
+ApspAkkaActorBenchmark             Skewness:     2.841 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ApspAkkaActorBenchmark
+Args: 
+          N (num workers) = 300        
+           B (block size) = 50         
+      W (max edge weight) = 100        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ApspAkkaActorBenchmark          Iteration-0:  1411.682 ms 
+ApspAkkaActorBenchmark          Iteration-1:   964.316 ms 
+ApspAkkaActorBenchmark          Iteration-2:   830.627 ms 
+ApspAkkaActorBenchmark          Iteration-3:   855.914 ms 
+ApspAkkaActorBenchmark          Iteration-4:   834.360 ms 
+ApspAkkaActorBenchmark          Iteration-5:   793.951 ms 
+ApspAkkaActorBenchmark          Iteration-6:   867.664 ms 
+ApspAkkaActorBenchmark          Iteration-7:   779.175 ms 
+ApspAkkaActorBenchmark          Iteration-8:   829.499 ms 
+ApspAkkaActorBenchmark          Iteration-9:   808.931 ms 
+ApspAkkaActorBenchmark         Iteration-10:   804.469 ms 
+ApspAkkaActorBenchmark         Iteration-11:   786.936 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+ApspAkkaActorBenchmark            Best Time:   779.175 ms 
+ApspAkkaActorBenchmark           Worst Time:   964.316 ms 
+ApspAkkaActorBenchmark               Median:   829.499 ms 
+ApspAkkaActorBenchmark     Arith. Mean Time:   832.349 ms 
+ApspAkkaActorBenchmark       Geo. Mean Time:   830.957 ms 
+ApspAkkaActorBenchmark   Harmonic Mean Time:   829.639 ms 
+ApspAkkaActorBenchmark        Std. Dev Time:    49.472 ms 
+ApspAkkaActorBenchmark     Lower Confidence:   803.113 ms 
+ApspAkkaActorBenchmark    Higher Confidence:   861.586 ms 
+ApspAkkaActorBenchmark         Error Window:    29.236 ms (3.513 percent) 
+ApspAkkaActorBenchmark  Coeff. of Variation:     0.059 
+ApspAkkaActorBenchmark             Skewness:     1.668 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ApspAkkaActorBenchmark
+Args: 
+          N (num workers) = 300        
+           B (block size) = 50         
+      W (max edge weight) = 100        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ApspAkkaActorBenchmark          Iteration-0:  1445.586 ms 
+ApspAkkaActorBenchmark          Iteration-1:   754.062 ms 
+ApspAkkaActorBenchmark          Iteration-2:   641.674 ms 
+ApspAkkaActorBenchmark          Iteration-3:   582.596 ms 
+ApspAkkaActorBenchmark          Iteration-4:   662.145 ms 
+ApspAkkaActorBenchmark          Iteration-5:   588.351 ms 
+ApspAkkaActorBenchmark          Iteration-6:   521.556 ms 
+ApspAkkaActorBenchmark          Iteration-7:   569.549 ms 
+ApspAkkaActorBenchmark          Iteration-8:   501.539 ms 
+ApspAkkaActorBenchmark          Iteration-9:   569.934 ms 
+ApspAkkaActorBenchmark         Iteration-10:   597.582 ms 
+ApspAkkaActorBenchmark         Iteration-11:   657.538 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+ApspAkkaActorBenchmark            Best Time:   501.539 ms 
+ApspAkkaActorBenchmark           Worst Time:   662.145 ms 
+ApspAkkaActorBenchmark               Median:   585.474 ms 
+ApspAkkaActorBenchmark     Arith. Mean Time:   589.246 ms 
+ApspAkkaActorBenchmark       Geo. Mean Time:   587.023 ms 
+ApspAkkaActorBenchmark   Harmonic Mean Time:   584.775 ms 
+ApspAkkaActorBenchmark        Std. Dev Time:    50.869 ms 
+ApspAkkaActorBenchmark     Lower Confidence:   557.717 ms 
+ApspAkkaActorBenchmark    Higher Confidence:   620.776 ms 
+ApspAkkaActorBenchmark         Error Window:    31.529 ms (5.351 percent) 
+ApspAkkaActorBenchmark  Coeff. of Variation:     0.086 
+ApspAkkaActorBenchmark             Skewness:    -0.126 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ApspAkkaActorBenchmark
+Args: 
+          N (num workers) = 300        
+           B (block size) = 50         
+      W (max edge weight) = 100        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ApspAkkaActorBenchmark          Iteration-0:  1467.116 ms 
+ApspAkkaActorBenchmark          Iteration-1:  1146.470 ms 
+ApspAkkaActorBenchmark          Iteration-2:   587.505 ms 
+ApspAkkaActorBenchmark          Iteration-3:   710.320 ms 
+ApspAkkaActorBenchmark          Iteration-4:   444.247 ms 
+ApspAkkaActorBenchmark          Iteration-5:   530.481 ms 
+ApspAkkaActorBenchmark          Iteration-6:   538.503 ms 
+ApspAkkaActorBenchmark          Iteration-7:   630.172 ms 
+ApspAkkaActorBenchmark          Iteration-8:   330.391 ms 
+ApspAkkaActorBenchmark          Iteration-9:   718.130 ms 
+ApspAkkaActorBenchmark         Iteration-10:   610.867 ms 
+ApspAkkaActorBenchmark         Iteration-11:   518.975 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 8          
+ApspAkkaActorBenchmark            Best Time:   518.975 ms 
+ApspAkkaActorBenchmark           Worst Time:   718.130 ms 
+ApspAkkaActorBenchmark               Median:   599.186 ms 
+ApspAkkaActorBenchmark     Arith. Mean Time:   605.619 ms 
+ApspAkkaActorBenchmark       Geo. Mean Time:   601.360 ms 
+ApspAkkaActorBenchmark   Harmonic Mean Time:   597.225 ms 
+ApspAkkaActorBenchmark        Std. Dev Time:    72.661 ms 
+ApspAkkaActorBenchmark     Lower Confidence:   555.268 ms 
+ApspAkkaActorBenchmark    Higher Confidence:   655.971 ms 
+ApspAkkaActorBenchmark         Error Window:    50.351 ms (8.314 percent) 
+ApspAkkaActorBenchmark  Coeff. of Variation:     0.120 
+ApspAkkaActorBenchmark             Skewness:     0.448 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ApspAkkaActorBenchmark
+Args: 
+          N (num workers) = 300        
+           B (block size) = 50         
+      W (max edge weight) = 100        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ApspAkkaActorBenchmark          Iteration-0:  1743.648 ms 
+ApspAkkaActorBenchmark          Iteration-1:   807.346 ms 
+ApspAkkaActorBenchmark          Iteration-2:   601.477 ms 
+ApspAkkaActorBenchmark          Iteration-3:   567.772 ms 
+ApspAkkaActorBenchmark          Iteration-4:   659.303 ms 
+ApspAkkaActorBenchmark          Iteration-5:   613.105 ms 
+ApspAkkaActorBenchmark          Iteration-6:   534.447 ms 
+ApspAkkaActorBenchmark          Iteration-7:   547.664 ms 
+ApspAkkaActorBenchmark          Iteration-8:   463.800 ms 
+ApspAkkaActorBenchmark          Iteration-9:   520.112 ms 
+ApspAkkaActorBenchmark         Iteration-10:   529.795 ms 
+ApspAkkaActorBenchmark         Iteration-11:   452.204 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 9          
+ApspAkkaActorBenchmark            Best Time:   463.800 ms 
+ApspAkkaActorBenchmark           Worst Time:   659.303 ms 
+ApspAkkaActorBenchmark               Median:   547.664 ms 
+ApspAkkaActorBenchmark     Arith. Mean Time:   559.719 ms 
+ApspAkkaActorBenchmark       Geo. Mean Time:   557.039 ms 
+ApspAkkaActorBenchmark   Harmonic Mean Time:   554.359 ms 
+ApspAkkaActorBenchmark        Std. Dev Time:    54.797 ms 
+ApspAkkaActorBenchmark     Lower Confidence:   523.919 ms 
+ApspAkkaActorBenchmark    Higher Confidence:   595.520 ms 
+ApspAkkaActorBenchmark         Error Window:    35.801 ms (6.396 percent) 
+ApspAkkaActorBenchmark  Coeff. of Variation:     0.098 
+ApspAkkaActorBenchmark             Skewness:     0.170 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ApspAkkaActorBenchmark
+Args: 
+          N (num workers) = 300        
+           B (block size) = 50         
+      W (max edge weight) = 100        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ApspAkkaActorBenchmark          Iteration-0:  1913.577 ms 
+ApspAkkaActorBenchmark          Iteration-1:   780.224 ms 
+ApspAkkaActorBenchmark          Iteration-2:   597.090 ms 
+ApspAkkaActorBenchmark          Iteration-3:   488.880 ms 
+ApspAkkaActorBenchmark          Iteration-4:   550.558 ms 
+ApspAkkaActorBenchmark          Iteration-5:   919.926 ms 
+ApspAkkaActorBenchmark          Iteration-6:   505.481 ms 
+ApspAkkaActorBenchmark          Iteration-7:   591.667 ms 
+ApspAkkaActorBenchmark          Iteration-8:   675.687 ms 
+ApspAkkaActorBenchmark          Iteration-9:   587.570 ms 
+ApspAkkaActorBenchmark         Iteration-10:   572.089 ms 
+ApspAkkaActorBenchmark         Iteration-11:   480.482 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 9          
+ApspAkkaActorBenchmark            Best Time:   480.482 ms 
+ApspAkkaActorBenchmark           Worst Time:   675.687 ms 
+ApspAkkaActorBenchmark               Median:   572.089 ms 
+ApspAkkaActorBenchmark     Arith. Mean Time:   561.056 ms 
+ApspAkkaActorBenchmark       Geo. Mean Time:   558.009 ms 
+ApspAkkaActorBenchmark   Harmonic Mean Time:   555.001 ms 
+ApspAkkaActorBenchmark        Std. Dev Time:    58.785 ms 
+ApspAkkaActorBenchmark     Lower Confidence:   522.650 ms 
+ApspAkkaActorBenchmark    Higher Confidence:   599.462 ms 
+ApspAkkaActorBenchmark         Error Window:    38.406 ms (6.845 percent) 
+ApspAkkaActorBenchmark  Coeff. of Variation:     0.105 
+ApspAkkaActorBenchmark             Skewness:     0.326 
+
+****************************************

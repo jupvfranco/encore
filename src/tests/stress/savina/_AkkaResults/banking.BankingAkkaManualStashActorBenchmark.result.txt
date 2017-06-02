@@ -1,0 +1,270 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BankingAkkaManualStashActorBenchmark
+Args: 
+         A (num accounts) = 1000       
+     N (num transactions) = 50000      
+          Initial Balance = 3.595386269724631E300 
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+BankingAkkaManualStashActorBenchmark          Iteration-0:  1041.068 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-1:   622.028 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-2:   297.313 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-3:   287.042 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-4:   241.619 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-5:   338.835 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-6:   201.300 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-7:   248.009 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-8:   195.843 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-9:   259.889 ms 
+BankingAkkaManualStashActorBenchmark         Iteration-10:   192.692 ms 
+BankingAkkaManualStashActorBenchmark         Iteration-11:   234.995 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 6          
+BankingAkkaManualStashActorBenchmark            Best Time:   234.995 ms 
+BankingAkkaManualStashActorBenchmark           Worst Time:   297.313 ms 
+BankingAkkaManualStashActorBenchmark               Median:   253.949 ms 
+BankingAkkaManualStashActorBenchmark     Arith. Mean Time:   261.478 ms 
+BankingAkkaManualStashActorBenchmark       Geo. Mean Time:   260.476 ms 
+BankingAkkaManualStashActorBenchmark   Harmonic Mean Time:   259.501 ms 
+BankingAkkaManualStashActorBenchmark        Std. Dev Time:    23.157 ms 
+BankingAkkaManualStashActorBenchmark     Lower Confidence:   242.949 ms 
+BankingAkkaManualStashActorBenchmark    Higher Confidence:   280.007 ms 
+BankingAkkaManualStashActorBenchmark         Error Window:    18.529 ms (7.086 percent) 
+BankingAkkaManualStashActorBenchmark  Coeff. of Variation:     0.089 
+BankingAkkaManualStashActorBenchmark             Skewness:     0.546 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BankingAkkaManualStashActorBenchmark
+Args: 
+         A (num accounts) = 1000       
+     N (num transactions) = 50000      
+          Initial Balance = 3.595386269724631E300 
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+BankingAkkaManualStashActorBenchmark          Iteration-0:   949.100 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-1:   399.365 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-2:   237.006 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-3:   187.267 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-4:   142.769 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-5:   155.920 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-6:   181.898 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-7:   177.247 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-8:   164.065 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-9:   165.074 ms 
+BankingAkkaManualStashActorBenchmark         Iteration-10:   134.544 ms 
+BankingAkkaManualStashActorBenchmark         Iteration-11:   147.899 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 8          
+BankingAkkaManualStashActorBenchmark            Best Time:   142.769 ms 
+BankingAkkaManualStashActorBenchmark           Worst Time:   187.267 ms 
+BankingAkkaManualStashActorBenchmark               Median:   164.570 ms 
+BankingAkkaManualStashActorBenchmark     Arith. Mean Time:   165.267 ms 
+BankingAkkaManualStashActorBenchmark       Geo. Mean Time:   164.582 ms 
+BankingAkkaManualStashActorBenchmark   Harmonic Mean Time:   163.895 ms 
+BankingAkkaManualStashActorBenchmark        Std. Dev Time:    15.003 ms 
+BankingAkkaManualStashActorBenchmark     Lower Confidence:   154.871 ms 
+BankingAkkaManualStashActorBenchmark    Higher Confidence:   175.664 ms 
+BankingAkkaManualStashActorBenchmark         Error Window:    10.397 ms (6.291 percent) 
+BankingAkkaManualStashActorBenchmark  Coeff. of Variation:     0.091 
+BankingAkkaManualStashActorBenchmark             Skewness:    -0.020 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BankingAkkaManualStashActorBenchmark
+Args: 
+         A (num accounts) = 1000       
+     N (num transactions) = 50000      
+          Initial Balance = 3.595386269724631E300 
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+BankingAkkaManualStashActorBenchmark          Iteration-0:   826.174 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-1:   334.778 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-2:   206.893 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-3:   224.964 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-4:   145.155 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-5:   140.788 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-6:   146.467 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-7:   166.501 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-8:   141.827 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-9:   131.231 ms 
+BankingAkkaManualStashActorBenchmark         Iteration-10:   127.626 ms 
+BankingAkkaManualStashActorBenchmark         Iteration-11:   136.664 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 8          
+BankingAkkaManualStashActorBenchmark            Best Time:   127.626 ms 
+BankingAkkaManualStashActorBenchmark           Worst Time:   166.501 ms 
+BankingAkkaManualStashActorBenchmark               Median:   141.308 ms 
+BankingAkkaManualStashActorBenchmark     Arith. Mean Time:   142.032 ms 
+BankingAkkaManualStashActorBenchmark       Geo. Mean Time:   141.618 ms 
+BankingAkkaManualStashActorBenchmark   Harmonic Mean Time:   141.220 ms 
+BankingAkkaManualStashActorBenchmark        Std. Dev Time:    11.084 ms 
+BankingAkkaManualStashActorBenchmark     Lower Confidence:   134.352 ms 
+BankingAkkaManualStashActorBenchmark    Higher Confidence:   149.713 ms 
+BankingAkkaManualStashActorBenchmark         Error Window:     7.681 ms (5.408 percent) 
+BankingAkkaManualStashActorBenchmark  Coeff. of Variation:     0.078 
+BankingAkkaManualStashActorBenchmark             Skewness:     1.087 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BankingAkkaManualStashActorBenchmark
+Args: 
+         A (num accounts) = 1000       
+     N (num transactions) = 50000      
+          Initial Balance = 3.595386269724631E300 
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+BankingAkkaManualStashActorBenchmark          Iteration-0:   982.301 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-1:   236.455 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-2:   221.757 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-3:   162.547 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-4:   147.598 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-5:   210.015 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-6:   169.330 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-7:   161.079 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-8:   201.906 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-9:   193.831 ms 
+BankingAkkaManualStashActorBenchmark         Iteration-10:   188.688 ms 
+BankingAkkaManualStashActorBenchmark         Iteration-11:   194.328 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 9          
+BankingAkkaManualStashActorBenchmark            Best Time:   161.079 ms 
+BankingAkkaManualStashActorBenchmark           Worst Time:   221.757 ms 
+BankingAkkaManualStashActorBenchmark               Median:   193.831 ms 
+BankingAkkaManualStashActorBenchmark     Arith. Mean Time:   189.276 ms 
+BankingAkkaManualStashActorBenchmark       Geo. Mean Time:   188.208 ms 
+BankingAkkaManualStashActorBenchmark   Harmonic Mean Time:   187.132 ms 
+BankingAkkaManualStashActorBenchmark        Std. Dev Time:    19.996 ms 
+BankingAkkaManualStashActorBenchmark     Lower Confidence:   176.212 ms 
+BankingAkkaManualStashActorBenchmark    Higher Confidence:   202.340 ms 
+BankingAkkaManualStashActorBenchmark         Error Window:    13.064 ms (6.902 percent) 
+BankingAkkaManualStashActorBenchmark  Coeff. of Variation:     0.106 
+BankingAkkaManualStashActorBenchmark             Skewness:    -0.063 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BankingAkkaManualStashActorBenchmark
+Args: 
+         A (num accounts) = 1000       
+     N (num transactions) = 50000      
+          Initial Balance = 3.595386269724631E300 
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+BankingAkkaManualStashActorBenchmark          Iteration-0:  1045.980 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-1:   478.646 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-2:   279.223 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-3:   286.321 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-4:   275.809 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-5:   270.580 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-6:   372.778 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-7:   314.855 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-8:   443.230 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-9:   270.183 ms 
+BankingAkkaManualStashActorBenchmark         Iteration-10:   245.775 ms 
+BankingAkkaManualStashActorBenchmark         Iteration-11:   157.013 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 7          
+BankingAkkaManualStashActorBenchmark            Best Time:   245.775 ms 
+BankingAkkaManualStashActorBenchmark           Worst Time:   314.855 ms 
+BankingAkkaManualStashActorBenchmark               Median:   275.809 ms 
+BankingAkkaManualStashActorBenchmark     Arith. Mean Time:   277.535 ms 
+BankingAkkaManualStashActorBenchmark       Geo. Mean Time:   276.878 ms 
+BankingAkkaManualStashActorBenchmark   Harmonic Mean Time:   276.227 ms 
+BankingAkkaManualStashActorBenchmark        Std. Dev Time:    19.224 ms 
+BankingAkkaManualStashActorBenchmark     Lower Confidence:   263.294 ms 
+BankingAkkaManualStashActorBenchmark    Higher Confidence:   291.776 ms 
+BankingAkkaManualStashActorBenchmark         Error Window:    14.241 ms (5.131 percent) 
+BankingAkkaManualStashActorBenchmark  Coeff. of Variation:     0.069 
+BankingAkkaManualStashActorBenchmark             Skewness:     0.466 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BankingAkkaManualStashActorBenchmark
+Args: 
+         A (num accounts) = 1000       
+     N (num transactions) = 50000      
+          Initial Balance = 3.595386269724631E300 
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+BankingAkkaManualStashActorBenchmark          Iteration-0:  1370.818 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-1:   353.769 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-2:   316.596 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-3:   356.276 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-4:   346.241 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-5:   314.140 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-6:   302.066 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-7:   366.548 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-8:   348.241 ms 
+BankingAkkaManualStashActorBenchmark          Iteration-9:   356.429 ms 
+BankingAkkaManualStashActorBenchmark         Iteration-10:   334.773 ms 
+BankingAkkaManualStashActorBenchmark         Iteration-11:   342.439 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+BankingAkkaManualStashActorBenchmark            Best Time:   302.066 ms 
+BankingAkkaManualStashActorBenchmark           Worst Time:   366.548 ms 
+BankingAkkaManualStashActorBenchmark               Median:   346.241 ms 
+BankingAkkaManualStashActorBenchmark     Arith. Mean Time:   339.774 ms 
+BankingAkkaManualStashActorBenchmark       Geo. Mean Time:   339.194 ms 
+BankingAkkaManualStashActorBenchmark   Harmonic Mean Time:   338.599 ms 
+BankingAkkaManualStashActorBenchmark        Std. Dev Time:    19.596 ms 
+BankingAkkaManualStashActorBenchmark     Lower Confidence:   328.194 ms 
+BankingAkkaManualStashActorBenchmark    Higher Confidence:   351.355 ms 
+BankingAkkaManualStashActorBenchmark         Error Window:    11.581 ms (3.408 percent) 
+BankingAkkaManualStashActorBenchmark  Coeff. of Variation:     0.058 
+BankingAkkaManualStashActorBenchmark             Skewness:    -0.679 
+
+****************************************

@@ -1,0 +1,342 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: DictionaryAkkaActorBenchmark
+Args: 
+             Num Entities = 20         
+           Message/Worker = 10000      
+            Write Percent = 10         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-0:  1101.083 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-1:   540.028 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-2:   497.627 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-3:   452.875 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-4:   789.282 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-5:   430.840 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-6:   419.335 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-7:   443.567 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-8:   436.292 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-9:   421.599 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark         Iteration-10:   413.234 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark         Iteration-11:   755.233 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 9          
+DictionaryAkkaActorBenchmark            Best Time:   413.234 ms 
+DictionaryAkkaActorBenchmark           Worst Time:   540.028 ms 
+DictionaryAkkaActorBenchmark               Median:   436.292 ms 
+DictionaryAkkaActorBenchmark     Arith. Mean Time:   450.600 ms 
+DictionaryAkkaActorBenchmark       Geo. Mean Time:   448.976 ms 
+DictionaryAkkaActorBenchmark   Harmonic Mean Time:   447.460 ms 
+DictionaryAkkaActorBenchmark        Std. Dev Time:    39.544 ms 
+DictionaryAkkaActorBenchmark     Lower Confidence:   424.764 ms 
+DictionaryAkkaActorBenchmark    Higher Confidence:   476.435 ms 
+DictionaryAkkaActorBenchmark         Error Window:    25.835 ms (5.734 percent) 
+DictionaryAkkaActorBenchmark  Coeff. of Variation:     0.088 
+DictionaryAkkaActorBenchmark             Skewness:     1.417 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: DictionaryAkkaActorBenchmark
+Args: 
+             Num Entities = 20         
+           Message/Worker = 10000      
+            Write Percent = 10         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-0:  1124.548 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-1:   629.368 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-2:   595.061 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-3:   607.887 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-4:   521.999 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-5:   555.465 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-6:   584.307 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-7:   584.478 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-8:   495.985 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-9:   548.736 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark         Iteration-10:   601.930 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark         Iteration-11:   510.253 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+DictionaryAkkaActorBenchmark            Best Time:   495.985 ms 
+DictionaryAkkaActorBenchmark           Worst Time:   629.368 ms 
+DictionaryAkkaActorBenchmark               Median:   584.307 ms 
+DictionaryAkkaActorBenchmark     Arith. Mean Time:   566.861 ms 
+DictionaryAkkaActorBenchmark       Geo. Mean Time:   565.314 ms 
+DictionaryAkkaActorBenchmark   Harmonic Mean Time:   563.741 ms 
+DictionaryAkkaActorBenchmark        Std. Dev Time:    41.483 ms 
+DictionaryAkkaActorBenchmark     Lower Confidence:   542.346 ms 
+DictionaryAkkaActorBenchmark    Higher Confidence:   591.376 ms 
+DictionaryAkkaActorBenchmark         Error Window:    24.515 ms (4.325 percent) 
+DictionaryAkkaActorBenchmark  Coeff. of Variation:     0.073 
+DictionaryAkkaActorBenchmark             Skewness:    -0.344 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: DictionaryAkkaActorBenchmark
+Args: 
+             Num Entities = 20         
+           Message/Worker = 10000      
+            Write Percent = 10         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-0:  1298.442 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-1:   813.824 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-2:   856.496 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-3:   787.752 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-4:   836.465 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-5:   802.864 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-6:   704.865 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-7:   844.374 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-8:   826.903 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-9:   909.253 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark         Iteration-10:   788.439 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark         Iteration-11:   681.238 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+DictionaryAkkaActorBenchmark            Best Time:   681.238 ms 
+DictionaryAkkaActorBenchmark           Worst Time:   909.253 ms 
+DictionaryAkkaActorBenchmark               Median:   813.824 ms 
+DictionaryAkkaActorBenchmark     Arith. Mean Time:   804.770 ms 
+DictionaryAkkaActorBenchmark       Geo. Mean Time:   802.279 ms 
+DictionaryAkkaActorBenchmark   Harmonic Mean Time:   799.698 ms 
+DictionaryAkkaActorBenchmark        Std. Dev Time:    62.186 ms 
+DictionaryAkkaActorBenchmark     Lower Confidence:   768.021 ms 
+DictionaryAkkaActorBenchmark    Higher Confidence:   841.520 ms 
+DictionaryAkkaActorBenchmark         Error Window:    36.750 ms (4.566 percent) 
+DictionaryAkkaActorBenchmark  Coeff. of Variation:     0.077 
+DictionaryAkkaActorBenchmark             Skewness:    -0.627 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: DictionaryAkkaActorBenchmark
+Args: 
+             Num Entities = 20         
+           Message/Worker = 10000      
+            Write Percent = 10         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-0:  1998.252 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-1:  1297.574 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-2:  1214.275 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-3:  1181.131 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-4:  1258.125 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-5:  1197.525 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-6:  1250.051 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-7:  1308.555 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-8:  1146.223 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-9:  1136.921 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark         Iteration-10:  1141.900 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark         Iteration-11:  1161.804 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+DictionaryAkkaActorBenchmark            Best Time:  1136.921 ms 
+DictionaryAkkaActorBenchmark           Worst Time:  1308.555 ms 
+DictionaryAkkaActorBenchmark               Median:  1197.525 ms 
+DictionaryAkkaActorBenchmark     Arith. Mean Time:  1208.553 ms 
+DictionaryAkkaActorBenchmark       Geo. Mean Time:  1207.115 ms 
+DictionaryAkkaActorBenchmark   Harmonic Mean Time:  1205.695 ms 
+DictionaryAkkaActorBenchmark        Std. Dev Time:    59.280 ms 
+DictionaryAkkaActorBenchmark     Lower Confidence:  1173.521 ms 
+DictionaryAkkaActorBenchmark    Higher Confidence:  1243.585 ms 
+DictionaryAkkaActorBenchmark         Error Window:    35.032 ms (2.899 percent) 
+DictionaryAkkaActorBenchmark  Coeff. of Variation:     0.049 
+DictionaryAkkaActorBenchmark             Skewness:     0.417 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: DictionaryAkkaActorBenchmark
+Args: 
+             Num Entities = 20         
+           Message/Worker = 10000      
+            Write Percent = 10         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-0:  2154.998 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-1:  1333.726 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-2:  1319.735 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-3:  1277.147 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-4:  1296.843 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-5:  1357.490 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-6:  1276.841 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-7:  1283.562 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-8:  1257.370 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-9:  1253.267 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark         Iteration-10:  1307.470 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark         Iteration-11:  1327.859 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+DictionaryAkkaActorBenchmark            Best Time:  1253.267 ms 
+DictionaryAkkaActorBenchmark           Worst Time:  1357.490 ms 
+DictionaryAkkaActorBenchmark               Median:  1296.843 ms 
+DictionaryAkkaActorBenchmark     Arith. Mean Time:  1299.210 ms 
+DictionaryAkkaActorBenchmark       Geo. Mean Time:  1298.826 ms 
+DictionaryAkkaActorBenchmark   Harmonic Mean Time:  1298.444 ms 
+DictionaryAkkaActorBenchmark        Std. Dev Time:    31.619 ms 
+DictionaryAkkaActorBenchmark     Lower Confidence:  1280.524 ms 
+DictionaryAkkaActorBenchmark    Higher Confidence:  1317.895 ms 
+DictionaryAkkaActorBenchmark         Error Window:    18.685 ms (1.438 percent) 
+DictionaryAkkaActorBenchmark  Coeff. of Variation:     0.024 
+DictionaryAkkaActorBenchmark             Skewness:     0.240 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: DictionaryAkkaActorBenchmark
+Args: 
+             Num Entities = 20         
+           Message/Worker = 10000      
+            Write Percent = 10         
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-0:  2845.321 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-1:  1317.049 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-2:  1050.132 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-3:  1045.025 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-4:  1100.461 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-5:  1003.905 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-6:  1029.064 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-7:  1018.145 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-8:  1000.694 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark          Iteration-9:   993.145 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark         Iteration-10:   961.373 ms 
+          Dictionary Size = 524287     
+DictionaryAkkaActorBenchmark         Iteration-11:  1032.885 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+DictionaryAkkaActorBenchmark            Best Time:   961.373 ms 
+DictionaryAkkaActorBenchmark           Worst Time:  1100.461 ms 
+DictionaryAkkaActorBenchmark               Median:  1023.605 ms 
+DictionaryAkkaActorBenchmark     Arith. Mean Time:  1023.483 ms 
+DictionaryAkkaActorBenchmark       Geo. Mean Time:  1022.857 ms 
+DictionaryAkkaActorBenchmark   Harmonic Mean Time:  1022.236 ms 
+DictionaryAkkaActorBenchmark        Std. Dev Time:    35.956 ms 
+DictionaryAkkaActorBenchmark     Lower Confidence:  1001.197 ms 
+DictionaryAkkaActorBenchmark    Higher Confidence:  1045.769 ms 
+DictionaryAkkaActorBenchmark         Error Window:    22.286 ms (2.177 percent) 
+DictionaryAkkaActorBenchmark  Coeff. of Variation:     0.035 
+DictionaryAkkaActorBenchmark             Skewness:     0.476 
+
+****************************************

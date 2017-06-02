@@ -1,0 +1,359 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: FacilityLocationAkkaActorBenchmark
+Args: 
+               Num points = 100000     
+                Grid size = 500.0      
+                        F = 707.1067811865476 
+                    Alpha = 2.0        
+            Cut-off depth = 3          
+                     Seed = 123456     
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-0:  2276.088 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-1:  1434.340 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-2:  1188.345 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-3:  1041.290 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-4:   874.925 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-5:   913.077 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-6:   857.700 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-7:   852.963 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-8:   855.755 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-9:   818.678 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark         Iteration-10:   805.414 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark         Iteration-11:   804.091 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 9          
+FacilityLocationAkkaActorBenchmark            Best Time:   804.091 ms 
+FacilityLocationAkkaActorBenchmark           Worst Time:  1041.290 ms 
+FacilityLocationAkkaActorBenchmark               Median:   855.755 ms 
+FacilityLocationAkkaActorBenchmark     Arith. Mean Time:   869.321 ms 
+FacilityLocationAkkaActorBenchmark       Geo. Mean Time:   866.763 ms 
+FacilityLocationAkkaActorBenchmark   Harmonic Mean Time:   864.381 ms 
+FacilityLocationAkkaActorBenchmark        Std. Dev Time:    69.129 ms 
+FacilityLocationAkkaActorBenchmark     Lower Confidence:   824.157 ms 
+FacilityLocationAkkaActorBenchmark    Higher Confidence:   914.486 ms 
+FacilityLocationAkkaActorBenchmark         Error Window:    45.164 ms (5.195 percent) 
+FacilityLocationAkkaActorBenchmark  Coeff. of Variation:     0.080 
+FacilityLocationAkkaActorBenchmark             Skewness:     1.700 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: FacilityLocationAkkaActorBenchmark
+Args: 
+               Num points = 100000     
+                Grid size = 500.0      
+                        F = 707.1067811865476 
+                    Alpha = 2.0        
+            Cut-off depth = 3          
+                     Seed = 123456     
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-0:  1576.010 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-1:   885.850 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-2:   852.002 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-3:   757.437 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-4:   720.626 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-5:   655.934 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-6:   632.810 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-7:   650.360 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-8:   618.953 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-9:   599.405 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark         Iteration-10:   608.611 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark         Iteration-11:   619.020 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 9          
+FacilityLocationAkkaActorBenchmark            Best Time:   599.405 ms 
+FacilityLocationAkkaActorBenchmark           Worst Time:   757.437 ms 
+FacilityLocationAkkaActorBenchmark               Median:   632.810 ms 
+FacilityLocationAkkaActorBenchmark     Arith. Mean Time:   651.462 ms 
+FacilityLocationAkkaActorBenchmark       Geo. Mean Time:   649.592 ms 
+FacilityLocationAkkaActorBenchmark   Harmonic Mean Time:   647.816 ms 
+FacilityLocationAkkaActorBenchmark        Std. Dev Time:    50.595 ms 
+FacilityLocationAkkaActorBenchmark     Lower Confidence:   618.406 ms 
+FacilityLocationAkkaActorBenchmark    Higher Confidence:   684.517 ms 
+FacilityLocationAkkaActorBenchmark         Error Window:    33.056 ms (5.074 percent) 
+FacilityLocationAkkaActorBenchmark  Coeff. of Variation:     0.078 
+FacilityLocationAkkaActorBenchmark             Skewness:     1.184 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: FacilityLocationAkkaActorBenchmark
+Args: 
+               Num points = 100000     
+                Grid size = 500.0      
+                        F = 707.1067811865476 
+                    Alpha = 2.0        
+            Cut-off depth = 3          
+                     Seed = 123456     
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-0:  1733.837 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-1:   964.336 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-2:   946.297 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-3:   853.313 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-4:   841.944 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-5:   825.362 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-6:   858.661 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-7:   808.611 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-8:   824.675 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-9:   802.946 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark         Iteration-10:   771.939 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark         Iteration-11:   863.950 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+FacilityLocationAkkaActorBenchmark            Best Time:   771.939 ms 
+FacilityLocationAkkaActorBenchmark           Worst Time:   964.336 ms 
+FacilityLocationAkkaActorBenchmark               Median:   841.944 ms 
+FacilityLocationAkkaActorBenchmark     Arith. Mean Time:   851.094 ms 
+FacilityLocationAkkaActorBenchmark       Geo. Mean Time:   849.339 ms 
+FacilityLocationAkkaActorBenchmark   Harmonic Mean Time:   847.642 ms 
+FacilityLocationAkkaActorBenchmark        Std. Dev Time:    55.553 ms 
+FacilityLocationAkkaActorBenchmark     Lower Confidence:   818.265 ms 
+FacilityLocationAkkaActorBenchmark    Higher Confidence:   883.924 ms 
+FacilityLocationAkkaActorBenchmark         Error Window:    32.830 ms (3.857 percent) 
+FacilityLocationAkkaActorBenchmark  Coeff. of Variation:     0.065 
+FacilityLocationAkkaActorBenchmark             Skewness:     0.932 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: FacilityLocationAkkaActorBenchmark
+Args: 
+               Num points = 100000     
+                Grid size = 500.0      
+                        F = 707.1067811865476 
+                    Alpha = 2.0        
+            Cut-off depth = 3          
+                     Seed = 123456     
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-0:  2096.189 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-1:  1325.828 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-2:  1261.658 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-3:  1204.349 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-4:  1195.694 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-5:  1231.082 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-6:  1174.150 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-7:  1141.203 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-8:  1157.127 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-9:  1230.441 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark         Iteration-10:  1248.763 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark         Iteration-11:  1180.620 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+FacilityLocationAkkaActorBenchmark            Best Time:  1141.203 ms 
+FacilityLocationAkkaActorBenchmark           Worst Time:  1325.828 ms 
+FacilityLocationAkkaActorBenchmark               Median:  1204.349 ms 
+FacilityLocationAkkaActorBenchmark     Arith. Mean Time:  1213.719 ms 
+FacilityLocationAkkaActorBenchmark       Geo. Mean Time:  1212.679 ms 
+FacilityLocationAkkaActorBenchmark   Harmonic Mean Time:  1211.656 ms 
+FacilityLocationAkkaActorBenchmark        Std. Dev Time:    50.642 ms 
+FacilityLocationAkkaActorBenchmark     Lower Confidence:  1183.792 ms 
+FacilityLocationAkkaActorBenchmark    Higher Confidence:  1243.647 ms 
+FacilityLocationAkkaActorBenchmark         Error Window:    29.928 ms (2.466 percent) 
+FacilityLocationAkkaActorBenchmark  Coeff. of Variation:     0.042 
+FacilityLocationAkkaActorBenchmark             Skewness:     0.697 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: FacilityLocationAkkaActorBenchmark
+Args: 
+               Num points = 100000     
+                Grid size = 500.0      
+                        F = 707.1067811865476 
+                    Alpha = 2.0        
+            Cut-off depth = 3          
+                     Seed = 123456     
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-0:  2649.647 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-1:  1498.585 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-2:  1544.189 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-3:  1453.289 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-4:  1380.398 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-5:  1357.046 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-6:  1292.284 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-7:  1378.715 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-8:  1388.058 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-9:  1345.455 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark         Iteration-10:  1280.568 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark         Iteration-11:  1329.828 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+FacilityLocationAkkaActorBenchmark            Best Time:  1280.568 ms 
+FacilityLocationAkkaActorBenchmark           Worst Time:  1544.189 ms 
+FacilityLocationAkkaActorBenchmark               Median:  1378.715 ms 
+FacilityLocationAkkaActorBenchmark     Arith. Mean Time:  1386.220 ms 
+FacilityLocationAkkaActorBenchmark       Geo. Mean Time:  1384.042 ms 
+FacilityLocationAkkaActorBenchmark   Harmonic Mean Time:  1381.911 ms 
+FacilityLocationAkkaActorBenchmark        Std. Dev Time:    78.538 ms 
+FacilityLocationAkkaActorBenchmark     Lower Confidence:  1339.806 ms 
+FacilityLocationAkkaActorBenchmark    Higher Confidence:  1432.633 ms 
+FacilityLocationAkkaActorBenchmark         Error Window:    46.413 ms (3.348 percent) 
+FacilityLocationAkkaActorBenchmark  Coeff. of Variation:     0.057 
+FacilityLocationAkkaActorBenchmark             Skewness:     0.698 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: FacilityLocationAkkaActorBenchmark
+Args: 
+               Num points = 100000     
+                Grid size = 500.0      
+                        F = 707.1067811865476 
+                    Alpha = 2.0        
+            Cut-off depth = 3          
+                     Seed = 123456     
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-0:  2132.665 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-1:  1598.933 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-2:  1522.264 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-3:  1420.313 ms 
+  Num Facilities: 341, Num customers: 100000
+FacilityLocationAkkaActorBenchmark          Iteration-4:  1362.289 ms 
+[ERROR] [06/01/2017 21:48:04.696] [FacilityLocation-akka.actor.default-dispatcher-29] [akka://FacilityLocation/user/$Ld] null
+akka.actor.ActorInitializationException: exception during creation
+	at akka.actor.ActorInitializationException$.apply(Actor.scala:164)
+	at akka.actor.ActorCell.create(ActorCell.scala:596)
+	at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:456)
+	at akka.actor.ActorCell.systemInvoke(ActorCell.scala:478)
+	at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:263)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:219)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: java.lang.NullPointerException
+	at edu.rice.habanero.benchmarks.facloc.FacilityLocationAkkaActorBenchmark$QuadrantActor$$anon$2.accept(FacilityLocationAkkaActorBenchmark.scala:249)
+	at edu.rice.habanero.benchmarks.facloc.FacilityLocationAkkaActorBenchmark$QuadrantActor$$anon$2.accept(FacilityLocationAkkaActorBenchmark.scala:247)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at edu.rice.habanero.benchmarks.facloc.FacilityLocationAkkaActorBenchmark$QuadrantActor.findCost(FacilityLocationAkkaActorBenchmark.scala:247)
+	at edu.rice.habanero.benchmarks.facloc.FacilityLocationAkkaActorBenchmark$QuadrantActor.edu$rice$habanero$benchmarks$facloc$FacilityLocationAkkaActorBenchmark$QuadrantActor$$addCustomer(FacilityLocationAkkaActorBenchmark.scala:239)
+	at edu.rice.habanero.benchmarks.facloc.FacilityLocationAkkaActorBenchmark$QuadrantActor$$anon$1.accept(FacilityLocationAkkaActorBenchmark.scala:130)
+	at edu.rice.habanero.benchmarks.facloc.FacilityLocationAkkaActorBenchmark$QuadrantActor$$anon$1.accept(FacilityLocationAkkaActorBenchmark.scala:127)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at edu.rice.habanero.benchmarks.facloc.FacilityLocationAkkaActorBenchmark$QuadrantActor.<init>(FacilityLocationAkkaActorBenchmark.scala:127)
+	at edu.rice.habanero.benchmarks.facloc.FacilityLocationAkkaActorBenchmark$QuadrantActor$$anonfun$5.apply(FacilityLocationAkkaActorBenchmark.scala:296)
+	at edu.rice.habanero.benchmarks.facloc.FacilityLocationAkkaActorBenchmark$QuadrantActor$$anonfun$5.apply(FacilityLocationAkkaActorBenchmark.scala:296)
+	at akka.actor.TypedCreatorFunctionConsumer.produce(Props.scala:340)
+	at akka.actor.Props.newActor(Props.scala:249)
+	at akka.actor.ActorCell.newActor(ActorCell.scala:552)
+	at akka.actor.ActorCell.create(ActorCell.scala:578)
+	... 9 more
+
+****************************************

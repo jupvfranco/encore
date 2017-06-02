@@ -1,0 +1,294 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ProdConsAkkaActorBenchmark
+Args: 
+              Buffer size = 50         
+            num producers = 40         
+            num consumers = 40         
+                prod cost = 25         
+                cons cost = 25         
+       items per producer = 1000       
+            num mailboxes = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ProdConsAkkaActorBenchmark          Iteration-0: 15786.451 ms 
+ProdConsAkkaActorBenchmark          Iteration-1: 15290.401 ms 
+ProdConsAkkaActorBenchmark          Iteration-2: 15170.450 ms 
+ProdConsAkkaActorBenchmark          Iteration-3: 15118.051 ms 
+ProdConsAkkaActorBenchmark          Iteration-4: 15107.122 ms 
+ProdConsAkkaActorBenchmark          Iteration-5: 15162.939 ms 
+ProdConsAkkaActorBenchmark          Iteration-6: 15114.259 ms 
+ProdConsAkkaActorBenchmark          Iteration-7: 15114.263 ms 
+ProdConsAkkaActorBenchmark          Iteration-8: 15098.995 ms 
+ProdConsAkkaActorBenchmark          Iteration-9: 15103.511 ms 
+ProdConsAkkaActorBenchmark         Iteration-10: 15113.813 ms 
+ProdConsAkkaActorBenchmark         Iteration-11: 15111.806 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 12         
+ProdConsAkkaActorBenchmark            Best Time: 15098.995 ms 
+ProdConsAkkaActorBenchmark           Worst Time: 15786.451 ms 
+ProdConsAkkaActorBenchmark               Median: 15114.261 ms 
+ProdConsAkkaActorBenchmark     Arith. Mean Time: 15191.005 ms 
+ProdConsAkkaActorBenchmark       Geo. Mean Time: 15189.882 ms 
+ProdConsAkkaActorBenchmark   Harmonic Mean Time: 15188.784 ms 
+ProdConsAkkaActorBenchmark        Std. Dev Time:   186.667 ms 
+ProdConsAkkaActorBenchmark     Lower Confidence: 15085.388 ms 
+ProdConsAkkaActorBenchmark    Higher Confidence: 15296.622 ms 
+ProdConsAkkaActorBenchmark         Error Window:   105.617 ms (0.695 percent) 
+ProdConsAkkaActorBenchmark  Coeff. of Variation:     0.012 
+ProdConsAkkaActorBenchmark             Skewness:     2.904 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ProdConsAkkaActorBenchmark
+Args: 
+              Buffer size = 50         
+            num producers = 40         
+            num consumers = 40         
+                prod cost = 25         
+                cons cost = 25         
+       items per producer = 1000       
+            num mailboxes = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ProdConsAkkaActorBenchmark          Iteration-0:  8145.938 ms 
+ProdConsAkkaActorBenchmark          Iteration-1:  7822.141 ms 
+ProdConsAkkaActorBenchmark          Iteration-2:  7673.266 ms 
+ProdConsAkkaActorBenchmark          Iteration-3:  7650.783 ms 
+ProdConsAkkaActorBenchmark          Iteration-4:  7706.546 ms 
+ProdConsAkkaActorBenchmark          Iteration-5:  7640.214 ms 
+ProdConsAkkaActorBenchmark          Iteration-6:  7671.898 ms 
+ProdConsAkkaActorBenchmark          Iteration-7:  7646.008 ms 
+ProdConsAkkaActorBenchmark          Iteration-8:  7631.323 ms 
+ProdConsAkkaActorBenchmark          Iteration-9:  7646.324 ms 
+ProdConsAkkaActorBenchmark         Iteration-10:  7625.837 ms 
+ProdConsAkkaActorBenchmark         Iteration-11:  7636.069 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 12         
+ProdConsAkkaActorBenchmark            Best Time:  7625.837 ms 
+ProdConsAkkaActorBenchmark           Worst Time:  8145.938 ms 
+ProdConsAkkaActorBenchmark               Median:  7648.553 ms 
+ProdConsAkkaActorBenchmark     Arith. Mean Time:  7708.029 ms 
+ProdConsAkkaActorBenchmark       Geo. Mean Time:  7706.765 ms 
+ProdConsAkkaActorBenchmark   Harmonic Mean Time:  7705.538 ms 
+ProdConsAkkaActorBenchmark        Std. Dev Time:   141.612 ms 
+ProdConsAkkaActorBenchmark     Lower Confidence:  7627.904 ms 
+ProdConsAkkaActorBenchmark    Higher Confidence:  7788.154 ms 
+ProdConsAkkaActorBenchmark         Error Window:    80.125 ms (1.039 percent) 
+ProdConsAkkaActorBenchmark  Coeff. of Variation:     0.018 
+ProdConsAkkaActorBenchmark             Skewness:     2.658 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ProdConsAkkaActorBenchmark
+Args: 
+              Buffer size = 50         
+            num producers = 40         
+            num consumers = 40         
+                prod cost = 25         
+                cons cost = 25         
+       items per producer = 1000       
+            num mailboxes = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ProdConsAkkaActorBenchmark          Iteration-0:  4336.592 ms 
+ProdConsAkkaActorBenchmark          Iteration-1:  4400.469 ms 
+ProdConsAkkaActorBenchmark          Iteration-2:  3798.614 ms 
+ProdConsAkkaActorBenchmark          Iteration-3:  3796.682 ms 
+ProdConsAkkaActorBenchmark          Iteration-4:  4551.098 ms 
+ProdConsAkkaActorBenchmark          Iteration-5:  5045.846 ms 
+ProdConsAkkaActorBenchmark          Iteration-6:  3979.079 ms 
+ProdConsAkkaActorBenchmark          Iteration-7:  3818.733 ms 
+ProdConsAkkaActorBenchmark          Iteration-8:  3913.712 ms 
+ProdConsAkkaActorBenchmark          Iteration-9:  3799.768 ms 
+ProdConsAkkaActorBenchmark         Iteration-10:  3912.641 ms 
+ProdConsAkkaActorBenchmark         Iteration-11:  3786.490 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+ProdConsAkkaActorBenchmark            Best Time:  3786.490 ms 
+ProdConsAkkaActorBenchmark           Worst Time:  4551.098 ms 
+ProdConsAkkaActorBenchmark               Median:  3912.641 ms 
+ProdConsAkkaActorBenchmark     Arith. Mean Time:  4008.534 ms 
+ProdConsAkkaActorBenchmark       Geo. Mean Time:  3999.906 ms 
+ProdConsAkkaActorBenchmark   Harmonic Mean Time:  3991.641 ms 
+ProdConsAkkaActorBenchmark        Std. Dev Time:   268.417 ms 
+ProdConsAkkaActorBenchmark     Lower Confidence:  3849.910 ms 
+ProdConsAkkaActorBenchmark    Higher Confidence:  4167.159 ms 
+ProdConsAkkaActorBenchmark         Error Window:   158.624 ms (3.957 percent) 
+ProdConsAkkaActorBenchmark  Coeff. of Variation:     0.067 
+ProdConsAkkaActorBenchmark             Skewness:     1.075 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ProdConsAkkaActorBenchmark
+Args: 
+              Buffer size = 50         
+            num producers = 40         
+            num consumers = 40         
+                prod cost = 25         
+                cons cost = 25         
+       items per producer = 1000       
+            num mailboxes = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ProdConsAkkaActorBenchmark          Iteration-0:  2585.700 ms 
+ProdConsAkkaActorBenchmark          Iteration-1:  2074.017 ms 
+ProdConsAkkaActorBenchmark          Iteration-2:  2032.633 ms 
+ProdConsAkkaActorBenchmark          Iteration-3:  1973.969 ms 
+ProdConsAkkaActorBenchmark          Iteration-4:  1969.956 ms 
+ProdConsAkkaActorBenchmark          Iteration-5:  2077.321 ms 
+ProdConsAkkaActorBenchmark          Iteration-6:  2069.761 ms 
+ProdConsAkkaActorBenchmark          Iteration-7:  2002.761 ms 
+ProdConsAkkaActorBenchmark          Iteration-8:  2063.096 ms 
+ProdConsAkkaActorBenchmark          Iteration-9:  2066.279 ms 
+ProdConsAkkaActorBenchmark         Iteration-10:  1981.611 ms 
+ProdConsAkkaActorBenchmark         Iteration-11:  2225.752 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+ProdConsAkkaActorBenchmark            Best Time:  1969.956 ms 
+ProdConsAkkaActorBenchmark           Worst Time:  2225.752 ms 
+ProdConsAkkaActorBenchmark               Median:  2063.096 ms 
+ProdConsAkkaActorBenchmark     Arith. Mean Time:  2048.832 ms 
+ProdConsAkkaActorBenchmark       Geo. Mean Time:  2047.698 ms 
+ProdConsAkkaActorBenchmark   Harmonic Mean Time:  2046.591 ms 
+ProdConsAkkaActorBenchmark        Std. Dev Time:    69.033 ms 
+ProdConsAkkaActorBenchmark     Lower Confidence:  2008.036 ms 
+ProdConsAkkaActorBenchmark    Higher Confidence:  2089.629 ms 
+ProdConsAkkaActorBenchmark         Error Window:    40.796 ms (1.991 percent) 
+ProdConsAkkaActorBenchmark  Coeff. of Variation:     0.034 
+ProdConsAkkaActorBenchmark             Skewness:     1.300 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ProdConsAkkaActorBenchmark
+Args: 
+              Buffer size = 50         
+            num producers = 40         
+            num consumers = 40         
+                prod cost = 25         
+                cons cost = 25         
+       items per producer = 1000       
+            num mailboxes = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ProdConsAkkaActorBenchmark          Iteration-0:  1719.380 ms 
+ProdConsAkkaActorBenchmark          Iteration-1:  1085.978 ms 
+ProdConsAkkaActorBenchmark          Iteration-2:  1012.795 ms 
+ProdConsAkkaActorBenchmark          Iteration-3:   984.533 ms 
+ProdConsAkkaActorBenchmark          Iteration-4:   993.947 ms 
+ProdConsAkkaActorBenchmark          Iteration-5:   982.203 ms 
+ProdConsAkkaActorBenchmark          Iteration-6:   974.730 ms 
+ProdConsAkkaActorBenchmark          Iteration-7:  1007.296 ms 
+ProdConsAkkaActorBenchmark          Iteration-8:  1004.701 ms 
+ProdConsAkkaActorBenchmark          Iteration-9:   993.908 ms 
+ProdConsAkkaActorBenchmark         Iteration-10:   970.638 ms 
+ProdConsAkkaActorBenchmark         Iteration-11:   996.549 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+ProdConsAkkaActorBenchmark            Best Time:   970.638 ms 
+ProdConsAkkaActorBenchmark           Worst Time:  1085.978 ms 
+ProdConsAkkaActorBenchmark               Median:   993.947 ms 
+ProdConsAkkaActorBenchmark     Arith. Mean Time:  1000.662 ms 
+ProdConsAkkaActorBenchmark       Geo. Mean Time:  1000.234 ms 
+ProdConsAkkaActorBenchmark   Harmonic Mean Time:   999.822 ms 
+ProdConsAkkaActorBenchmark        Std. Dev Time:    29.800 ms 
+ProdConsAkkaActorBenchmark     Lower Confidence:   983.051 ms 
+ProdConsAkkaActorBenchmark    Higher Confidence:  1018.273 ms 
+ProdConsAkkaActorBenchmark         Error Window:    17.611 ms (1.760 percent) 
+ProdConsAkkaActorBenchmark  Coeff. of Variation:     0.030 
+ProdConsAkkaActorBenchmark             Skewness:     2.144 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ProdConsAkkaActorBenchmark
+Args: 
+              Buffer size = 50         
+            num producers = 40         
+            num consumers = 40         
+                prod cost = 25         
+                cons cost = 25         
+       items per producer = 1000       
+            num mailboxes = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ProdConsAkkaActorBenchmark          Iteration-0:  1779.673 ms 
+ProdConsAkkaActorBenchmark          Iteration-1:   750.847 ms 
+ProdConsAkkaActorBenchmark          Iteration-2:   713.087 ms 
+ProdConsAkkaActorBenchmark          Iteration-3:   729.553 ms 
+ProdConsAkkaActorBenchmark          Iteration-4:   696.279 ms 
+ProdConsAkkaActorBenchmark          Iteration-5:   700.440 ms 
+ProdConsAkkaActorBenchmark          Iteration-6:   676.577 ms 
+ProdConsAkkaActorBenchmark          Iteration-7:   699.854 ms 
+ProdConsAkkaActorBenchmark          Iteration-8:   687.389 ms 
+ProdConsAkkaActorBenchmark          Iteration-9:   683.580 ms 
+ProdConsAkkaActorBenchmark         Iteration-10:   677.149 ms 
+ProdConsAkkaActorBenchmark         Iteration-11:   679.462 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+ProdConsAkkaActorBenchmark            Best Time:   676.577 ms 
+ProdConsAkkaActorBenchmark           Worst Time:   750.847 ms 
+ProdConsAkkaActorBenchmark               Median:   696.279 ms 
+ProdConsAkkaActorBenchmark     Arith. Mean Time:   699.474 ms 
+ProdConsAkkaActorBenchmark       Geo. Mean Time:   699.120 ms 
+ProdConsAkkaActorBenchmark   Harmonic Mean Time:   698.774 ms 
+ProdConsAkkaActorBenchmark        Std. Dev Time:    22.487 ms 
+ProdConsAkkaActorBenchmark     Lower Confidence:   686.185 ms 
+ProdConsAkkaActorBenchmark    Higher Confidence:   712.763 ms 
+ProdConsAkkaActorBenchmark         Error Window:    13.289 ms (1.900 percent) 
+ProdConsAkkaActorBenchmark  Coeff. of Variation:     0.032 
+ProdConsAkkaActorBenchmark             Skewness:     1.129 
+
+****************************************

@@ -1,0 +1,360 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: SleepingBarberAkkaActorBenchmark
+Args: 
+         N (num haircuts) = 5000       
+    W (waiting room size) = 1000       
+    APR (production rate) = 1000       
+       AHR (haircut rate) = 1000       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+Total attempts: 261389
+SleepingBarberAkkaActorBenchmark          Iteration-0:  1829.855 ms 
+Total attempts: 4628193
+SleepingBarberAkkaActorBenchmark          Iteration-1:  9824.774 ms 
+Total attempts: 1690564
+SleepingBarberAkkaActorBenchmark          Iteration-2:  3538.543 ms 
+Total attempts: 7064240
+SleepingBarberAkkaActorBenchmark          Iteration-3: 13473.488 ms 
+Total attempts: 7737923
+SleepingBarberAkkaActorBenchmark          Iteration-4: 14439.610 ms 
+Total attempts: 6825911
+SleepingBarberAkkaActorBenchmark          Iteration-5: 13918.583 ms 
+Total attempts: 5025977
+SleepingBarberAkkaActorBenchmark          Iteration-6: 10405.252 ms 
+Total attempts: 540909
+SleepingBarberAkkaActorBenchmark          Iteration-7:  1609.168 ms 
+Total attempts: 4996090
+SleepingBarberAkkaActorBenchmark          Iteration-8:  9843.333 ms 
+Total attempts: 5598876
+SleepingBarberAkkaActorBenchmark          Iteration-9: 11062.241 ms 
+Total attempts: 5231702
+SleepingBarberAkkaActorBenchmark         Iteration-10: 10203.778 ms 
+Total attempts: 2958739
+SleepingBarberAkkaActorBenchmark         Iteration-11:  6132.588 ms 
+
+
+Attributes - Summary: 
+SleepingBarberAkkaActorBenchmark     CustomerAttempts: 5096167.600 [  5 of  12 values] 
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 5          
+SleepingBarberAkkaActorBenchmark            Best Time:  9824.774 ms 
+SleepingBarberAkkaActorBenchmark           Worst Time: 11062.241 ms 
+SleepingBarberAkkaActorBenchmark               Median: 10203.778 ms 
+SleepingBarberAkkaActorBenchmark     Arith. Mean Time: 10267.876 ms 
+SleepingBarberAkkaActorBenchmark       Geo. Mean Time: 10258.038 ms 
+SleepingBarberAkkaActorBenchmark   Harmonic Mean Time: 10248.402 ms 
+SleepingBarberAkkaActorBenchmark        Std. Dev Time:   453.999 ms 
+SleepingBarberAkkaActorBenchmark     Lower Confidence:  9869.929 ms 
+SleepingBarberAkkaActorBenchmark    Higher Confidence: 10665.823 ms 
+SleepingBarberAkkaActorBenchmark         Error Window:   397.947 ms (3.876 percent) 
+SleepingBarberAkkaActorBenchmark  Coeff. of Variation:     0.044 
+SleepingBarberAkkaActorBenchmark             Skewness:     0.909 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: SleepingBarberAkkaActorBenchmark
+Args: 
+         N (num haircuts) = 5000       
+    W (waiting room size) = 1000       
+    APR (production rate) = 1000       
+       AHR (haircut rate) = 1000       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+Total attempts: 5261
+SleepingBarberAkkaActorBenchmark          Iteration-0:  1193.626 ms 
+Total attempts: 5391
+SleepingBarberAkkaActorBenchmark          Iteration-1:   878.093 ms 
+Total attempts: 1095484
+SleepingBarberAkkaActorBenchmark          Iteration-2:  3134.256 ms 
+Total attempts: 5060636
+SleepingBarberAkkaActorBenchmark          Iteration-3: 10473.413 ms 
+Total attempts: 11545
+SleepingBarberAkkaActorBenchmark          Iteration-4:  1509.136 ms 
+Total attempts: 6719
+SleepingBarberAkkaActorBenchmark          Iteration-5:  1484.026 ms 
+Total attempts: 7148
+SleepingBarberAkkaActorBenchmark          Iteration-6:  1499.529 ms 
+Total attempts: 8122
+SleepingBarberAkkaActorBenchmark          Iteration-7:  1483.515 ms 
+Total attempts: 106300
+SleepingBarberAkkaActorBenchmark          Iteration-8:  1573.463 ms 
+Total attempts: 8725
+SleepingBarberAkkaActorBenchmark          Iteration-9:  1495.825 ms 
+Total attempts: 32831
+SleepingBarberAkkaActorBenchmark         Iteration-10:  1502.758 ms 
+Total attempts: 7853
+SleepingBarberAkkaActorBenchmark         Iteration-11:  1513.934 ms 
+
+
+Attributes - Summary: 
+SleepingBarberAkkaActorBenchmark     CustomerAttempts:  7713.400 [  5 of  12 values] 
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 8          
+SleepingBarberAkkaActorBenchmark            Best Time:  1483.515 ms 
+SleepingBarberAkkaActorBenchmark           Worst Time:  1573.463 ms 
+SleepingBarberAkkaActorBenchmark               Median:  1501.144 ms 
+SleepingBarberAkkaActorBenchmark     Arith. Mean Time:  1507.774 ms 
+SleepingBarberAkkaActorBenchmark       Geo. Mean Time:  1507.540 ms 
+SleepingBarberAkkaActorBenchmark   Harmonic Mean Time:  1507.311 ms 
+SleepingBarberAkkaActorBenchmark        Std. Dev Time:    26.794 ms 
+SleepingBarberAkkaActorBenchmark     Lower Confidence:  1489.206 ms 
+SleepingBarberAkkaActorBenchmark    Higher Confidence:  1526.341 ms 
+SleepingBarberAkkaActorBenchmark         Error Window:    18.567 ms (1.231 percent) 
+SleepingBarberAkkaActorBenchmark  Coeff. of Variation:     0.018 
+SleepingBarberAkkaActorBenchmark             Skewness:     1.884 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: SleepingBarberAkkaActorBenchmark
+Args: 
+         N (num haircuts) = 5000       
+    W (waiting room size) = 1000       
+    APR (production rate) = 1000       
+       AHR (haircut rate) = 1000       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+Total attempts: 5000
+SleepingBarberAkkaActorBenchmark          Iteration-0:  1514.453 ms 
+Total attempts: 419420
+SleepingBarberAkkaActorBenchmark          Iteration-1:  2020.158 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorBenchmark          Iteration-2:  1383.995 ms 
+Total attempts: 30550
+SleepingBarberAkkaActorBenchmark          Iteration-3:  1151.830 ms 
+Total attempts: 1074964
+SleepingBarberAkkaActorBenchmark          Iteration-4:  4042.956 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorBenchmark          Iteration-5:  1367.743 ms 
+Total attempts: 1065999
+SleepingBarberAkkaActorBenchmark          Iteration-6:  4002.158 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorBenchmark          Iteration-7:  1354.239 ms 
+Total attempts: 1252329
+SleepingBarberAkkaActorBenchmark          Iteration-8:  4732.557 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorBenchmark          Iteration-9:  1302.593 ms 
+Total attempts: 1261453
+SleepingBarberAkkaActorBenchmark         Iteration-10:  4884.846 ms 
+Total attempts: 1225351
+SleepingBarberAkkaActorBenchmark         Iteration-11:  4645.689 ms 
+
+
+Attributes - Summary: 
+SleepingBarberAkkaActorBenchmark     CustomerAttempts: 419420.000 [  1 of  12 values] 
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 1          
+SleepingBarberAkkaActorBenchmark            Best Time:  2020.158 ms 
+SleepingBarberAkkaActorBenchmark           Worst Time:  2020.158 ms 
+SleepingBarberAkkaActorBenchmark               Median:  2020.158 ms 
+SleepingBarberAkkaActorBenchmark     Arith. Mean Time:  2020.158 ms 
+SleepingBarberAkkaActorBenchmark       Geo. Mean Time:  2020.158 ms 
+SleepingBarberAkkaActorBenchmark   Harmonic Mean Time:  2020.158 ms 
+SleepingBarberAkkaActorBenchmark        Std. Dev Time:     0.000 ms 
+SleepingBarberAkkaActorBenchmark     Lower Confidence:  2020.158 ms 
+SleepingBarberAkkaActorBenchmark    Higher Confidence:  2020.158 ms 
+SleepingBarberAkkaActorBenchmark         Error Window:     0.000 ms (0.000 percent) 
+SleepingBarberAkkaActorBenchmark  Coeff. of Variation:     0.000 
+SleepingBarberAkkaActorBenchmark             Skewness:     0.000 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: SleepingBarberAkkaActorBenchmark
+Args: 
+         N (num haircuts) = 5000       
+    W (waiting room size) = 1000       
+    APR (production rate) = 1000       
+       AHR (haircut rate) = 1000       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+Total attempts: 5000
+SleepingBarberAkkaActorBenchmark          Iteration-0:  1700.171 ms 
+Total attempts: 5346
+SleepingBarberAkkaActorBenchmark          Iteration-1:   874.868 ms 
+Total attempts: 799894
+SleepingBarberAkkaActorBenchmark          Iteration-2:  4936.548 ms 
+Total attempts: 246109
+SleepingBarberAkkaActorBenchmark          Iteration-3:  2100.282 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorBenchmark          Iteration-4:  1071.795 ms 
+Total attempts: 329665
+SleepingBarberAkkaActorBenchmark          Iteration-5:  2463.553 ms 
+Total attempts: 1226543
+SleepingBarberAkkaActorBenchmark          Iteration-6:  6674.398 ms 
+Total attempts: 442636
+SleepingBarberAkkaActorBenchmark          Iteration-7:  3027.379 ms 
+Total attempts: 333092
+SleepingBarberAkkaActorBenchmark          Iteration-8:  2496.830 ms 
+Total attempts: 373486
+SleepingBarberAkkaActorBenchmark          Iteration-9:  2695.171 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorBenchmark         Iteration-10:  1096.181 ms 
+Total attempts: 569480
+SleepingBarberAkkaActorBenchmark         Iteration-11:  3505.513 ms 
+
+
+Attributes - Summary: 
+SleepingBarberAkkaActorBenchmark     CustomerAttempts: 320588.000 [  4 of  12 values] 
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 4          
+SleepingBarberAkkaActorBenchmark            Best Time:  2100.282 ms 
+SleepingBarberAkkaActorBenchmark           Worst Time:  2695.171 ms 
+SleepingBarberAkkaActorBenchmark               Median:  2480.192 ms 
+SleepingBarberAkkaActorBenchmark     Arith. Mean Time:  2438.959 ms 
+SleepingBarberAkkaActorBenchmark       Geo. Mean Time:  2429.147 ms 
+SleepingBarberAkkaActorBenchmark   Harmonic Mean Time:  2418.985 ms 
+SleepingBarberAkkaActorBenchmark        Std. Dev Time:   214.651 ms 
+SleepingBarberAkkaActorBenchmark     Lower Confidence:  2228.601 ms 
+SleepingBarberAkkaActorBenchmark    Higher Confidence:  2649.318 ms 
+SleepingBarberAkkaActorBenchmark         Error Window:   210.358 ms (8.625 percent) 
+SleepingBarberAkkaActorBenchmark  Coeff. of Variation:     0.088 
+SleepingBarberAkkaActorBenchmark             Skewness:    -0.735 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: SleepingBarberAkkaActorBenchmark
+Args: 
+         N (num haircuts) = 5000       
+    W (waiting room size) = 1000       
+    APR (production rate) = 1000       
+       AHR (haircut rate) = 1000       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+Total attempts: 5000
+SleepingBarberAkkaActorBenchmark          Iteration-0:  1747.693 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorBenchmark          Iteration-1:  1042.396 ms 
+Total attempts: 44605
+SleepingBarberAkkaActorBenchmark          Iteration-2:  1211.185 ms 
+Total attempts: 158459
+SleepingBarberAkkaActorBenchmark          Iteration-3:  2002.150 ms 
+Total attempts: 549718
+SleepingBarberAkkaActorBenchmark          Iteration-4:  4586.692 ms 
+Total attempts: 6444
+SleepingBarberAkkaActorBenchmark          Iteration-5:  1006.840 ms 
+Total attempts: 5051
+SleepingBarberAkkaActorBenchmark          Iteration-6:   963.410 ms 
+Total attempts: 548102
+SleepingBarberAkkaActorBenchmark          Iteration-7:  4411.545 ms 
+Total attempts: 86318
+SleepingBarberAkkaActorBenchmark          Iteration-8:  1523.474 ms 
+Total attempts: 218529
+SleepingBarberAkkaActorBenchmark          Iteration-9:  2436.741 ms 
+Total attempts: 1014453
+SleepingBarberAkkaActorBenchmark         Iteration-10:  7730.232 ms 
+Total attempts: 801613
+SleepingBarberAkkaActorBenchmark         Iteration-11:  6378.398 ms 
+
+
+Attributes - Summary: 
+SleepingBarberAkkaActorBenchmark     CustomerAttempts: 158459.000 [  1 of  12 values] 
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 2          
+SleepingBarberAkkaActorBenchmark            Best Time:  1747.693 ms 
+SleepingBarberAkkaActorBenchmark           Worst Time:  2002.150 ms 
+SleepingBarberAkkaActorBenchmark               Median:  1874.922 ms 
+SleepingBarberAkkaActorBenchmark     Arith. Mean Time:  1874.922 ms 
+SleepingBarberAkkaActorBenchmark       Geo. Mean Time:  1870.600 ms 
+SleepingBarberAkkaActorBenchmark   Harmonic Mean Time:  1866.288 ms 
+SleepingBarberAkkaActorBenchmark        Std. Dev Time:   127.229 ms 
+SleepingBarberAkkaActorBenchmark     Lower Confidence:  1698.592 ms 
+SleepingBarberAkkaActorBenchmark    Higher Confidence:  2051.252 ms 
+SleepingBarberAkkaActorBenchmark         Error Window:   176.330 ms (9.405 percent) 
+SleepingBarberAkkaActorBenchmark  Coeff. of Variation:     0.068 
+SleepingBarberAkkaActorBenchmark             Skewness:     0.000 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: SleepingBarberAkkaActorBenchmark
+Args: 
+         N (num haircuts) = 5000       
+    W (waiting room size) = 1000       
+    APR (production rate) = 1000       
+       AHR (haircut rate) = 1000       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+Total attempts: 5000
+SleepingBarberAkkaActorBenchmark          Iteration-0:  2663.865 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorBenchmark          Iteration-1:   763.656 ms 
+Total attempts: 97141
+SleepingBarberAkkaActorBenchmark          Iteration-2:  1284.206 ms 
+Total attempts: 302299
+SleepingBarberAkkaActorBenchmark          Iteration-3:  2508.682 ms 
+Total attempts: 151496
+SleepingBarberAkkaActorBenchmark          Iteration-4:  1725.092 ms 
+Total attempts: 200704
+SleepingBarberAkkaActorBenchmark          Iteration-5:  1943.480 ms 
+Total attempts: 207176
+SleepingBarberAkkaActorBenchmark          Iteration-6:  2010.630 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorBenchmark          Iteration-7:  1100.021 ms 
+Total attempts: 636016
+SleepingBarberAkkaActorBenchmark          Iteration-8:  4088.023 ms 
+Total attempts: 283779
+SleepingBarberAkkaActorBenchmark          Iteration-9:  2452.460 ms 
+Total attempts: 243642
+SleepingBarberAkkaActorBenchmark         Iteration-10:  2117.833 ms 
+Total attempts: 332996
+SleepingBarberAkkaActorBenchmark         Iteration-11:  2630.526 ms 
+
+
+Attributes - Summary: 
+SleepingBarberAkkaActorBenchmark     CustomerAttempts: 200754.500 [  4 of  12 values] 
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 6          
+SleepingBarberAkkaActorBenchmark            Best Time:  1725.092 ms 
+SleepingBarberAkkaActorBenchmark           Worst Time:  2508.682 ms 
+SleepingBarberAkkaActorBenchmark               Median:  2064.231 ms 
+SleepingBarberAkkaActorBenchmark     Arith. Mean Time:  2126.363 ms 
+SleepingBarberAkkaActorBenchmark       Geo. Mean Time:  2108.356 ms 
+SleepingBarberAkkaActorBenchmark   Harmonic Mean Time:  2090.500 ms 
+SleepingBarberAkkaActorBenchmark        Std. Dev Time:   277.019 ms 
+SleepingBarberAkkaActorBenchmark     Lower Confidence:  1904.701 ms 
+SleepingBarberAkkaActorBenchmark    Higher Confidence:  2348.025 ms 
+SleepingBarberAkkaActorBenchmark         Error Window:   221.662 ms (10.424 percent) 
+SleepingBarberAkkaActorBenchmark  Coeff. of Variation:     0.130 
+SleepingBarberAkkaActorBenchmark             Skewness:     0.172 
+
+****************************************

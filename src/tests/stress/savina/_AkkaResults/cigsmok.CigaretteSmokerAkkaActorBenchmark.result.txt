@@ -1,0 +1,264 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: CigaretteSmokerAkkaActorBenchmark
+Args: 
+           R (num rounds) = 1000       
+          S (num smokers) = 200        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+CigaretteSmokerAkkaActorBenchmark          Iteration-0:   575.403 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-1:   125.106 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-2:   111.452 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-3:    84.187 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-4:    91.177 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-5:   147.181 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-6:    64.971 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-7:    96.777 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-8:    51.423 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-9:    49.595 ms 
+CigaretteSmokerAkkaActorBenchmark         Iteration-10:    48.552 ms 
+CigaretteSmokerAkkaActorBenchmark         Iteration-11:    50.354 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 3          
+CigaretteSmokerAkkaActorBenchmark            Best Time:    84.187 ms 
+CigaretteSmokerAkkaActorBenchmark           Worst Time:    96.777 ms 
+CigaretteSmokerAkkaActorBenchmark               Median:    91.177 ms 
+CigaretteSmokerAkkaActorBenchmark     Arith. Mean Time:    90.714 ms 
+CigaretteSmokerAkkaActorBenchmark       Geo. Mean Time:    90.567 ms 
+CigaretteSmokerAkkaActorBenchmark   Harmonic Mean Time:    90.419 ms 
+CigaretteSmokerAkkaActorBenchmark        Std. Dev Time:     5.150 ms 
+CigaretteSmokerAkkaActorBenchmark     Lower Confidence:    84.886 ms 
+CigaretteSmokerAkkaActorBenchmark    Higher Confidence:    96.542 ms 
+CigaretteSmokerAkkaActorBenchmark         Error Window:     5.828 ms (6.425 percent) 
+CigaretteSmokerAkkaActorBenchmark  Coeff. of Variation:     0.057 
+CigaretteSmokerAkkaActorBenchmark             Skewness:    -0.201 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: CigaretteSmokerAkkaActorBenchmark
+Args: 
+           R (num rounds) = 1000       
+          S (num smokers) = 200        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+CigaretteSmokerAkkaActorBenchmark          Iteration-0:   964.640 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-1:   477.997 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-2:   624.195 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-3:   650.738 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-4:   648.563 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-5:   610.518 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-6:   610.321 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-7:   651.154 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-8:   504.939 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-9:   562.532 ms 
+CigaretteSmokerAkkaActorBenchmark         Iteration-10:   560.327 ms 
+CigaretteSmokerAkkaActorBenchmark         Iteration-11:   575.842 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+CigaretteSmokerAkkaActorBenchmark            Best Time:   504.939 ms 
+CigaretteSmokerAkkaActorBenchmark           Worst Time:   651.154 ms 
+CigaretteSmokerAkkaActorBenchmark               Median:   610.419 ms 
+CigaretteSmokerAkkaActorBenchmark     Arith. Mean Time:   599.913 ms 
+CigaretteSmokerAkkaActorBenchmark       Geo. Mean Time:   598.102 ms 
+CigaretteSmokerAkkaActorBenchmark   Harmonic Mean Time:   596.225 ms 
+CigaretteSmokerAkkaActorBenchmark        Std. Dev Time:    45.771 ms 
+CigaretteSmokerAkkaActorBenchmark     Lower Confidence:   571.544 ms 
+CigaretteSmokerAkkaActorBenchmark    Higher Confidence:   628.282 ms 
+CigaretteSmokerAkkaActorBenchmark         Error Window:    28.369 ms (4.729 percent) 
+CigaretteSmokerAkkaActorBenchmark  Coeff. of Variation:     0.076 
+CigaretteSmokerAkkaActorBenchmark             Skewness:    -0.680 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: CigaretteSmokerAkkaActorBenchmark
+Args: 
+           R (num rounds) = 1000       
+          S (num smokers) = 200        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+CigaretteSmokerAkkaActorBenchmark          Iteration-0:   902.446 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-1:   484.479 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-2:   465.016 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-3:   461.252 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-4:   452.989 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-5:   427.975 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-6:   431.317 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-7:   420.614 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-8:   431.274 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-9:   418.175 ms 
+CigaretteSmokerAkkaActorBenchmark         Iteration-10:   386.338 ms 
+CigaretteSmokerAkkaActorBenchmark         Iteration-11:   417.016 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+CigaretteSmokerAkkaActorBenchmark            Best Time:   386.338 ms 
+CigaretteSmokerAkkaActorBenchmark           Worst Time:   484.479 ms 
+CigaretteSmokerAkkaActorBenchmark               Median:   431.274 ms 
+CigaretteSmokerAkkaActorBenchmark     Arith. Mean Time:   436.040 ms 
+CigaretteSmokerAkkaActorBenchmark       Geo. Mean Time:   435.247 ms 
+CigaretteSmokerAkkaActorBenchmark   Harmonic Mean Time:   434.455 ms 
+CigaretteSmokerAkkaActorBenchmark        Std. Dev Time:    26.299 ms 
+CigaretteSmokerAkkaActorBenchmark     Lower Confidence:   420.498 ms 
+CigaretteSmokerAkkaActorBenchmark    Higher Confidence:   451.582 ms 
+CigaretteSmokerAkkaActorBenchmark         Error Window:    15.542 ms (3.564 percent) 
+CigaretteSmokerAkkaActorBenchmark  Coeff. of Variation:     0.060 
+CigaretteSmokerAkkaActorBenchmark             Skewness:     0.105 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: CigaretteSmokerAkkaActorBenchmark
+Args: 
+           R (num rounds) = 1000       
+          S (num smokers) = 200        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+CigaretteSmokerAkkaActorBenchmark          Iteration-0:   719.722 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-1:   321.870 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-2:   283.011 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-3:   295.767 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-4:   302.635 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-5:   306.908 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-6:   274.227 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-7:   270.297 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-8:   276.325 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-9:   271.913 ms 
+CigaretteSmokerAkkaActorBenchmark         Iteration-10:   294.454 ms 
+CigaretteSmokerAkkaActorBenchmark         Iteration-11:   237.350 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+CigaretteSmokerAkkaActorBenchmark            Best Time:   237.350 ms 
+CigaretteSmokerAkkaActorBenchmark           Worst Time:   321.870 ms 
+CigaretteSmokerAkkaActorBenchmark               Median:   283.011 ms 
+CigaretteSmokerAkkaActorBenchmark     Arith. Mean Time:   284.978 ms 
+CigaretteSmokerAkkaActorBenchmark       Geo. Mean Time:   284.123 ms 
+CigaretteSmokerAkkaActorBenchmark   Harmonic Mean Time:   283.242 ms 
+CigaretteSmokerAkkaActorBenchmark        Std. Dev Time:    21.761 ms 
+CigaretteSmokerAkkaActorBenchmark     Lower Confidence:   272.118 ms 
+CigaretteSmokerAkkaActorBenchmark    Higher Confidence:   297.838 ms 
+CigaretteSmokerAkkaActorBenchmark         Error Window:    12.860 ms (4.513 percent) 
+CigaretteSmokerAkkaActorBenchmark  Coeff. of Variation:     0.076 
+CigaretteSmokerAkkaActorBenchmark             Skewness:    -0.456 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: CigaretteSmokerAkkaActorBenchmark
+Args: 
+           R (num rounds) = 1000       
+          S (num smokers) = 200        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+CigaretteSmokerAkkaActorBenchmark          Iteration-0:   721.347 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-1:   419.781 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-2:   259.742 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-3:   382.684 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-4:   361.975 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-5:   366.517 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-6:   349.265 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-7:   354.725 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-8:   350.357 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-9:   360.326 ms 
+CigaretteSmokerAkkaActorBenchmark         Iteration-10:   348.469 ms 
+CigaretteSmokerAkkaActorBenchmark         Iteration-11:   362.840 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 10         
+CigaretteSmokerAkkaActorBenchmark            Best Time:   348.469 ms 
+CigaretteSmokerAkkaActorBenchmark           Worst Time:   419.781 ms 
+CigaretteSmokerAkkaActorBenchmark               Median:   361.150 ms 
+CigaretteSmokerAkkaActorBenchmark     Arith. Mean Time:   365.694 ms 
+CigaretteSmokerAkkaActorBenchmark       Geo. Mean Time:   365.155 ms 
+CigaretteSmokerAkkaActorBenchmark   Harmonic Mean Time:   364.647 ms 
+CigaretteSmokerAkkaActorBenchmark        Std. Dev Time:    20.464 ms 
+CigaretteSmokerAkkaActorBenchmark     Lower Confidence:   353.010 ms 
+CigaretteSmokerAkkaActorBenchmark    Higher Confidence:   378.378 ms 
+CigaretteSmokerAkkaActorBenchmark         Error Window:    12.684 ms (3.468 percent) 
+CigaretteSmokerAkkaActorBenchmark  Coeff. of Variation:     0.056 
+CigaretteSmokerAkkaActorBenchmark             Skewness:     1.925 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: CigaretteSmokerAkkaActorBenchmark
+Args: 
+           R (num rounds) = 1000       
+          S (num smokers) = 200        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+CigaretteSmokerAkkaActorBenchmark          Iteration-0:   856.513 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-1:   331.132 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-2:   369.608 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-3:   479.724 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-4:   472.750 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-5:   378.893 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-6:   621.653 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-7:   497.627 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-8:   595.583 ms 
+CigaretteSmokerAkkaActorBenchmark          Iteration-9:   499.582 ms 
+CigaretteSmokerAkkaActorBenchmark         Iteration-10:   615.866 ms 
+CigaretteSmokerAkkaActorBenchmark         Iteration-11:   319.173 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 5          
+CigaretteSmokerAkkaActorBenchmark            Best Time:   472.750 ms 
+CigaretteSmokerAkkaActorBenchmark           Worst Time:   595.583 ms 
+CigaretteSmokerAkkaActorBenchmark               Median:   497.627 ms 
+CigaretteSmokerAkkaActorBenchmark     Arith. Mean Time:   509.053 ms 
+CigaretteSmokerAkkaActorBenchmark       Geo. Mean Time:   507.242 ms 
+CigaretteSmokerAkkaActorBenchmark   Harmonic Mean Time:   505.558 ms 
+CigaretteSmokerAkkaActorBenchmark        Std. Dev Time:    44.465 ms 
+CigaretteSmokerAkkaActorBenchmark     Lower Confidence:   470.078 ms 
+CigaretteSmokerAkkaActorBenchmark    Higher Confidence:   548.029 ms 
+CigaretteSmokerAkkaActorBenchmark         Error Window:    38.976 ms (7.656 percent) 
+CigaretteSmokerAkkaActorBenchmark  Coeff. of Variation:     0.087 
+CigaretteSmokerAkkaActorBenchmark             Skewness:     1.628 
+
+****************************************

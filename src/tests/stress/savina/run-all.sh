@@ -1,6 +1,6 @@
 #!/bin/bash
 
-benchmarks=$(ls -I "*.md" -I "*.sh" -I "Makefile")
+benchmarks=$(ls -I "*.md" -I "*.sh" -I "Makefile" -I "_*")
 for bm in ${benchmarks[@]}
 do : 
   echo $bm 

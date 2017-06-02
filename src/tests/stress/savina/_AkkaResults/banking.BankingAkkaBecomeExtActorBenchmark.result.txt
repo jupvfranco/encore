@@ -1,0 +1,270 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BankingAkkaBecomeExtActorBenchmark
+Args: 
+         A (num accounts) = 1000       
+     N (num transactions) = 50000      
+          Initial Balance = 3.595386269724631E300 
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+BankingAkkaBecomeExtActorBenchmark          Iteration-0:  1490.755 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-1:   674.848 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-2:   415.331 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-3:   407.346 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-4:   447.786 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-5:   391.317 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-6:   314.551 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-7:   312.439 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-8:   285.105 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-9:   258.408 ms 
+BankingAkkaBecomeExtActorBenchmark         Iteration-10:   255.570 ms 
+BankingAkkaBecomeExtActorBenchmark         Iteration-11:   247.906 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 5          
+BankingAkkaBecomeExtActorBenchmark            Best Time:   314.551 ms 
+BankingAkkaBecomeExtActorBenchmark           Worst Time:   447.786 ms 
+BankingAkkaBecomeExtActorBenchmark               Median:   407.346 ms 
+BankingAkkaBecomeExtActorBenchmark     Arith. Mean Time:   395.266 ms 
+BankingAkkaBecomeExtActorBenchmark       Geo. Mean Time:   392.581 ms 
+BankingAkkaBecomeExtActorBenchmark   Harmonic Mean Time:   389.698 ms 
+BankingAkkaBecomeExtActorBenchmark        Std. Dev Time:    44.356 ms 
+BankingAkkaBecomeExtActorBenchmark     Lower Confidence:   356.386 ms 
+BankingAkkaBecomeExtActorBenchmark    Higher Confidence:   434.146 ms 
+BankingAkkaBecomeExtActorBenchmark         Error Window:    38.880 ms (9.836 percent) 
+BankingAkkaBecomeExtActorBenchmark  Coeff. of Variation:     0.112 
+BankingAkkaBecomeExtActorBenchmark             Skewness:    -1.063 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BankingAkkaBecomeExtActorBenchmark
+Args: 
+         A (num accounts) = 1000       
+     N (num transactions) = 50000      
+          Initial Balance = 3.595386269724631E300 
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+BankingAkkaBecomeExtActorBenchmark          Iteration-0:  1164.730 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-1:   525.633 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-2:   270.807 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-3:   227.323 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-4:   227.906 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-5:   252.064 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-6:   174.674 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-7:   178.259 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-8:   172.673 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-9:   200.878 ms 
+BankingAkkaBecomeExtActorBenchmark         Iteration-10:   181.054 ms 
+BankingAkkaBecomeExtActorBenchmark         Iteration-11:   186.135 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 6          
+BankingAkkaBecomeExtActorBenchmark            Best Time:   186.135 ms 
+BankingAkkaBecomeExtActorBenchmark           Worst Time:   270.807 ms 
+BankingAkkaBecomeExtActorBenchmark               Median:   227.615 ms 
+BankingAkkaBecomeExtActorBenchmark     Arith. Mean Time:   227.519 ms 
+BankingAkkaBecomeExtActorBenchmark       Geo. Mean Time:   225.712 ms 
+BankingAkkaBecomeExtActorBenchmark   Harmonic Mean Time:   223.903 ms 
+BankingAkkaBecomeExtActorBenchmark        Std. Dev Time:    28.574 ms 
+BankingAkkaBecomeExtActorBenchmark     Lower Confidence:   204.655 ms 
+BankingAkkaBecomeExtActorBenchmark    Higher Confidence:   250.383 ms 
+BankingAkkaBecomeExtActorBenchmark         Error Window:    22.864 ms (10.049 percent) 
+BankingAkkaBecomeExtActorBenchmark  Coeff. of Variation:     0.126 
+BankingAkkaBecomeExtActorBenchmark             Skewness:     0.052 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BankingAkkaBecomeExtActorBenchmark
+Args: 
+         A (num accounts) = 1000       
+     N (num transactions) = 50000      
+          Initial Balance = 3.595386269724631E300 
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+BankingAkkaBecomeExtActorBenchmark          Iteration-0:  1098.355 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-1:   301.672 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-2:   316.985 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-3:   186.647 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-4:   148.190 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-5:   158.954 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-6:   152.272 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-7:   148.308 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-8:   141.514 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-9:   136.517 ms 
+BankingAkkaBecomeExtActorBenchmark         Iteration-10:   159.258 ms 
+BankingAkkaBecomeExtActorBenchmark         Iteration-11:   137.736 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 9          
+BankingAkkaBecomeExtActorBenchmark            Best Time:   136.517 ms 
+BankingAkkaBecomeExtActorBenchmark           Worst Time:   186.647 ms 
+BankingAkkaBecomeExtActorBenchmark               Median:   148.308 ms 
+BankingAkkaBecomeExtActorBenchmark     Arith. Mean Time:   152.155 ms 
+BankingAkkaBecomeExtActorBenchmark       Geo. Mean Time:   151.512 ms 
+BankingAkkaBecomeExtActorBenchmark   Harmonic Mean Time:   150.911 ms 
+BankingAkkaBecomeExtActorBenchmark        Std. Dev Time:    14.463 ms 
+BankingAkkaBecomeExtActorBenchmark     Lower Confidence:   142.706 ms 
+BankingAkkaBecomeExtActorBenchmark    Higher Confidence:   161.605 ms 
+BankingAkkaBecomeExtActorBenchmark         Error Window:     9.449 ms (6.210 percent) 
+BankingAkkaBecomeExtActorBenchmark  Coeff. of Variation:     0.095 
+BankingAkkaBecomeExtActorBenchmark             Skewness:     1.387 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BankingAkkaBecomeExtActorBenchmark
+Args: 
+         A (num accounts) = 1000       
+     N (num transactions) = 50000      
+          Initial Balance = 3.595386269724631E300 
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+BankingAkkaBecomeExtActorBenchmark          Iteration-0:  1265.535 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-1:   374.994 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-2:   228.146 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-3:   202.991 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-4:   172.588 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-5:   167.358 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-6:   160.339 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-7:   162.497 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-8:   217.904 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-9:   171.391 ms 
+BankingAkkaBecomeExtActorBenchmark         Iteration-10:   179.569 ms 
+BankingAkkaBecomeExtActorBenchmark         Iteration-11:   172.844 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 8          
+BankingAkkaBecomeExtActorBenchmark            Best Time:   160.339 ms 
+BankingAkkaBecomeExtActorBenchmark           Worst Time:   202.991 ms 
+BankingAkkaBecomeExtActorBenchmark               Median:   171.989 ms 
+BankingAkkaBecomeExtActorBenchmark     Arith. Mean Time:   173.697 ms 
+BankingAkkaBecomeExtActorBenchmark       Geo. Mean Time:   173.275 ms 
+BankingAkkaBecomeExtActorBenchmark   Harmonic Mean Time:   172.878 ms 
+BankingAkkaBecomeExtActorBenchmark        Std. Dev Time:    12.470 ms 
+BankingAkkaBecomeExtActorBenchmark     Lower Confidence:   165.056 ms 
+BankingAkkaBecomeExtActorBenchmark    Higher Confidence:   182.338 ms 
+BankingAkkaBecomeExtActorBenchmark         Error Window:     8.641 ms (4.975 percent) 
+BankingAkkaBecomeExtActorBenchmark  Coeff. of Variation:     0.072 
+BankingAkkaBecomeExtActorBenchmark             Skewness:     1.568 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BankingAkkaBecomeExtActorBenchmark
+Args: 
+         A (num accounts) = 1000       
+     N (num transactions) = 50000      
+          Initial Balance = 3.595386269724631E300 
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+BankingAkkaBecomeExtActorBenchmark          Iteration-0:  1635.792 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-1:   296.052 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-2:   292.142 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-3:   304.567 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-4:   297.535 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-5:   407.255 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-6:   191.984 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-7:   249.481 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-8:   310.511 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-9:   349.406 ms 
+BankingAkkaBecomeExtActorBenchmark         Iteration-10:   262.717 ms 
+BankingAkkaBecomeExtActorBenchmark         Iteration-11:   344.533 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 9          
+BankingAkkaBecomeExtActorBenchmark            Best Time:   249.481 ms 
+BankingAkkaBecomeExtActorBenchmark           Worst Time:   349.406 ms 
+BankingAkkaBecomeExtActorBenchmark               Median:   297.535 ms 
+BankingAkkaBecomeExtActorBenchmark     Arith. Mean Time:   300.772 ms 
+BankingAkkaBecomeExtActorBenchmark       Geo. Mean Time:   299.177 ms 
+BankingAkkaBecomeExtActorBenchmark   Harmonic Mean Time:   297.572 ms 
+BankingAkkaBecomeExtActorBenchmark        Std. Dev Time:    30.868 ms 
+BankingAkkaBecomeExtActorBenchmark     Lower Confidence:   280.604 ms 
+BankingAkkaBecomeExtActorBenchmark    Higher Confidence:   320.939 ms 
+BankingAkkaBecomeExtActorBenchmark         Error Window:    20.167 ms (6.705 percent) 
+BankingAkkaBecomeExtActorBenchmark  Coeff. of Variation:     0.103 
+BankingAkkaBecomeExtActorBenchmark             Skewness:     0.038 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BankingAkkaBecomeExtActorBenchmark
+Args: 
+         A (num accounts) = 1000       
+     N (num transactions) = 50000      
+          Initial Balance = 3.595386269724631E300 
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+BankingAkkaBecomeExtActorBenchmark          Iteration-0:  1478.071 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-1:   351.809 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-2:   417.804 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-3:   360.939 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-4:   414.448 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-5:   399.885 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-6:   356.803 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-7:   338.288 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-8:   347.120 ms 
+BankingAkkaBecomeExtActorBenchmark          Iteration-9:   329.864 ms 
+BankingAkkaBecomeExtActorBenchmark         Iteration-10:   339.774 ms 
+BankingAkkaBecomeExtActorBenchmark         Iteration-11:   352.200 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+BankingAkkaBecomeExtActorBenchmark            Best Time:   329.864 ms 
+BankingAkkaBecomeExtActorBenchmark           Worst Time:   417.804 ms 
+BankingAkkaBecomeExtActorBenchmark               Median:   352.200 ms 
+BankingAkkaBecomeExtActorBenchmark     Arith. Mean Time:   364.449 ms 
+BankingAkkaBecomeExtActorBenchmark       Geo. Mean Time:   363.278 ms 
+BankingAkkaBecomeExtActorBenchmark   Harmonic Mean Time:   362.157 ms 
+BankingAkkaBecomeExtActorBenchmark        Std. Dev Time:    29.806 ms 
+BankingAkkaBecomeExtActorBenchmark     Lower Confidence:   346.834 ms 
+BankingAkkaBecomeExtActorBenchmark    Higher Confidence:   382.063 ms 
+BankingAkkaBecomeExtActorBenchmark         Error Window:    17.614 ms (4.833 percent) 
+BankingAkkaBecomeExtActorBenchmark  Coeff. of Variation:     0.082 
+BankingAkkaBecomeExtActorBenchmark             Skewness:     0.897 
+
+****************************************

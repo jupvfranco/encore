@@ -1,0 +1,276 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ChameneosAkkaActorBenchmark
+Args: 
+            num chameneos = 100        
+             num meetings = 200000     
+            num mailboxes = 1          
+           use priorities = true       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ChameneosAkkaActorBenchmark          Iteration-0:  1170.017 ms 
+ChameneosAkkaActorBenchmark          Iteration-1:   753.648 ms 
+ChameneosAkkaActorBenchmark          Iteration-2:   692.717 ms 
+ChameneosAkkaActorBenchmark          Iteration-3:   723.258 ms 
+ChameneosAkkaActorBenchmark          Iteration-4:   633.055 ms 
+ChameneosAkkaActorBenchmark          Iteration-5:   649.618 ms 
+ChameneosAkkaActorBenchmark          Iteration-6:   614.692 ms 
+ChameneosAkkaActorBenchmark          Iteration-7:   602.414 ms 
+ChameneosAkkaActorBenchmark          Iteration-8:   620.131 ms 
+ChameneosAkkaActorBenchmark          Iteration-9:   584.736 ms 
+ChameneosAkkaActorBenchmark         Iteration-10:   604.207 ms 
+ChameneosAkkaActorBenchmark         Iteration-11:   612.657 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+ChameneosAkkaActorBenchmark            Best Time:   584.736 ms 
+ChameneosAkkaActorBenchmark           Worst Time:   753.648 ms 
+ChameneosAkkaActorBenchmark               Median:   620.131 ms 
+ChameneosAkkaActorBenchmark     Arith. Mean Time:   644.648 ms 
+ChameneosAkkaActorBenchmark       Geo. Mean Time:   642.623 ms 
+ChameneosAkkaActorBenchmark   Harmonic Mean Time:   640.691 ms 
+ChameneosAkkaActorBenchmark        Std. Dev Time:    52.276 ms 
+ChameneosAkkaActorBenchmark     Lower Confidence:   613.755 ms 
+ChameneosAkkaActorBenchmark    Higher Confidence:   675.542 ms 
+ChameneosAkkaActorBenchmark         Error Window:    30.893 ms (4.792 percent) 
+ChameneosAkkaActorBenchmark  Coeff. of Variation:     0.081 
+ChameneosAkkaActorBenchmark             Skewness:     1.022 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ChameneosAkkaActorBenchmark
+Args: 
+            num chameneos = 100        
+             num meetings = 200000     
+            num mailboxes = 1          
+           use priorities = true       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ChameneosAkkaActorBenchmark          Iteration-0:  1130.244 ms 
+ChameneosAkkaActorBenchmark          Iteration-1:   719.937 ms 
+ChameneosAkkaActorBenchmark          Iteration-2:   717.437 ms 
+ChameneosAkkaActorBenchmark          Iteration-3:   670.549 ms 
+ChameneosAkkaActorBenchmark          Iteration-4:   619.247 ms 
+ChameneosAkkaActorBenchmark          Iteration-5:   598.336 ms 
+ChameneosAkkaActorBenchmark          Iteration-6:   632.594 ms 
+ChameneosAkkaActorBenchmark          Iteration-7:   592.011 ms 
+ChameneosAkkaActorBenchmark          Iteration-8:   590.269 ms 
+ChameneosAkkaActorBenchmark          Iteration-9:   584.795 ms 
+ChameneosAkkaActorBenchmark         Iteration-10:   617.379 ms 
+ChameneosAkkaActorBenchmark         Iteration-11:   595.932 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+ChameneosAkkaActorBenchmark            Best Time:   584.795 ms 
+ChameneosAkkaActorBenchmark           Worst Time:   719.937 ms 
+ChameneosAkkaActorBenchmark               Median:   617.379 ms 
+ChameneosAkkaActorBenchmark     Arith. Mean Time:   630.771 ms 
+ChameneosAkkaActorBenchmark       Geo. Mean Time:   629.055 ms 
+ChameneosAkkaActorBenchmark   Harmonic Mean Time:   627.416 ms 
+ChameneosAkkaActorBenchmark        Std. Dev Time:    47.560 ms 
+ChameneosAkkaActorBenchmark     Lower Confidence:   602.665 ms 
+ChameneosAkkaActorBenchmark    Higher Confidence:   658.878 ms 
+ChameneosAkkaActorBenchmark         Error Window:    28.106 ms (4.456 percent) 
+ChameneosAkkaActorBenchmark  Coeff. of Variation:     0.075 
+ChameneosAkkaActorBenchmark             Skewness:     1.042 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ChameneosAkkaActorBenchmark
+Args: 
+            num chameneos = 100        
+             num meetings = 200000     
+            num mailboxes = 1          
+           use priorities = true       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ChameneosAkkaActorBenchmark          Iteration-0:  1392.155 ms 
+ChameneosAkkaActorBenchmark          Iteration-1:   857.159 ms 
+ChameneosAkkaActorBenchmark          Iteration-2:   896.791 ms 
+ChameneosAkkaActorBenchmark          Iteration-3:   929.039 ms 
+ChameneosAkkaActorBenchmark          Iteration-4:   918.068 ms 
+ChameneosAkkaActorBenchmark          Iteration-5:   818.998 ms 
+ChameneosAkkaActorBenchmark          Iteration-6:   823.780 ms 
+ChameneosAkkaActorBenchmark          Iteration-7:   781.314 ms 
+ChameneosAkkaActorBenchmark          Iteration-8:   843.840 ms 
+ChameneosAkkaActorBenchmark          Iteration-9:   846.440 ms 
+ChameneosAkkaActorBenchmark         Iteration-10:   804.403 ms 
+ChameneosAkkaActorBenchmark         Iteration-11:   794.981 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+ChameneosAkkaActorBenchmark            Best Time:   781.314 ms 
+ChameneosAkkaActorBenchmark           Worst Time:   929.039 ms 
+ChameneosAkkaActorBenchmark               Median:   843.840 ms 
+ChameneosAkkaActorBenchmark     Arith. Mean Time:   846.801 ms 
+ChameneosAkkaActorBenchmark       Geo. Mean Time:   845.503 ms 
+ChameneosAkkaActorBenchmark   Harmonic Mean Time:   844.225 ms 
+ChameneosAkkaActorBenchmark        Std. Dev Time:    47.225 ms 
+ChameneosAkkaActorBenchmark     Lower Confidence:   818.893 ms 
+ChameneosAkkaActorBenchmark    Higher Confidence:   874.709 ms 
+ChameneosAkkaActorBenchmark         Error Window:    27.908 ms (3.296 percent) 
+ChameneosAkkaActorBenchmark  Coeff. of Variation:     0.056 
+ChameneosAkkaActorBenchmark             Skewness:     0.488 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ChameneosAkkaActorBenchmark
+Args: 
+            num chameneos = 100        
+             num meetings = 200000     
+            num mailboxes = 1          
+           use priorities = true       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ChameneosAkkaActorBenchmark          Iteration-0:  2038.841 ms 
+ChameneosAkkaActorBenchmark          Iteration-1:  1324.656 ms 
+ChameneosAkkaActorBenchmark          Iteration-2:  1251.605 ms 
+ChameneosAkkaActorBenchmark          Iteration-3:  1235.579 ms 
+ChameneosAkkaActorBenchmark          Iteration-4:  1222.688 ms 
+ChameneosAkkaActorBenchmark          Iteration-5:  1166.220 ms 
+ChameneosAkkaActorBenchmark          Iteration-6:  1230.464 ms 
+ChameneosAkkaActorBenchmark          Iteration-7:  1166.728 ms 
+ChameneosAkkaActorBenchmark          Iteration-8:  1159.502 ms 
+ChameneosAkkaActorBenchmark          Iteration-9:  1160.744 ms 
+ChameneosAkkaActorBenchmark         Iteration-10:  1145.975 ms 
+ChameneosAkkaActorBenchmark         Iteration-11:  1184.262 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+ChameneosAkkaActorBenchmark            Best Time:  1145.975 ms 
+ChameneosAkkaActorBenchmark           Worst Time:  1324.656 ms 
+ChameneosAkkaActorBenchmark               Median:  1184.262 ms 
+ChameneosAkkaActorBenchmark     Arith. Mean Time:  1204.402 ms 
+ChameneosAkkaActorBenchmark       Geo. Mean Time:  1203.324 ms 
+ChameneosAkkaActorBenchmark   Harmonic Mean Time:  1202.272 ms 
+ChameneosAkkaActorBenchmark        Std. Dev Time:    51.605 ms 
+ChameneosAkkaActorBenchmark     Lower Confidence:  1173.906 ms 
+ChameneosAkkaActorBenchmark    Higher Confidence:  1234.899 ms 
+ChameneosAkkaActorBenchmark         Error Window:    30.496 ms (2.532 percent) 
+ChameneosAkkaActorBenchmark  Coeff. of Variation:     0.043 
+ChameneosAkkaActorBenchmark             Skewness:     1.024 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ChameneosAkkaActorBenchmark
+Args: 
+            num chameneos = 100        
+             num meetings = 200000     
+            num mailboxes = 1          
+           use priorities = true       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ChameneosAkkaActorBenchmark          Iteration-0:  2650.124 ms 
+ChameneosAkkaActorBenchmark          Iteration-1:  1747.604 ms 
+ChameneosAkkaActorBenchmark          Iteration-2:  1672.136 ms 
+ChameneosAkkaActorBenchmark          Iteration-3:  1698.683 ms 
+ChameneosAkkaActorBenchmark          Iteration-4:  1722.140 ms 
+ChameneosAkkaActorBenchmark          Iteration-5:  1680.983 ms 
+ChameneosAkkaActorBenchmark          Iteration-6:  1670.850 ms 
+ChameneosAkkaActorBenchmark          Iteration-7:  1624.920 ms 
+ChameneosAkkaActorBenchmark          Iteration-8:  1687.613 ms 
+ChameneosAkkaActorBenchmark          Iteration-9:  1673.644 ms 
+ChameneosAkkaActorBenchmark         Iteration-10:  1677.189 ms 
+ChameneosAkkaActorBenchmark         Iteration-11:  1697.944 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+ChameneosAkkaActorBenchmark            Best Time:  1624.920 ms 
+ChameneosAkkaActorBenchmark           Worst Time:  1747.604 ms 
+ChameneosAkkaActorBenchmark               Median:  1680.983 ms 
+ChameneosAkkaActorBenchmark     Arith. Mean Time:  1686.701 ms 
+ChameneosAkkaActorBenchmark       Geo. Mean Time:  1686.436 ms 
+ChameneosAkkaActorBenchmark   Harmonic Mean Time:  1686.172 ms 
+ChameneosAkkaActorBenchmark        Std. Dev Time:    29.863 ms 
+ChameneosAkkaActorBenchmark     Lower Confidence:  1669.053 ms 
+ChameneosAkkaActorBenchmark    Higher Confidence:  1704.349 ms 
+ChameneosAkkaActorBenchmark         Error Window:    17.648 ms (1.046 percent) 
+ChameneosAkkaActorBenchmark  Coeff. of Variation:     0.018 
+ChameneosAkkaActorBenchmark             Skewness:     0.103 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: ChameneosAkkaActorBenchmark
+Args: 
+            num chameneos = 100        
+             num meetings = 200000     
+            num mailboxes = 1          
+           use priorities = true       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ChameneosAkkaActorBenchmark          Iteration-0:  2938.956 ms 
+ChameneosAkkaActorBenchmark          Iteration-1:  1405.050 ms 
+ChameneosAkkaActorBenchmark          Iteration-2:  1558.873 ms 
+ChameneosAkkaActorBenchmark          Iteration-3:  1414.169 ms 
+ChameneosAkkaActorBenchmark          Iteration-4:  1424.516 ms 
+ChameneosAkkaActorBenchmark          Iteration-5:  1409.135 ms 
+ChameneosAkkaActorBenchmark          Iteration-6:  1275.753 ms 
+ChameneosAkkaActorBenchmark          Iteration-7:  1350.937 ms 
+ChameneosAkkaActorBenchmark          Iteration-8:  1343.311 ms 
+ChameneosAkkaActorBenchmark          Iteration-9:  1392.819 ms 
+ChameneosAkkaActorBenchmark         Iteration-10:  1355.254 ms 
+ChameneosAkkaActorBenchmark         Iteration-11:  1330.637 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+ChameneosAkkaActorBenchmark            Best Time:  1275.753 ms 
+ChameneosAkkaActorBenchmark           Worst Time:  1558.873 ms 
+ChameneosAkkaActorBenchmark               Median:  1392.819 ms 
+ChameneosAkkaActorBenchmark     Arith. Mean Time:  1387.314 ms 
+ChameneosAkkaActorBenchmark       Geo. Mean Time:  1385.647 ms 
+ChameneosAkkaActorBenchmark   Harmonic Mean Time:  1384.022 ms 
+ChameneosAkkaActorBenchmark        Std. Dev Time:    68.956 ms 
+ChameneosAkkaActorBenchmark     Lower Confidence:  1346.564 ms 
+ChameneosAkkaActorBenchmark    Higher Confidence:  1428.064 ms 
+ChameneosAkkaActorBenchmark         Error Window:    40.750 ms (2.937 percent) 
+ChameneosAkkaActorBenchmark  Coeff. of Variation:     0.050 
+ChameneosAkkaActorBenchmark             Skewness:     1.037 
+
+****************************************

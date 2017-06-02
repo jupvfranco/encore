@@ -1,0 +1,342 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BitonicSortAkkaActorBenchmark
+Args: 
+           N (num values) = 4096       
+            M (max value) = 1152921504606846976 
+                 S (seed) = 2048       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-0:  2742.671 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-1:  1407.851 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-2:  1154.058 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-3:   906.707 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-4:   695.276 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-5:   748.655 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-6:   813.948 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-7:   866.446 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-8:   691.846 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-9:   598.318 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark         Iteration-10:   604.976 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark         Iteration-11:   689.660 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 7          
+BitonicSortAkkaActorBenchmark            Best Time:   689.660 ms 
+BitonicSortAkkaActorBenchmark           Worst Time:   906.707 ms 
+BitonicSortAkkaActorBenchmark               Median:   748.655 ms 
+BitonicSortAkkaActorBenchmark     Arith. Mean Time:   773.219 ms 
+BitonicSortAkkaActorBenchmark       Geo. Mean Time:   768.849 ms 
+BitonicSortAkkaActorBenchmark   Harmonic Mean Time:   764.608 ms 
+BitonicSortAkkaActorBenchmark        Std. Dev Time:    83.196 ms 
+BitonicSortAkkaActorBenchmark     Lower Confidence:   711.587 ms 
+BitonicSortAkkaActorBenchmark    Higher Confidence:   834.852 ms 
+BitonicSortAkkaActorBenchmark         Error Window:    61.633 ms (7.971 percent) 
+BitonicSortAkkaActorBenchmark  Coeff. of Variation:     0.108 
+BitonicSortAkkaActorBenchmark             Skewness:     0.476 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BitonicSortAkkaActorBenchmark
+Args: 
+           N (num values) = 4096       
+            M (max value) = 1152921504606846976 
+                 S (seed) = 2048       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  ERROR: Value out of place: 1080569846915400 at index 4
+BitonicSortAkkaActorBenchmark          Iteration-0:  2580.927 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-1:   980.293 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-2:   610.713 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-3:   568.278 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-4:   515.033 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-5:   496.288 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-6:   480.833 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-7:   423.488 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-8:   436.602 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-9:   408.940 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark         Iteration-10:   422.742 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark         Iteration-11:   419.211 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 9          
+BitonicSortAkkaActorBenchmark            Best Time:   408.940 ms 
+BitonicSortAkkaActorBenchmark           Worst Time:   568.278 ms 
+BitonicSortAkkaActorBenchmark               Median:   436.602 ms 
+BitonicSortAkkaActorBenchmark     Arith. Mean Time:   463.491 ms 
+BitonicSortAkkaActorBenchmark       Geo. Mean Time:   460.754 ms 
+BitonicSortAkkaActorBenchmark   Harmonic Mean Time:   458.154 ms 
+BitonicSortAkkaActorBenchmark        Std. Dev Time:    51.568 ms 
+BitonicSortAkkaActorBenchmark     Lower Confidence:   429.799 ms 
+BitonicSortAkkaActorBenchmark    Higher Confidence:   497.182 ms 
+BitonicSortAkkaActorBenchmark         Error Window:    33.691 ms (7.269 percent) 
+BitonicSortAkkaActorBenchmark  Coeff. of Variation:     0.111 
+BitonicSortAkkaActorBenchmark             Skewness:     0.846 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BitonicSortAkkaActorBenchmark
+Args: 
+           N (num values) = 4096       
+            M (max value) = 1152921504606846976 
+                 S (seed) = 2048       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  ERROR: Value out of place: 14272754472892541 at index 12
+BitonicSortAkkaActorBenchmark          Iteration-0:  2565.408 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-1:   590.430 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-2:   436.483 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-3:   433.907 ms 
+  ERROR: Value out of place: 2679188139964083 at index 4
+BitonicSortAkkaActorBenchmark          Iteration-4:  1176.194 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-5:   503.268 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-6:   294.590 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-7:   431.831 ms 
+  ERROR: Value out of place: 1080569846915400 at index 8
+BitonicSortAkkaActorBenchmark          Iteration-8:   409.906 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-9:   466.432 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark         Iteration-10:   432.701 ms 
+  ERROR: Value out of place: 15767078629980191 at index 6
+BitonicSortAkkaActorBenchmark         Iteration-11:   445.783 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 8          
+BitonicSortAkkaActorBenchmark            Best Time:   409.906 ms 
+BitonicSortAkkaActorBenchmark           Worst Time:   503.268 ms 
+BitonicSortAkkaActorBenchmark               Median:   435.195 ms 
+BitonicSortAkkaActorBenchmark     Arith. Mean Time:   445.039 ms 
+BitonicSortAkkaActorBenchmark       Geo. Mean Time:   444.281 ms 
+BitonicSortAkkaActorBenchmark   Harmonic Mean Time:   443.552 ms 
+BitonicSortAkkaActorBenchmark        Std. Dev Time:    26.474 ms 
+BitonicSortAkkaActorBenchmark     Lower Confidence:   426.694 ms 
+BitonicSortAkkaActorBenchmark    Higher Confidence:   463.384 ms 
+BitonicSortAkkaActorBenchmark         Error Window:    18.345 ms (4.122 percent) 
+BitonicSortAkkaActorBenchmark  Coeff. of Variation:     0.059 
+BitonicSortAkkaActorBenchmark             Skewness:     1.214 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BitonicSortAkkaActorBenchmark
+Args: 
+           N (num values) = 4096       
+            M (max value) = 1152921504606846976 
+                 S (seed) = 2048       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  ERROR: Value out of place: 13179793010144523 at index 8
+BitonicSortAkkaActorBenchmark          Iteration-0:  2660.618 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-1:   562.674 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-2:   476.604 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-3:   395.056 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-4:   335.623 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-5:   337.092 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-6:   363.195 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-7:   375.653 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-8:   365.180 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-9:   346.814 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark         Iteration-10:   393.508 ms 
+  ERROR: Value out of place: 1080569846915400 at index 8
+BitonicSortAkkaActorBenchmark         Iteration-11:   483.216 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 8          
+BitonicSortAkkaActorBenchmark            Best Time:   335.623 ms 
+BitonicSortAkkaActorBenchmark           Worst Time:   395.056 ms 
+BitonicSortAkkaActorBenchmark               Median:   364.187 ms 
+BitonicSortAkkaActorBenchmark     Arith. Mean Time:   364.015 ms 
+BitonicSortAkkaActorBenchmark       Geo. Mean Time:   363.365 ms 
+BitonicSortAkkaActorBenchmark   Harmonic Mean Time:   362.717 ms 
+BitonicSortAkkaActorBenchmark        Std. Dev Time:    21.788 ms 
+BitonicSortAkkaActorBenchmark     Lower Confidence:   348.917 ms 
+BitonicSortAkkaActorBenchmark    Higher Confidence:   379.113 ms 
+BitonicSortAkkaActorBenchmark         Error Window:    15.098 ms (4.148 percent) 
+BitonicSortAkkaActorBenchmark  Coeff. of Variation:     0.060 
+BitonicSortAkkaActorBenchmark             Skewness:     0.133 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BitonicSortAkkaActorBenchmark
+Args: 
+           N (num values) = 4096       
+            M (max value) = 1152921504606846976 
+                 S (seed) = 2048       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  ERROR: Value out of place: 8029002737054022 at index 8
+BitonicSortAkkaActorBenchmark          Iteration-0:  3868.692 ms 
+  ERROR: Value out of place: 35162394368121750 at index 8
+BitonicSortAkkaActorBenchmark          Iteration-1:  2770.593 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-2:   567.250 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-3:   580.835 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-4:   637.197 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-5:   698.109 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-6:   639.800 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-7:   655.799 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-8:   593.528 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-9:   615.767 ms 
+  ERROR: Value out of place: 7283544196578873 at index 16
+BitonicSortAkkaActorBenchmark         Iteration-10:  1119.077 ms 
+  ERROR: Value out of place: 13179793010144523 at index 8
+BitonicSortAkkaActorBenchmark         Iteration-11:   875.589 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 8          
+BitonicSortAkkaActorBenchmark            Best Time:   567.250 ms 
+BitonicSortAkkaActorBenchmark           Worst Time:   698.109 ms 
+BitonicSortAkkaActorBenchmark               Median:   626.482 ms 
+BitonicSortAkkaActorBenchmark     Arith. Mean Time:   623.535 ms 
+BitonicSortAkkaActorBenchmark       Geo. Mean Time:   622.246 ms 
+BitonicSortAkkaActorBenchmark   Harmonic Mean Time:   620.971 ms 
+BitonicSortAkkaActorBenchmark        Std. Dev Time:    40.320 ms 
+BitonicSortAkkaActorBenchmark     Lower Confidence:   595.595 ms 
+BitonicSortAkkaActorBenchmark    Higher Confidence:   651.476 ms 
+BitonicSortAkkaActorBenchmark         Error Window:    27.940 ms (4.481 percent) 
+BitonicSortAkkaActorBenchmark  Coeff. of Variation:     0.065 
+BitonicSortAkkaActorBenchmark             Skewness:     0.374 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BitonicSortAkkaActorBenchmark
+Args: 
+           N (num values) = 4096       
+            M (max value) = 1152921504606846976 
+                 S (seed) = 2048       
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  ERROR: Value out of place: 70084327693319026 at index 18
+BitonicSortAkkaActorBenchmark          Iteration-0:  5441.599 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-1:   698.886 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-2:   707.645 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-3:   751.582 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-4:   693.140 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-5:   728.659 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-6:   920.364 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-7:  1202.665 ms 
+  ERROR: Value out of place: 13179793010144523 at index 8
+BitonicSortAkkaActorBenchmark          Iteration-8:  1410.278 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark          Iteration-9:   816.287 ms 
+  ERROR: Value out of place: 658853216719419 at index 2
+BitonicSortAkkaActorBenchmark         Iteration-10:   565.830 ms 
+  ERROR: Value out of place: 13179793010144523 at index 8
+BitonicSortAkkaActorBenchmark         Iteration-11:  1070.791 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 7          
+BitonicSortAkkaActorBenchmark            Best Time:   693.140 ms 
+BitonicSortAkkaActorBenchmark           Worst Time:   920.364 ms 
+BitonicSortAkkaActorBenchmark               Median:   728.659 ms 
+BitonicSortAkkaActorBenchmark     Arith. Mean Time:   759.509 ms 
+BitonicSortAkkaActorBenchmark       Geo. Mean Time:   755.924 ms 
+BitonicSortAkkaActorBenchmark   Harmonic Mean Time:   752.592 ms 
+BitonicSortAkkaActorBenchmark        Std. Dev Time:    76.422 ms 
+BitonicSortAkkaActorBenchmark     Lower Confidence:   702.895 ms 
+BitonicSortAkkaActorBenchmark    Higher Confidence:   816.123 ms 
+BitonicSortAkkaActorBenchmark         Error Window:    56.614 ms (7.454 percent) 
+BitonicSortAkkaActorBenchmark  Coeff. of Variation:     0.101 
+BitonicSortAkkaActorBenchmark             Skewness:     1.367 
+
+****************************************

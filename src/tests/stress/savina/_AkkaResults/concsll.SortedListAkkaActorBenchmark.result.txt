@@ -1,0 +1,348 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: SortedListAkkaActorBenchmark
+Args: 
+             Num Entities = 20         
+           Message/Worker = 8000       
+           Insert Percent = 10         
+             Size Percent = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+                List Size = 15889      
+SortedListAkkaActorBenchmark          Iteration-0: 38459.203 ms 
+                List Size = 15460      
+SortedListAkkaActorBenchmark          Iteration-1: 27121.321 ms 
+                List Size = 15460      
+SortedListAkkaActorBenchmark          Iteration-2: 26721.772 ms 
+                List Size = 15784      
+SortedListAkkaActorBenchmark          Iteration-3: 39092.313 ms 
+                List Size = 15539      
+SortedListAkkaActorBenchmark          Iteration-4: 34540.639 ms 
+                List Size = 15460      
+SortedListAkkaActorBenchmark          Iteration-5: 20136.159 ms 
+                List Size = 15592      
+SortedListAkkaActorBenchmark          Iteration-6: 29520.680 ms 
+                List Size = 15460      
+SortedListAkkaActorBenchmark          Iteration-7:  9782.213 ms 
+                List Size = 15460      
+SortedListAkkaActorBenchmark          Iteration-8: 15728.175 ms 
+                List Size = 15460      
+SortedListAkkaActorBenchmark          Iteration-9: 17129.682 ms 
+                List Size = 15108      
+SortedListAkkaActorBenchmark         Iteration-10: 33322.372 ms 
+                List Size = 15785      
+SortedListAkkaActorBenchmark         Iteration-11: 40465.478 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 5          
+SortedListAkkaActorBenchmark            Best Time: 26721.772 ms 
+SortedListAkkaActorBenchmark           Worst Time: 34540.639 ms 
+SortedListAkkaActorBenchmark               Median: 29520.680 ms 
+SortedListAkkaActorBenchmark     Arith. Mean Time: 30245.357 ms 
+SortedListAkkaActorBenchmark       Geo. Mean Time: 30079.717 ms 
+SortedListAkkaActorBenchmark   Harmonic Mean Time: 29916.856 ms 
+SortedListAkkaActorBenchmark        Std. Dev Time:  3181.757 ms 
+SortedListAkkaActorBenchmark     Lower Confidence: 27456.424 ms 
+SortedListAkkaActorBenchmark    Higher Confidence: 33034.289 ms 
+SortedListAkkaActorBenchmark         Error Window:  2788.933 ms (9.221 percent) 
+SortedListAkkaActorBenchmark  Coeff. of Variation:     0.105 
+SortedListAkkaActorBenchmark             Skewness:     0.262 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: SortedListAkkaActorBenchmark
+Args: 
+             Num Entities = 20         
+           Message/Worker = 8000       
+           Insert Percent = 10         
+             Size Percent = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+                List Size = 15712      
+SortedListAkkaActorBenchmark          Iteration-0: 38572.929 ms 
+                List Size = 15785      
+SortedListAkkaActorBenchmark          Iteration-1: 40179.906 ms 
+                List Size = 15809      
+SortedListAkkaActorBenchmark          Iteration-2: 39732.855 ms 
+                List Size = 15863      
+SortedListAkkaActorBenchmark          Iteration-3: 40197.233 ms 
+                List Size = 15863      
+SortedListAkkaActorBenchmark          Iteration-4: 41395.669 ms 
+                List Size = 15944      
+SortedListAkkaActorBenchmark          Iteration-5: 39574.280 ms 
+                List Size = 15969      
+SortedListAkkaActorBenchmark          Iteration-6: 42380.018 ms 
+                List Size = 15640      
+SortedListAkkaActorBenchmark          Iteration-7: 36641.222 ms 
+                List Size = 15556      
+SortedListAkkaActorBenchmark          Iteration-8: 35293.268 ms 
+                List Size = 15812      
+SortedListAkkaActorBenchmark          Iteration-9: 39304.649 ms 
+                List Size = 15564      
+SortedListAkkaActorBenchmark         Iteration-10: 38655.609 ms 
+                List Size = 15811      
+SortedListAkkaActorBenchmark         Iteration-11: 39792.234 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 12         
+SortedListAkkaActorBenchmark            Best Time: 35293.268 ms 
+SortedListAkkaActorBenchmark           Worst Time: 42380.018 ms 
+SortedListAkkaActorBenchmark               Median: 39653.568 ms 
+SortedListAkkaActorBenchmark     Arith. Mean Time: 39309.989 ms 
+SortedListAkkaActorBenchmark       Geo. Mean Time: 39266.627 ms 
+SortedListAkkaActorBenchmark   Harmonic Mean Time: 39222.294 ms 
+SortedListAkkaActorBenchmark        Std. Dev Time:  1826.385 ms 
+SortedListAkkaActorBenchmark     Lower Confidence: 38276.615 ms 
+SortedListAkkaActorBenchmark    Higher Confidence: 40343.364 ms 
+SortedListAkkaActorBenchmark         Error Window:  1033.375 ms (2.629 percent) 
+SortedListAkkaActorBenchmark  Coeff. of Variation:     0.046 
+SortedListAkkaActorBenchmark             Skewness:    -0.670 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: SortedListAkkaActorBenchmark
+Args: 
+             Num Entities = 20         
+           Message/Worker = 8000       
+           Insert Percent = 10         
+             Size Percent = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+                List Size = 15850      
+SortedListAkkaActorBenchmark          Iteration-0: 41109.452 ms 
+                List Size = 15310      
+SortedListAkkaActorBenchmark          Iteration-1: 38778.610 ms 
+                List Size = 15850      
+SortedListAkkaActorBenchmark          Iteration-2: 39526.276 ms 
+                List Size = 15886      
+SortedListAkkaActorBenchmark          Iteration-3: 39719.981 ms 
+                List Size = 15794      
+SortedListAkkaActorBenchmark          Iteration-4: 39629.302 ms 
+                List Size = 15785      
+SortedListAkkaActorBenchmark          Iteration-5: 39022.307 ms 
+                List Size = 15986      
+SortedListAkkaActorBenchmark          Iteration-6: 39252.812 ms 
+                List Size = 15827      
+SortedListAkkaActorBenchmark          Iteration-7: 37610.530 ms 
+                List Size = 15797      
+SortedListAkkaActorBenchmark          Iteration-8: 39741.608 ms 
+                List Size = 15741      
+SortedListAkkaActorBenchmark          Iteration-9: 35613.367 ms 
+                List Size = 15793      
+SortedListAkkaActorBenchmark         Iteration-10: 39646.341 ms 
+                List Size = 15586      
+SortedListAkkaActorBenchmark         Iteration-11: 39129.667 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 12         
+SortedListAkkaActorBenchmark            Best Time: 35613.367 ms 
+SortedListAkkaActorBenchmark           Worst Time: 41109.452 ms 
+SortedListAkkaActorBenchmark               Median: 39389.544 ms 
+SortedListAkkaActorBenchmark     Arith. Mean Time: 39065.021 ms 
+SortedListAkkaActorBenchmark       Geo. Mean Time: 39042.910 ms 
+SortedListAkkaActorBenchmark   Harmonic Mean Time: 39020.082 ms 
+SortedListAkkaActorBenchmark        Std. Dev Time:  1293.841 ms 
+SortedListAkkaActorBenchmark     Lower Confidence: 38332.961 ms 
+SortedListAkkaActorBenchmark    Higher Confidence: 39797.081 ms 
+SortedListAkkaActorBenchmark         Error Window:   732.060 ms (1.874 percent) 
+SortedListAkkaActorBenchmark  Coeff. of Variation:     0.033 
+SortedListAkkaActorBenchmark             Skewness:    -1.453 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: SortedListAkkaActorBenchmark
+Args: 
+             Num Entities = 20         
+           Message/Worker = 8000       
+           Insert Percent = 10         
+             Size Percent = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+                List Size = 15741      
+SortedListAkkaActorBenchmark          Iteration-0: 40060.902 ms 
+                List Size = 15895      
+SortedListAkkaActorBenchmark          Iteration-1: 40164.159 ms 
+                List Size = 15889      
+SortedListAkkaActorBenchmark          Iteration-2: 40314.695 ms 
+                List Size = 15747      
+SortedListAkkaActorBenchmark          Iteration-3: 39700.180 ms 
+                List Size = 15780      
+SortedListAkkaActorBenchmark          Iteration-4: 39936.717 ms 
+                List Size = 15942      
+SortedListAkkaActorBenchmark          Iteration-5: 37810.547 ms 
+                List Size = 15753      
+SortedListAkkaActorBenchmark          Iteration-6: 38465.515 ms 
+                List Size = 15660      
+SortedListAkkaActorBenchmark          Iteration-7: 40582.823 ms 
+                List Size = 15686      
+SortedListAkkaActorBenchmark          Iteration-8: 41030.419 ms 
+                List Size = 15724      
+SortedListAkkaActorBenchmark          Iteration-9: 42106.280 ms 
+                List Size = 15499      
+SortedListAkkaActorBenchmark         Iteration-10: 40489.849 ms 
+                List Size = 15519      
+SortedListAkkaActorBenchmark         Iteration-11: 34107.683 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 12         
+SortedListAkkaActorBenchmark            Best Time: 34107.683 ms 
+SortedListAkkaActorBenchmark           Worst Time: 42106.280 ms 
+SortedListAkkaActorBenchmark               Median: 40112.530 ms 
+SortedListAkkaActorBenchmark     Arith. Mean Time: 39564.147 ms 
+SortedListAkkaActorBenchmark       Geo. Mean Time: 39512.890 ms 
+SortedListAkkaActorBenchmark   Harmonic Mean Time: 39458.491 ms 
+SortedListAkkaActorBenchmark        Std. Dev Time:  1955.538 ms 
+SortedListAkkaActorBenchmark     Lower Confidence: 38457.698 ms 
+SortedListAkkaActorBenchmark    Higher Confidence: 40670.597 ms 
+SortedListAkkaActorBenchmark         Error Window:  1106.450 ms (2.797 percent) 
+SortedListAkkaActorBenchmark  Coeff. of Variation:     0.049 
+SortedListAkkaActorBenchmark             Skewness:    -1.786 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: SortedListAkkaActorBenchmark
+Args: 
+             Num Entities = 20         
+           Message/Worker = 8000       
+           Insert Percent = 10         
+             Size Percent = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+                List Size = 15865      
+SortedListAkkaActorBenchmark          Iteration-0: 39306.544 ms 
+                List Size = 15804      
+SortedListAkkaActorBenchmark          Iteration-1: 39641.104 ms 
+                List Size = 15905      
+SortedListAkkaActorBenchmark          Iteration-2: 40877.144 ms 
+                List Size = 15762      
+SortedListAkkaActorBenchmark          Iteration-3: 40121.834 ms 
+                List Size = 15695      
+SortedListAkkaActorBenchmark          Iteration-4: 38727.979 ms 
+                List Size = 15853      
+SortedListAkkaActorBenchmark          Iteration-5: 39889.393 ms 
+                List Size = 15715      
+SortedListAkkaActorBenchmark          Iteration-6: 39331.202 ms 
+                List Size = 15725      
+SortedListAkkaActorBenchmark          Iteration-7: 40521.633 ms 
+                List Size = 15847      
+SortedListAkkaActorBenchmark          Iteration-8: 42059.813 ms 
+                List Size = 15358      
+SortedListAkkaActorBenchmark          Iteration-9: 36773.452 ms 
+                List Size = 15465      
+SortedListAkkaActorBenchmark         Iteration-10: 39750.644 ms 
+                List Size = 15763      
+SortedListAkkaActorBenchmark         Iteration-11: 37421.257 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 12         
+SortedListAkkaActorBenchmark            Best Time: 36773.452 ms 
+SortedListAkkaActorBenchmark           Worst Time: 42059.813 ms 
+SortedListAkkaActorBenchmark               Median: 39695.874 ms 
+SortedListAkkaActorBenchmark     Arith. Mean Time: 39535.167 ms 
+SortedListAkkaActorBenchmark       Geo. Mean Time: 39511.200 ms 
+SortedListAkkaActorBenchmark   Harmonic Mean Time: 39486.990 ms 
+SortedListAkkaActorBenchmark        Std. Dev Time:  1369.801 ms 
+SortedListAkkaActorBenchmark     Lower Confidence: 38760.128 ms 
+SortedListAkkaActorBenchmark    Higher Confidence: 40310.205 ms 
+SortedListAkkaActorBenchmark         Error Window:   775.038 ms (1.960 percent) 
+SortedListAkkaActorBenchmark  Coeff. of Variation:     0.035 
+SortedListAkkaActorBenchmark             Skewness:    -0.401 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: SortedListAkkaActorBenchmark
+Args: 
+             Num Entities = 20         
+           Message/Worker = 8000       
+           Insert Percent = 10         
+             Size Percent = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+                List Size = 15843      
+SortedListAkkaActorBenchmark          Iteration-0: 39028.613 ms 
+                List Size = 15778      
+SortedListAkkaActorBenchmark          Iteration-1: 38874.422 ms 
+                List Size = 15876      
+SortedListAkkaActorBenchmark          Iteration-2: 38837.504 ms 
+                List Size = 15892      
+SortedListAkkaActorBenchmark          Iteration-3: 38847.099 ms 
+                List Size = 15751      
+SortedListAkkaActorBenchmark          Iteration-4: 39069.937 ms 
+                List Size = 15857      
+SortedListAkkaActorBenchmark          Iteration-5: 39467.835 ms 
+                List Size = 15699      
+SortedListAkkaActorBenchmark          Iteration-6: 30027.231 ms 
+                List Size = 15585      
+SortedListAkkaActorBenchmark          Iteration-7: 39642.283 ms 
+                List Size = 15787      
+SortedListAkkaActorBenchmark          Iteration-8: 42669.669 ms 
+                List Size = 15410      
+SortedListAkkaActorBenchmark          Iteration-9: 36669.219 ms 
+                List Size = 15689      
+SortedListAkkaActorBenchmark         Iteration-10: 41094.561 ms 
+                List Size = 15780      
+SortedListAkkaActorBenchmark         Iteration-11: 42204.047 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+SortedListAkkaActorBenchmark            Best Time: 36669.219 ms 
+SortedListAkkaActorBenchmark           Worst Time: 42669.669 ms 
+SortedListAkkaActorBenchmark               Median: 39069.937 ms 
+SortedListAkkaActorBenchmark     Arith. Mean Time: 39673.199 ms 
+SortedListAkkaActorBenchmark       Geo. Mean Time: 39639.925 ms 
+SortedListAkkaActorBenchmark   Harmonic Mean Time: 39606.904 ms 
+SortedListAkkaActorBenchmark        Std. Dev Time:  1631.218 ms 
+SortedListAkkaActorBenchmark     Lower Confidence: 38709.210 ms 
+SortedListAkkaActorBenchmark    Higher Confidence: 40637.187 ms 
+SortedListAkkaActorBenchmark         Error Window:   963.989 ms (2.430 percent) 
+SortedListAkkaActorBenchmark  Coeff. of Variation:     0.041 
+SortedListAkkaActorBenchmark             Skewness:     0.385 
+
+****************************************

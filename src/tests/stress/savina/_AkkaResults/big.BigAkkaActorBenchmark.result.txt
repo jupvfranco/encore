@@ -1,0 +1,264 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BigAkkaActorBenchmark
+Args: 
+            N (num pings) = 20000      
+           W (num actors) = 120        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+BigAkkaActorBenchmark          Iteration-0:  3882.501 ms 
+BigAkkaActorBenchmark          Iteration-1:  2988.853 ms 
+BigAkkaActorBenchmark          Iteration-2:  2871.956 ms 
+BigAkkaActorBenchmark          Iteration-3:  2922.696 ms 
+BigAkkaActorBenchmark          Iteration-4:  2978.547 ms 
+BigAkkaActorBenchmark          Iteration-5:  2752.268 ms 
+BigAkkaActorBenchmark          Iteration-6:  2786.320 ms 
+BigAkkaActorBenchmark          Iteration-7:  2928.621 ms 
+BigAkkaActorBenchmark          Iteration-8:  2967.654 ms 
+BigAkkaActorBenchmark          Iteration-9:  2796.926 ms 
+BigAkkaActorBenchmark         Iteration-10:  2852.514 ms 
+BigAkkaActorBenchmark         Iteration-11:  2936.154 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+BigAkkaActorBenchmark            Best Time:  2752.268 ms 
+BigAkkaActorBenchmark           Worst Time:  2988.853 ms 
+BigAkkaActorBenchmark               Median:  2922.696 ms 
+BigAkkaActorBenchmark     Arith. Mean Time:  2889.319 ms 
+BigAkkaActorBenchmark       Geo. Mean Time:  2888.234 ms 
+BigAkkaActorBenchmark   Harmonic Mean Time:  2887.141 ms 
+BigAkkaActorBenchmark        Std. Dev Time:    78.879 ms 
+BigAkkaActorBenchmark     Lower Confidence:  2842.704 ms 
+BigAkkaActorBenchmark    Higher Confidence:  2935.934 ms 
+BigAkkaActorBenchmark         Error Window:    46.615 ms (1.613 percent) 
+BigAkkaActorBenchmark  Coeff. of Variation:     0.027 
+BigAkkaActorBenchmark             Skewness:    -0.435 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BigAkkaActorBenchmark
+Args: 
+            N (num pings) = 20000      
+           W (num actors) = 120        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+BigAkkaActorBenchmark          Iteration-0:  2570.224 ms 
+BigAkkaActorBenchmark          Iteration-1:  2122.286 ms 
+BigAkkaActorBenchmark          Iteration-2:  1946.582 ms 
+BigAkkaActorBenchmark          Iteration-3:  1909.363 ms 
+BigAkkaActorBenchmark          Iteration-4:  1908.327 ms 
+BigAkkaActorBenchmark          Iteration-5:  1835.133 ms 
+BigAkkaActorBenchmark          Iteration-6:  1927.104 ms 
+BigAkkaActorBenchmark          Iteration-7:  1883.602 ms 
+BigAkkaActorBenchmark          Iteration-8:  1910.966 ms 
+BigAkkaActorBenchmark          Iteration-9:  1876.427 ms 
+BigAkkaActorBenchmark         Iteration-10:  1909.999 ms 
+BigAkkaActorBenchmark         Iteration-11:  1874.192 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+BigAkkaActorBenchmark            Best Time:  1835.133 ms 
+BigAkkaActorBenchmark           Worst Time:  2122.286 ms 
+BigAkkaActorBenchmark               Median:  1909.363 ms 
+BigAkkaActorBenchmark     Arith. Mean Time:  1918.544 ms 
+BigAkkaActorBenchmark       Geo. Mean Time:  1917.308 ms 
+BigAkkaActorBenchmark   Harmonic Mean Time:  1916.128 ms 
+BigAkkaActorBenchmark        Std. Dev Time:    70.459 ms 
+BigAkkaActorBenchmark     Lower Confidence:  1876.905 ms 
+BigAkkaActorBenchmark    Higher Confidence:  1960.182 ms 
+BigAkkaActorBenchmark         Error Window:    41.638 ms (2.170 percent) 
+BigAkkaActorBenchmark  Coeff. of Variation:     0.037 
+BigAkkaActorBenchmark             Skewness:     2.199 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BigAkkaActorBenchmark
+Args: 
+            N (num pings) = 20000      
+           W (num actors) = 120        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+BigAkkaActorBenchmark          Iteration-0:  1890.631 ms 
+BigAkkaActorBenchmark          Iteration-1:  1855.824 ms 
+BigAkkaActorBenchmark          Iteration-2:  1577.469 ms 
+BigAkkaActorBenchmark          Iteration-3:  1577.580 ms 
+BigAkkaActorBenchmark          Iteration-4:  1344.694 ms 
+BigAkkaActorBenchmark          Iteration-5:  1723.534 ms 
+BigAkkaActorBenchmark          Iteration-6:  1355.481 ms 
+BigAkkaActorBenchmark          Iteration-7:  1384.717 ms 
+BigAkkaActorBenchmark          Iteration-8:  1305.798 ms 
+BigAkkaActorBenchmark          Iteration-9:  1291.585 ms 
+BigAkkaActorBenchmark         Iteration-10:  1869.244 ms 
+BigAkkaActorBenchmark         Iteration-11:  1951.496 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+BigAkkaActorBenchmark            Best Time:  1291.585 ms 
+BigAkkaActorBenchmark           Worst Time:  1890.631 ms 
+BigAkkaActorBenchmark               Median:  1577.469 ms 
+BigAkkaActorBenchmark     Arith. Mean Time:  1561.505 ms 
+BigAkkaActorBenchmark       Geo. Mean Time:  1545.015 ms 
+BigAkkaActorBenchmark   Harmonic Mean Time:  1528.969 ms 
+BigAkkaActorBenchmark        Std. Dev Time:   228.705 ms 
+BigAkkaActorBenchmark     Lower Confidence:  1426.349 ms 
+BigAkkaActorBenchmark    Higher Confidence:  1696.661 ms 
+BigAkkaActorBenchmark         Error Window:   135.156 ms (8.656 percent) 
+BigAkkaActorBenchmark  Coeff. of Variation:     0.146 
+BigAkkaActorBenchmark             Skewness:     0.282 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BigAkkaActorBenchmark
+Args: 
+            N (num pings) = 20000      
+           W (num actors) = 120        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+BigAkkaActorBenchmark          Iteration-0:  2522.403 ms 
+BigAkkaActorBenchmark          Iteration-1:  1220.697 ms 
+BigAkkaActorBenchmark          Iteration-2:  1367.033 ms 
+BigAkkaActorBenchmark          Iteration-3:  1540.188 ms 
+BigAkkaActorBenchmark          Iteration-4:  1465.263 ms 
+BigAkkaActorBenchmark          Iteration-5:  1141.794 ms 
+BigAkkaActorBenchmark          Iteration-6:  1102.666 ms 
+BigAkkaActorBenchmark          Iteration-7:  1575.515 ms 
+BigAkkaActorBenchmark          Iteration-8:  1260.288 ms 
+BigAkkaActorBenchmark          Iteration-9:  1919.540 ms 
+BigAkkaActorBenchmark         Iteration-10:  1454.520 ms 
+BigAkkaActorBenchmark         Iteration-11:  2104.606 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 7          
+BigAkkaActorBenchmark            Best Time:  1220.697 ms 
+BigAkkaActorBenchmark           Worst Time:  1575.515 ms 
+BigAkkaActorBenchmark               Median:  1454.520 ms 
+BigAkkaActorBenchmark     Arith. Mean Time:  1411.929 ms 
+BigAkkaActorBenchmark       Geo. Mean Time:  1406.273 ms 
+BigAkkaActorBenchmark   Harmonic Mean Time:  1400.517 ms 
+BigAkkaActorBenchmark        Std. Dev Time:   125.043 ms 
+BigAkkaActorBenchmark     Lower Confidence:  1319.296 ms 
+BigAkkaActorBenchmark    Higher Confidence:  1504.562 ms 
+BigAkkaActorBenchmark         Error Window:    92.633 ms (6.561 percent) 
+BigAkkaActorBenchmark  Coeff. of Variation:     0.089 
+BigAkkaActorBenchmark             Skewness:    -0.329 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BigAkkaActorBenchmark
+Args: 
+            N (num pings) = 20000      
+           W (num actors) = 120        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+BigAkkaActorBenchmark          Iteration-0:  2334.602 ms 
+BigAkkaActorBenchmark          Iteration-1:  1344.122 ms 
+BigAkkaActorBenchmark          Iteration-2:  1056.232 ms 
+BigAkkaActorBenchmark          Iteration-3:  1015.490 ms 
+BigAkkaActorBenchmark          Iteration-4:  1593.475 ms 
+BigAkkaActorBenchmark          Iteration-5:   990.339 ms 
+BigAkkaActorBenchmark          Iteration-6:  1426.206 ms 
+BigAkkaActorBenchmark          Iteration-7:  1710.701 ms 
+BigAkkaActorBenchmark          Iteration-8:  1287.677 ms 
+BigAkkaActorBenchmark          Iteration-9:  1376.932 ms 
+BigAkkaActorBenchmark         Iteration-10:  1139.866 ms 
+BigAkkaActorBenchmark         Iteration-11:  1360.343 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 7          
+BigAkkaActorBenchmark            Best Time:  1139.866 ms 
+BigAkkaActorBenchmark           Worst Time:  1593.475 ms 
+BigAkkaActorBenchmark               Median:  1360.343 ms 
+BigAkkaActorBenchmark     Arith. Mean Time:  1361.232 ms 
+BigAkkaActorBenchmark       Geo. Mean Time:  1355.273 ms 
+BigAkkaActorBenchmark   Harmonic Mean Time:  1349.281 ms 
+BigAkkaActorBenchmark        Std. Dev Time:   127.117 ms 
+BigAkkaActorBenchmark     Lower Confidence:  1267.062 ms 
+BigAkkaActorBenchmark    Higher Confidence:  1455.401 ms 
+BigAkkaActorBenchmark         Error Window:    94.170 ms (6.918 percent) 
+BigAkkaActorBenchmark  Coeff. of Variation:     0.093 
+BigAkkaActorBenchmark             Skewness:     0.126 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: BigAkkaActorBenchmark
+Args: 
+            N (num pings) = 20000      
+           W (num actors) = 120        
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+BigAkkaActorBenchmark          Iteration-0:  2780.631 ms 
+BigAkkaActorBenchmark          Iteration-1:  1171.755 ms 
+BigAkkaActorBenchmark          Iteration-2:   780.395 ms 
+BigAkkaActorBenchmark          Iteration-3:   951.576 ms 
+BigAkkaActorBenchmark          Iteration-4:  1038.679 ms 
+BigAkkaActorBenchmark          Iteration-5:  1176.189 ms 
+BigAkkaActorBenchmark          Iteration-6:   986.773 ms 
+BigAkkaActorBenchmark          Iteration-7:  1405.983 ms 
+BigAkkaActorBenchmark          Iteration-8:  1564.044 ms 
+BigAkkaActorBenchmark          Iteration-9:  1394.460 ms 
+BigAkkaActorBenchmark         Iteration-10:  1528.638 ms 
+BigAkkaActorBenchmark         Iteration-11:  1110.629 ms 
+
+
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 8          
+BigAkkaActorBenchmark            Best Time:   951.576 ms 
+BigAkkaActorBenchmark           Worst Time:  1405.983 ms 
+BigAkkaActorBenchmark               Median:  1141.192 ms 
+BigAkkaActorBenchmark     Arith. Mean Time:  1154.506 ms 
+BigAkkaActorBenchmark       Geo. Mean Time:  1143.672 ms 
+BigAkkaActorBenchmark   Harmonic Mean Time:  1133.235 ms 
+BigAkkaActorBenchmark        Std. Dev Time:   160.562 ms 
+BigAkkaActorBenchmark     Lower Confidence:  1043.242 ms 
+BigAkkaActorBenchmark    Higher Confidence:  1265.770 ms 
+BigAkkaActorBenchmark         Error Window:   111.264 ms (9.637 percent) 
+BigAkkaActorBenchmark  Coeff. of Variation:     0.139 
+BigAkkaActorBenchmark             Skewness:     0.518 
+
+****************************************

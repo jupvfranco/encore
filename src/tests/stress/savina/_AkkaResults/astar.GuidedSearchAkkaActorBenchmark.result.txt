@@ -1,0 +1,366 @@
+Core count: 2
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: GuidedSearchAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+                Grid Size = 30         
+               Priorities = 30         
+                Threshold = 1024       
+              Granularity = 8          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+GuidedSearchAkkaActorBenchmark          Iteration-0:  1051.246 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-1:   273.540 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-2:   158.201 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-3:   835.506 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-4:   417.530 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-5:   336.161 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-6:  1076.376 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-7:  1146.294 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-8:  1127.731 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-9:  1051.247 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark         Iteration-10:  1102.258 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark         Iteration-11:   877.843 ms 
+             Result valid = true       
+
+
+Attributes - Summary: 
+GuidedSearchAkkaActorBenchmark      Nodes Processed: 20417.750 [ 12 of  12 values] 
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 7          
+GuidedSearchAkkaActorBenchmark            Best Time:   877.843 ms 
+GuidedSearchAkkaActorBenchmark           Worst Time:  1146.294 ms 
+GuidedSearchAkkaActorBenchmark               Median:  1076.376 ms 
+GuidedSearchAkkaActorBenchmark     Arith. Mean Time:  1061.856 ms 
+GuidedSearchAkkaActorBenchmark       Geo. Mean Time:  1058.409 ms 
+GuidedSearchAkkaActorBenchmark   Harmonic Mean Time:  1054.686 ms 
+GuidedSearchAkkaActorBenchmark        Std. Dev Time:    82.287 ms 
+GuidedSearchAkkaActorBenchmark     Lower Confidence:  1000.897 ms 
+GuidedSearchAkkaActorBenchmark    Higher Confidence:  1122.816 ms 
+GuidedSearchAkkaActorBenchmark         Error Window:    60.959 ms (5.741 percent) 
+GuidedSearchAkkaActorBenchmark  Coeff. of Variation:     0.077 
+GuidedSearchAkkaActorBenchmark             Skewness:    -1.578 
+
+****************************************
+Core count: 4
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: GuidedSearchAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+                Grid Size = 30         
+               Priorities = 30         
+                Threshold = 1024       
+              Granularity = 8          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+GuidedSearchAkkaActorBenchmark          Iteration-0:  3041.250 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-1:  2469.268 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-2:  2598.966 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-3:  2554.111 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-4:  2599.119 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-5:  2610.362 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-6:  2606.253 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-7:  2020.299 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-8:  2025.952 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-9:  2026.593 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark         Iteration-10:  2026.104 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark         Iteration-11:  2001.263 ms 
+             Result valid = true       
+
+
+Attributes - Summary: 
+GuidedSearchAkkaActorBenchmark      Nodes Processed: 20506.667 [ 12 of  12 values] 
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 7          
+GuidedSearchAkkaActorBenchmark            Best Time:  2469.268 ms 
+GuidedSearchAkkaActorBenchmark           Worst Time:  3041.250 ms 
+GuidedSearchAkkaActorBenchmark               Median:  2599.119 ms 
+GuidedSearchAkkaActorBenchmark     Arith. Mean Time:  2639.904 ms 
+GuidedSearchAkkaActorBenchmark       Geo. Mean Time:  2634.775 ms 
+GuidedSearchAkkaActorBenchmark   Harmonic Mean Time:  2629.986 ms 
+GuidedSearchAkkaActorBenchmark        Std. Dev Time:   170.252 ms 
+GuidedSearchAkkaActorBenchmark     Lower Confidence:  2513.780 ms 
+GuidedSearchAkkaActorBenchmark    Higher Confidence:  2766.029 ms 
+GuidedSearchAkkaActorBenchmark         Error Window:   126.124 ms (4.778 percent) 
+GuidedSearchAkkaActorBenchmark  Coeff. of Variation:     0.064 
+GuidedSearchAkkaActorBenchmark             Skewness:     1.987 
+
+****************************************
+Core count: 8
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: GuidedSearchAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+                Grid Size = 30         
+               Priorities = 30         
+                Threshold = 1024       
+              Granularity = 8          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+GuidedSearchAkkaActorBenchmark          Iteration-0:  1762.636 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-1:  1592.918 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-2:  1691.975 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-3:  1681.959 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-4:  2060.680 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-5:  2051.516 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-6:  1869.702 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-7:  1961.487 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-8:  1877.756 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-9:  2025.894 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark         Iteration-10:  2029.082 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark         Iteration-11:  2027.900 ms 
+             Result valid = true       
+
+
+Attributes - Summary: 
+GuidedSearchAkkaActorBenchmark      Nodes Processed: 20480.667 [ 12 of  12 values] 
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 12         
+GuidedSearchAkkaActorBenchmark            Best Time:  1592.918 ms 
+GuidedSearchAkkaActorBenchmark           Worst Time:  2060.680 ms 
+GuidedSearchAkkaActorBenchmark               Median:  1919.621 ms 
+GuidedSearchAkkaActorBenchmark     Arith. Mean Time:  1886.125 ms 
+GuidedSearchAkkaActorBenchmark       Geo. Mean Time:  1879.176 ms 
+GuidedSearchAkkaActorBenchmark   Harmonic Mean Time:  1872.023 ms 
+GuidedSearchAkkaActorBenchmark        Std. Dev Time:   159.299 ms 
+GuidedSearchAkkaActorBenchmark     Lower Confidence:  1795.994 ms 
+GuidedSearchAkkaActorBenchmark    Higher Confidence:  1976.257 ms 
+GuidedSearchAkkaActorBenchmark         Error Window:    90.132 ms (4.779 percent) 
+GuidedSearchAkkaActorBenchmark  Coeff. of Variation:     0.084 
+GuidedSearchAkkaActorBenchmark             Skewness:    -0.543 
+
+****************************************
+Core count: 16
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: GuidedSearchAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+                Grid Size = 30         
+               Priorities = 30         
+                Threshold = 1024       
+              Granularity = 8          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+GuidedSearchAkkaActorBenchmark          Iteration-0:  1250.850 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-1:   795.277 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-2:   937.711 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-3:   929.929 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-4:   856.491 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-5:   912.763 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-6:   838.337 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-7:   927.038 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-8:   798.670 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-9:   880.041 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark         Iteration-10:   915.590 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark         Iteration-11:   864.749 ms 
+             Result valid = true       
+
+
+Attributes - Summary: 
+GuidedSearchAkkaActorBenchmark      Nodes Processed: 20440.167 [ 12 of  12 values] 
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+GuidedSearchAkkaActorBenchmark            Best Time:   795.277 ms 
+GuidedSearchAkkaActorBenchmark           Worst Time:   937.711 ms 
+GuidedSearchAkkaActorBenchmark               Median:   880.041 ms 
+GuidedSearchAkkaActorBenchmark     Arith. Mean Time:   877.873 ms 
+GuidedSearchAkkaActorBenchmark       Geo. Mean Time:   876.468 ms 
+GuidedSearchAkkaActorBenchmark   Harmonic Mean Time:   875.040 ms 
+GuidedSearchAkkaActorBenchmark        Std. Dev Time:    49.212 ms 
+GuidedSearchAkkaActorBenchmark     Lower Confidence:   848.790 ms 
+GuidedSearchAkkaActorBenchmark    Higher Confidence:   906.955 ms 
+GuidedSearchAkkaActorBenchmark         Error Window:    29.082 ms (3.313 percent) 
+GuidedSearchAkkaActorBenchmark  Coeff. of Variation:     0.056 
+GuidedSearchAkkaActorBenchmark             Skewness:    -0.473 
+
+****************************************
+Core count: 32
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: GuidedSearchAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+                Grid Size = 30         
+               Priorities = 30         
+                Threshold = 1024       
+              Granularity = 8          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+GuidedSearchAkkaActorBenchmark          Iteration-0:  1241.720 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-1:   771.576 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-2:   722.803 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-3:   791.519 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-4:   790.991 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-5:   802.533 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-6:   730.251 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-7:   777.215 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-8:   791.859 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-9:   746.378 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark         Iteration-10:   873.259 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark         Iteration-11:   827.314 ms 
+             Result valid = true       
+
+
+Attributes - Summary: 
+GuidedSearchAkkaActorBenchmark      Nodes Processed: 20403.417 [ 12 of  12 values] 
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+GuidedSearchAkkaActorBenchmark            Best Time:   722.803 ms 
+GuidedSearchAkkaActorBenchmark           Worst Time:   873.259 ms 
+GuidedSearchAkkaActorBenchmark               Median:   790.991 ms 
+GuidedSearchAkkaActorBenchmark     Arith. Mean Time:   784.154 ms 
+GuidedSearchAkkaActorBenchmark       Geo. Mean Time:   783.090 ms 
+GuidedSearchAkkaActorBenchmark   Harmonic Mean Time:   782.039 ms 
+GuidedSearchAkkaActorBenchmark        Std. Dev Time:    41.125 ms 
+GuidedSearchAkkaActorBenchmark     Lower Confidence:   759.851 ms 
+GuidedSearchAkkaActorBenchmark    Higher Confidence:   808.457 ms 
+GuidedSearchAkkaActorBenchmark         Error Window:    24.303 ms (3.099 percent) 
+GuidedSearchAkkaActorBenchmark  Coeff. of Variation:     0.052 
+GuidedSearchAkkaActorBenchmark             Skewness:     0.505 
+
+****************************************
+Core count: 64
+Runtime: Java:1.8.0_131::Scala:2.11.0
+Benchmark: GuidedSearchAkkaActorBenchmark
+Args: 
+              Num Workers = 20         
+                Grid Size = 30         
+               Priorities = 30         
+                Threshold = 1024       
+              Granularity = 8          
+                    debug = false      
+
+             Java Version = 1.8.0_131  
+              O/S Version = 4.9.0-2-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+GuidedSearchAkkaActorBenchmark          Iteration-0:  1323.746 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-1:   995.009 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-2:  1096.466 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-3:  1093.244 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-4:  1025.337 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-5:  1082.286 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-6:  1019.758 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-7:  1091.836 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-8:  1065.782 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark          Iteration-9:  1090.522 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark         Iteration-10:  1253.735 ms 
+             Result valid = true       
+GuidedSearchAkkaActorBenchmark         Iteration-11:  1034.721 ms 
+             Result valid = true       
+
+
+Attributes - Summary: 
+GuidedSearchAkkaActorBenchmark      Nodes Processed: 20438.250 [ 12 of  12 values] 
+Execution - Summary: 
+         Total executions = 12         
+      Filtered executions = 11         
+GuidedSearchAkkaActorBenchmark            Best Time:   995.009 ms 
+GuidedSearchAkkaActorBenchmark           Worst Time:  1253.735 ms 
+GuidedSearchAkkaActorBenchmark               Median:  1082.286 ms 
+GuidedSearchAkkaActorBenchmark     Arith. Mean Time:  1077.154 ms 
+GuidedSearchAkkaActorBenchmark       Geo. Mean Time:  1075.279 ms 
+GuidedSearchAkkaActorBenchmark   Harmonic Mean Time:  1073.501 ms 
+GuidedSearchAkkaActorBenchmark        Std. Dev Time:    65.290 ms 
+GuidedSearchAkkaActorBenchmark     Lower Confidence:  1038.570 ms 
+GuidedSearchAkkaActorBenchmark    Higher Confidence:  1115.738 ms 
+GuidedSearchAkkaActorBenchmark         Error Window:    38.584 ms (3.582 percent) 
+GuidedSearchAkkaActorBenchmark  Coeff. of Variation:     0.061 
+GuidedSearchAkkaActorBenchmark             Skewness:     1.639 
+
+****************************************
