@@ -1,0 +1,7 @@
+Here I list the default configurations of the tests as in the configuration files in savina/src/main/java/edu/rice/habanero/benchmarks
+
+1.PingPongConfig.java
+40 000 messages
+protected static int N = 40000;
+...
+System.out.printf(BenchmarkRunner.argOutputFormat, "N (num pings)", N);
