@@ -1,57 +1,55 @@
 import Random
 import ArrayList
+
 typedef Position = int
+
 fun left() : Position
   -(1)
 end
+
 fun right() : Position
   1
 end
+
 fun initial() : Position
   0
 end
+
 fun filterLessThan(data : borrowed ArrayList[int], pivot : int) : ArrayList[int]
   var result = new ArrayList[int](data.size())
   var i = 0
   while i < data.size() do
-    let
-      d = data.at(i)
-    in
-      if d < pivot then
-        result.add(d)
-      end
-      i = i + 1
+    val d = data.at(i)
+    if d < pivot then
+      result.add(d)
     end
+    i = i + 1
   end
   consume result
 end
+
 fun filterEqualsTo(data : borrowed ArrayList[int], pivot : int) : ArrayList[int]
   var result = new ArrayList[int](data.size())
   var i = 0
   while i < data.size() do
-    let
-      d = data.at(i)
-    in
-      if d == pivot then
-        result.add(d)
-      end
-      i = i + 1
+    val d = data.at(i)
+    if d == pivot then
+      result.add(d)
     end
+    i = i + 1
   end
   consume result
 end
+
 fun filterGreaterThan(data : borrowed ArrayList[int], pivot : int) : ArrayList[int]
   var result = new ArrayList[int](data.size())
   var i = 0
   while i < data.size() do
-    let
-      d = data.at(i)
-    in
-      if d > pivot then
-        result.add(d)
-      end
-      i = i + 1
+    val d = data.at(i)
+    if d > pivot then
+      result.add(d)
     end
+    i = i + 1
   end
   consume result
 end
