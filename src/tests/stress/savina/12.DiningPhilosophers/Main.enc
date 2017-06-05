@@ -24,7 +24,7 @@ active class Main
       in
         var i = 0
         while i < nrPhils do
-          println(("Creating ").concatenate(string_from_int(i)))
+--          println(("Creating ").concatenate(string_from_int(i)))
           let
             p = new Philosopher(i, nrEat, a, c)
           in

@@ -59,28 +59,28 @@ active class Arbitrator
     this.counter = c
   end
   def am_hungry(p : Philosopher, id : int) : unit
-    println(string_from_int(id).concatenate(" is  hungry"))
+    --println(string_from_int(id).concatenate(" is  hungry"))
     val hungry = this.forkState(id) || this.forkState(id + 1 % this.nrPhilosophers)
     if hungry then
-      println(string_from_int(id).concatenate("  has to  wait"))
+      --println(string_from_int(id).concatenate("  has to  wait"))
       p!Denied()
     else
       (this.forkState)(id) = true
       (this.forkState)(id + 1 % this.nrPhilosophers) = true
-      println(string_from_int(id).concatenate(" will  eat"))
+     -- println(string_from_int(id).concatenate(" will  eat"))
       p!Eat()
     end
   end
   def have_eaten(p : Philosopher, id : int) : unit
     (this.forkState)(id) = false
     (this.forkState)(id + 1 % this.nrPhilosophers) = false
-    println(string_from_int(id).concatenate(" has finished"))
+    --println(string_from_int(id).concatenate(" has finished"))
   end
   def no_more_food_for_me(id : int) : unit
-    println(string_from_int(id).concatenate(" has eaten enough for today ... ..."))
+    --println(string_from_int(id).concatenate(" has eaten enough for today ... ..."))
     this.remainingPhils = this.remainingPhils - 1
     if this.remainingPhils == 0 then
-      print("**** **** **** everybody happy now ***** **** ****")
+      --print("**** **** **** everybody happy now ***** **** ****")
       let
         hungry_times = this.counter!get_value()
         ht = get(hungry_times)
