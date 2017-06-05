@@ -15,24 +15,12 @@ fun initial() : Position
   0
 end
 
-fun lessThan(x: int, y: int): bool
-  x < y
-end
-
-fun greaterThan(x: int, y: int): bool
-  x > y
-end
-
-fun equalsTo(x: int, y: int): bool
-  x == y
-end
-
-fun filter(data : borrowed ArrayList[int], pivot : int, fn: (int, int) -> bool) : ArrayList[int]
+fun filterLessThan(data : borrowed ArrayList[int], pivot : int) : ArrayList[int]
   var result = new ArrayList[int](data.size())
   var i = 0
   while i < data.size() do
     val d = data.at(i)
-    if fn(d, pivot) then
+    if d < pivot then
       result.add(d)
     end
     i = i + 1
@@ -40,6 +28,54 @@ fun filter(data : borrowed ArrayList[int], pivot : int, fn: (int, int) -> bool) 
   consume result
 end
 
+fun filterEqualsTo(data : borrowed ArrayList[int], pivot : int) : ArrayList[int]
+  var result = new ArrayList[int](data.size())
+  var i = 0
+  while i < data.size() do
+    val d = data.at(i)
+    if d == pivot then
+      result.add(d)
+    end
+    i = i + 1
+  end
+  consume result
+end
+
+fun filterGreaterThan(data : borrowed ArrayList[int], pivot : int) : ArrayList[int]
+  var result = new ArrayList[int](data.size())
+  var i = 0
+  while i < data.size() do
+    val d = data.at(i)
+    if d > pivot then
+      result.add(d)
+    end
+    i = i + 1
+  end
+  consume result
+end
+
+fun quicksortSeq(data : borrowed ArrayList[int]) : ArrayList[int]
+  let
+    dataLength = data.size()
+  in
+    var result = new ArrayList[int](dataLength)
+    if dataLength < 2 then
+      result.addAll(data)
+      consume result
+    else
+      val pivot = data.at(data.size() / 2)
+      var leftUnsorted = filterLessThan(data, pivot)
+      var leftSorted = quicksortSeq(leftUnsorted)
+      var equalElements = filterEqualsTo(data, pivot)
+      var rightSorted = quicksortSeq(filterGreaterThan(data, pivot))
+      result.addAll(leftSorted)
+      result.addAll(equalElements)
+      result.addAll(rightSorted)
+      assertTrue(result.size() == data.size(), "the size of the resulting array is different from the size of the input")
+      consume result
+    end
+  end
+end
 fun checkSorted(data : ArrayList[int]) : bool
   true
 end
@@ -63,17 +99,6 @@ fun printArray(s : String, a : borrowed ArrayList[int]) : unit
     print("{}: {} \n", s, result)
   end
 end
-
-active class Merger : Id
-  def merge(l: borrowed ArrayList[int], c: borrowed ArrayList[int], r: borrowed ArrayList[int]): ArrayList[int]
-    var result = new ArrayList[int](l.size() + c.size() + r.size())  
-    result.addAll(l)
-    result.addAll(c)
-    result.addAll(r)
-    consume result
-  end
-end
-       
 
 active class QuickSortActor : Id
   var t : int
@@ -107,51 +132,32 @@ active class QuickSortActor : Id
   def notify() : unit
     if this.parent != null then
       this.parent!done(consume this.result, this.myPosition)
-    --else
-    --  var res = consume this.result
-    --  this.result = consume res
+    else
+      var res = consume this.result
+--      printArray("result", res)
+      this.result = consume res
     end
   end
-
-  def quicksortSeq(data : borrowed ArrayList[int]) : ArrayList[int]
+  def sort(data : ArrayList[int]) : unit
     let
       dataLength = data.size()
     in
-      if dataLength < 2 then
-	var result = new ArrayList[int](dataLength)
-        result.addAll(data)
-        consume result
+      if dataLength < this.t then
+        this.result = quicksortSeq(data)
+        this.notify()
       else
-        val pivot = data.at(data.size() / 2)
-        var leftUnsorted = filter(data, pivot, lessThan)
-        var leftSorted = this.quicksortSeq(leftUnsorted)
-        var equalElements = filter(data, pivot, equalsTo)
-        var rightSorted = this.quicksortSeq(filter(data, pivot, greaterThan))
-	var m = new Merger
-        var r = get (m!merge(consume leftSorted, consume equalElements, consume rightSorted))
-        --assertTrue(result.size() == data.size(), "the size of the resulting array is different from the size of the input")
-        consume r
+        let
+          pivot = data.at(dataLength / 2)
+        in
+          (new QuickSortActor(this, left(), this.t, data.size()))!sort(filterLessThan(data, pivot))
+          (new QuickSortActor(this, right(), this.t, data.size()))!sort(filterGreaterThan(data, pivot))
+          this.result = filterEqualsTo(data, pivot)
+          this.numFragments = this.numFragments + 1
+        end
       end
-    end 
-  end
-  
-  def sort(data : ArrayList[int]) : unit
-    val dataLength = data.size()
-    if dataLength < this.t then
-      this.result = this.quicksortSeq(data)
-      this.notify()
-    else
-      val pivot = data.at(dataLength / 2)
-      val qsal = new QuickSortActor(this, left(), this.t, data.size())
-      qsal!sort(filter(data, pivot, lessThan))
-      val qsar = new QuickSortActor(this, right(), this.t, data.size())
-      qsar!sort(filter(data, pivot, greaterThan))
-      this.result = filter(data, pivot, equalsTo)
-      this.numFragments = this.numFragments + 1
     end
   end
 end
-
 active class Main
   def argToInt(str : String) : int
     match str.to_int() with

@@ -1,0 +1,195 @@
+import Random
+import ArrayList
+
+typedef Position = int
+
+fun left() : Position
+  -(1)
+end
+
+fun right() : Position
+  1
+end
+
+fun initial() : Position
+  0
+end
+
+fun randomInitialArray(n : int, s : int, m : int) : ArrayList[int]
+  var result = new ArrayList[int](n)
+  val r = new Random(s)
+  for i <- [0..n - 1] do
+    result.add(r.random(m))
+  end
+  println( "  >>>>> {}", result.size())
+  consume result
+end
+
+fun printArray(s : String, a : borrowed ArrayList[int]) : unit
+  if a.size() > 0 then
+    var result = string_from_int(a.at(0))
+    var i = 1
+    while i < a.size() do
+      result = result.concatenate(", ")
+      result = result.concatenate(string_from_int(a.at(i)))
+      i = i + 1
+    end
+    print("{}: {} \n", s, result)
+  end
+end
+
+active class QuickSortActor : Id
+  var t : int
+  var parent : QuickSortActor
+  var result : ArrayList[int]
+  var numFragments : int
+  var myPosition : Position
+
+  def init(parent : QuickSortActor, pos : Position, t : int, n : int) : unit
+    this.t = t
+    this.parent = parent
+    this.result = new ArrayList[int](n)
+    this.numFragments = 0
+    this.myPosition = pos
+  end
+
+  def done(var data : ArrayList[int], position : Position) : unit
+    if data != null then
+      if position == left() then
+        data.addAll(consume this.result)
+        this.result = consume data
+      else
+        if position == right() then
+          this.result.addAll(data)
+        end
+      end
+      this.numFragments = this.numFragments + 1
+      if this.numFragments == 3 then
+        this.notify()
+      end
+    end
+  end
+
+  def notify(): unit
+    if this.parent != null then
+      this.parent!done(consume this.result, this.myPosition)
+    else
+      var res = consume this.result
+      this.result = consume res
+    end
+  end
+
+  def filterLessThan(var data: ArrayList[int], pivot: int, var result:  ArrayList[int]): unit
+    var i = 0
+    while i < data.size() do
+      val d = data.at(i)
+      if d < pivot then
+        result.add(d)
+      end
+      i = i + 1
+    end
+  end
+
+  def filterEqualsTo(data: borrowed ArrayList[int], pivot: int): ArrayList[int]
+    var result = new ArrayList[int](data.size())
+    var i = 0
+    while i < data.size() do
+      val d = data.at(i)
+      if d == pivot then
+        result.add(d)
+      end
+      i = i + 1
+    end
+  end
+
+  def filterGreaterThan(var data: ArrayList[int], pivot: int, var result: ArrayList[int]): unit
+    var i = 0
+    while i < data.size() do
+      val d = data.at(i)
+      if d > pivot then
+        result.add(d)
+      end
+      i = i + 1
+    end
+  end
+  
+  def quicksortSeq(var data: ArrayList[int], var result: ArrayList[int]): unit
+    val dataLength = data.size()
+    if dataLength < 2 then
+      result.addAll(data)
+    else
+      val pivot = data.at(data.size() / 2)
+      var leftUnsorted = new ArrayList[int](data.size())
+      this.filterLessThan(data, pivot, consume leftUnsorted)
+      var leftSorted = new ArrayList[int](data.size())
+      this.quicksortSeq(consume leftUnsorted, consume leftSorted)
+
+      var equalElements = new ArrayList[int](data.size())
+      this.filterEqualsTo(data, pivot, consume equalElements)
+
+      var rightUnsorted = new ArrayList[int](data.size())
+      this.filterGreaterThan(data, pivot, consume rightUnsorted)
+      var rightSorted = new ArrayList[int](data.size())
+      this.quicksortSeq(consume rightUnsorted, consume rightSorted)
+      
+      result.addAll(leftSorted)
+      result.addAll(equalElements)
+      result.addAll(rightSorted)
+      assertTrue(result.size() == data.size(), "the size of the resulting array is different from the size of the input")
+    end
+  end
+  
+  def sort(data : borrowed ArrayList[int]) : unit
+    val dataLength = data.size()
+    if dataLength < this.t then
+      this.quicksortSeq(data, consume this.result)
+      this.notify()
+    else
+      val pivot = data.at(dataLength / 2)
+      var lessThan = new ArrayList[int](data.size())
+      this.filterLessThan(data, pivot, consume lessThan)
+      val qsal = new QuickSortActor(this, left(), this.t, data.size())
+      println(" >> {} ", lessThan == null)
+      qsal!sort(lessThan)
+
+      var greaterThan = new ArrayList[int](data.size())
+      this.filterGreaterThan(data, pivot, consume greaterThan)
+      val qsar = new QuickSortActor(this, right(), this.t, data.size())
+      qsar!sort(consume greaterThan)
+      
+      this.filterEqualsTo(data, pivot, consume this.result)
+      this.numFragments = this.numFragments + 1
+    end 
+  end
+end
+       
+active class Main
+  def argToInt(str : String) : int
+    match str.to_int() with
+      case Just(result) =>
+        result
+      end
+      case Nothing =>
+        0
+      end
+
+    end
+  end
+  def main(args : [String]) : unit
+    let
+      n = 20 --1000000
+      m = 10 --1152921504606846976 -- 2^60
+      t = 10 --2048
+      s = 10 --1024
+    in
+    
+      var randomArray = new ArrayList[int](n)
+      val r = new Random(s)
+      for i <- [0..n - 1] do
+        randomArray.add(r.random(m))
+      end
+      (new QuickSortActor(null, initial(), t, n))!sort(consume randomArray)
+      println("Done!")
+    end
+  end
+end
