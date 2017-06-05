@@ -20,17 +20,17 @@ active class Main
         nrPhils = this.argToInt(args(1))
         nrEat = this.argToInt(args(2))
         c = new CounterActor()
-        a = new Arbitrator(nrPhils, c)
       in
         var i = 0
+        val phils = new [Philosopher](nrPhils)
+        repeat i <- nrPhils do
+          phils(i) = new Philosopher(i, nrEat, c)
+        end
+        val a = new Arbitrator(phils, c)
         while i < nrPhils do
---          println(("Creating ").concatenate(string_from_int(i)))
-          let
-            p = new Philosopher(i, nrEat, a, c)
-          in
-            p!Start()
-            i = i + 1
-          end
+          -- println(("Creating ").concatenate(string_from_int(i)))
+          phils(i) ! Start(a)
+          i = i + 1
         end
       end
     end
