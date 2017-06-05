@@ -1,0 +1,50 @@
+Here I list the default configurations of the tests as in the configuration
+files in savina/src/main/java/edu/rice/habanero/benchmarks.
+Listing the numbers and the relevant part of the code.
+Also, I am listing pertinent aspects of the BM in Akka vs Encore
+
+1.pingpong
+-- input values same, structure same
+
+PingPongConfig.java
+40 000 messages
+and in input.txt
+40000
+> protected static int N = 40000;
+> ...
+> System.out.printf(BenchmarkRunner.argOutputFormat, "N (num pings)", N);
+* No extra test output in Akka
+
+
+Akka sends an exit and a StopMessage, and Encore does not
+
+2.ThreadRing
+ThreadRingConfig.java
+100 actors
+100_000 pings
+public final class ThreadRingConfig {
+
+    protected static int N = 100; // num actors
+    protected static int R = 100_000; // num pings, does not need to be divisible by N
+...
+  protected static void printArgs() {
+        System.out.printf(BenchmarkRunner.argOutputFormat, "N (num actors)", N);
+        System.out.printf(BenchmarkRunner.argOutputFormat, "R (num rounds)", R);
+    }
+
+3.Counting
+CountingConfig.java
+1_000_000 messages
+
+protected static int N = 1_000_000;
+System.out.printf(BenchmarkRunner.argOutputFormat, "N (num messages)", N);
+
+6.Fib
+7.Chameneos
+8.Big
+9.concdict
+11.BndBuffer
+12.DiningPhilosophers
+21.ParallelQuickSort
+28.TrapezoidalApproximation
+29.PiPrecision
