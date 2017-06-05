@@ -21,7 +21,7 @@ active class PongActor
     this.pongCount = 0
   end
   def sendPing(ping : PingActor) : unit
-    print("Got ping {}\n", this.pongCount)
+--    print("Got ping {}\n", this.pongCount)
     ping!sendPong(this)
     this.pongCount = this.pongCount + 1
   end
