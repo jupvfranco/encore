@@ -7,6 +7,10 @@
 ## to the following list. No Spaces!
 ########
 
+python plot-scalability-ee.py "12.DiningPhilosophers/result.txt" "12.DiningPhilosophersBusy/result.txt"  "12.DiningPhilosophers-normal-busy" "busy"
+python plot-scalability-ee.py "12.DiningPhilosophers/result.txt"  "12.DiningPhilosophers_Hot/result.txt" "12.DiningPhilosophers-normal-hot" "hot"
+
+
 logs=(
   "1.pingpong/result.txt;_AkkaResults/pingpong.PingPongAkkaActorBenchmark.result.txt;1.pingpong"
   "2.ThreadRing/result.txt;_AkkaResults/threadring.ThreadRingAkkaActorBenchmark.result.txt;2.ThreadRing"
@@ -29,3 +33,8 @@ do :
   echo "***** " ${args[@]}
   python plot-scalability.py ${args[@]}
 done
+
+echo "++++ "
+
+
+echo "++++ "
