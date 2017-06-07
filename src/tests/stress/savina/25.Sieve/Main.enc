@@ -1,0 +1,98 @@
+active class Main
+  def main(args : [String]) : unit
+    var N = 10000
+    var M = 1000
+
+    if |args| == 3 then
+      N = fromJust(args(1).to_int())
+      M = fromJust(args(2).to_int())
+    else
+      print("using default input: ") 
+    end
+    println("N={}, M={}", N, M)
+
+    val c = new PrimeFilterActor(1, 2, M)
+    val p = new NumberProducerActor()
+
+    p ! start(N, c)
+  end
+end
+
+active class NumberProducerActor
+  def start(limit : int, a : PrimeFilterActor) : unit
+    for p <- [3..(limit-1) by 2] do
+      a ! handle_prime(p)
+    end
+    a ! exit()
+  end
+end
+
+active class PrimeFilterActor : Id
+  val local_primes : [int]
+  var available_local_primes : int
+  var next_filter_actor : PrimeFilterActor
+  val id : int
+  val num_max_local_primes : int
+  val my_initial_prime : int
+  
+  def init(id : int, my_initial_prime : int, num_max_local_primes : int) : unit
+    this.available_local_primes = 1
+    this.local_primes = new [int](num_max_local_primes)
+    this.local_primes(0) = my_initial_prime
+
+    this.id = id
+    this.my_initial_prime = my_initial_prime
+    this.num_max_local_primes = num_max_local_primes
+  end
+
+  def private handle_new_prime(p : int) : unit
+    if this.available_local_primes < this.num_max_local_primes then
+      -- Store locally if there is space
+      this.local_primes(this.available_local_primes) = p
+      this.available_local_primes += 1
+    else
+      -- Create a new actor to store the new prime
+      this.next_filter_actor = new PrimeFilterActor(this.id + 1, p, this.num_max_local_primes)
+    end
+  end
+
+  def handle_prime(p : int) : unit
+    val locallyPrime = is_locally_prime(p, this.local_primes, 0, this.available_local_primes)
+
+    if locallyPrime then
+      if this.next_filter_actor != null then
+        -- Pass along the chain to detect for 'primeness'
+        this.next_filter_actor ! handle_prime(p)
+      else
+        -- Found a new prime!
+        this.handle_new_prime(p)
+      end
+    end
+  where
+    fun is_locally_prime(p : int, primes : [int], a : int, b : int) : bool
+      for i <- [a..(b-1)] do
+        if p % primes(i) == 0 then
+          return false
+        end
+      end
+      true
+    end
+  end
+
+  def exit() : unit
+    if this.next_filter_actor != null then
+      -- Signal next actor for termination
+      this.next_filter_actor ! exit()
+    else
+      val total_primes = ((this.id - 1) * this.num_max_local_primes) + this.available_local_primes
+      println("Total primes = {}", total_primes)
+    end
+  end
+end  
+
+fun fromJust(a : Maybe[int]) : int
+  match a with
+    case Just(b) => b
+    case Nothing => abort("Error coercing string to int")
+  end
+end
