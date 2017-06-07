@@ -1,0 +1,215 @@
+import Math
+
+fun check_prime(p:int) : bool
+  for i <- [2..sqrt(p)+1] do
+    if p % i == 0 then
+      println("Mistook {} for a prime!", p)
+      return false
+    end
+  end
+  return true
+end
+
+trait Set
+  require def init(size : int) : unit
+  require def add(i : int) : unit
+  require def contains(i : int) : bool
+  require def size() : int
+end
+
+local class BoolSet : Set(array)
+  val array : [bool]
+  def init(size : int) : unit
+    this.array = new [bool](size)
+  end
+  def add(i : int) : unit
+    this.array(i) = true
+  end
+  def contains(i : int) : bool
+    this.array(i) == true
+  end
+  def size() : int
+    |this.array|
+  end
+end
+
+local class BitSet : Set(size,array)
+  val array : [uint]
+  val size : int
+  def init(size : int) : unit
+    this.array = new [uint](size / 64 + 1)
+    this.size = size
+  end
+  def add(i : int) : unit
+    unless 0 <= i && i < this.size then
+      println("Adding i={} to set of size={}", i, this.size)
+      return 
+    end
+    val size = 64
+    val idx = i % size
+    val e = this.array(i / size)
+    EMBED (unit)
+      #{e} |= (1UL << #{idx});
+    END
+    this.array(i / size) = e
+  end
+  def contains(i : int) : bool
+    unless 0 <= i && i < this.size then
+      println("Checking for i={} set of size={}", i, this.size)
+      return false
+    end
+    val size = 64
+    val idx = i % size
+    val e = this.array(i / size)
+    EMBED (bool)
+      uint64_t a = 1UL << #{idx};
+      uint64_t b = #{e};
+      b & a;
+    END
+  end
+  def size() : int
+    this.size
+  end
+end
+
+active class PSieve : Sieve
+  val primes : local Set
+  val start : int
+  def init(start : int, size : int) : unit
+    this.start = start
+    this.primes = new BitSet(size)
+  end
+end
+
+local class LSieve : Sieve
+  val primes : local Set
+  val start : int
+  def init(start : int, size : int) : unit
+    this.start = start
+    this.primes = new BitSet(size)
+  end
+end
+
+trait Sieve
+  require val primes : local Set
+  require val start : int
+  def set(n : int) : unit
+    this.primes.add(n) 
+  end
+  def filter(n : int) : unit
+    var idx = if this.start % n == 0 then 0 else n - (this.start % n) end
+    while idx < this.primes.size() do
+      this.primes.add(idx) 
+      idx += n
+    end
+  end
+  def cancel(n : int) : unit
+    var idx = n * 2
+    while idx < this.primes.size() do
+      this.primes.add(idx) 
+      idx += n
+    end
+  end
+  def is_prime(n : int) : bool
+    this.primes.contains(n) == false
+  end
+  def count_primes(m : ResultObject) : int
+    var sum = 0
+    repeat i <- this.primes.size() do
+      if this.primes.contains(i) == false then sum += 1 end
+    end
+
+    m ! report_in(sum, this.start)
+    sum
+  end
+  def to_s() : String
+    val s = new [String](this.count_primes(null))
+    var idx = 0
+    repeat i <- this.primes.size() do
+      if this.primes.contains(i) == false then
+        s(idx) = string_from_int(this.start + i)
+        idx += 1
+      end
+    end
+    ", ".join(s)
+  end
+end
+
+active class ResultObject
+  var primes : int
+  var latch : int
+  def init(latch : int) : unit
+    this.latch = latch
+  end
+  def report_in(primes : int, start : int) : unit
+    this.primes += primes
+    this.latch -= 1
+    
+    if this.latch == 0 then
+      println("Primes found: {}", this.primes)
+    end
+  end
+end
+
+active class Main
+  def start(N : int, M : int) : unit
+    println("Checking for the number of primes in the first {} numbers", N)
+
+    val first_size = if N % sqrt(N) == 0 then sqrt(N) else sqrt(N) + 1 end
+    val first = new LSieve(0, first_size)
+    first.set(0)
+    first.set(1)
+    val sets = new [PSieve](M)
+
+    val partsize = (N - first_size) / M
+    val last_adjust = (N - first_size) % M
+
+    -- println("first_size={}", first_size)
+    -- println("partsize={}", partsize)
+    -- println("last_adjust={}", last_adjust)
+    
+    repeat i <- M do
+      val size = if i + 1 < M then partsize else partsize + last_adjust end
+      -- println("start={}, stop={}", first_size + i * partsize, first_size + i * partsize + size)
+      sets(i) = new PSieve(first_size + i * partsize, size)
+    end
+
+    for j <- [2..(first_size-1)] do
+      if first.is_prime(j) then
+        -- check_prime(j)
+        repeat p <- M do
+          sets(p) ! filter(j)
+        end
+        first.cancel(j)
+      end
+    end
+
+    val r = new ResultObject(M + 1)
+    repeat i <- M do
+      sets(i) ! count_primes(r)
+    end
+    first.count_primes(r)
+  end
+
+  def main(args : [String]) : unit
+    var N = 10000
+    var M = 16
+
+    if |args| == 3 then
+      N = fromJust(args(1).to_int())
+      M = fromJust(args(2).to_int())
+    else
+      print("using default input: ") 
+    end
+    println("N={}, M={}", N, M)
+
+    this ! start(N, M)
+  end
+end
+
+fun fromJust(a : Maybe[int]) : int
+  match a with
+    case Just(b) => b
+    case Nothing => abort("Error coercing string to int")
+  end
+end

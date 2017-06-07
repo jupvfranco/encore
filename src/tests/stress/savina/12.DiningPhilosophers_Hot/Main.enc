@@ -1,0 +1,150 @@
+fun fromJust(a : Maybe[int]) : int
+  match a with
+    case Just(b) => b
+    case Nothing => abort("Error coercing string to int")
+  end
+end
+
+unsafe class Forks
+  var state : EMBED bool * END
+  def init(forks : int) : unit
+    EMBED (unit)
+      #{this.state} = calloc(#{forks}, sizeof(bool));
+    END
+  end
+  def lock(idx : int) : unit
+    EMBED (unit)
+      bool *s = NULL;
+      do 
+        s = #{this.state} + (#{idx} * sizeof(void *) * 8);
+      while (!__sync_bool_compare_and_swap (s, false, true));
+    END
+  end
+  def try_lock(a : int, b : int) : bool
+    repeat tries <- 16 do
+      if this.lock_one(a) then
+        if this.lock_one(b) then
+          return true
+        else
+          this.unlock_one(a)
+        end
+      end
+    end
+    return false
+  end
+  def lock_one(idx : int) : bool
+    EMBED (bool)
+      int tries = 0;
+      bool success = false;
+      bool *s = #{this.state} + #{idx};
+      do {
+        ++tries;
+        success = __sync_bool_compare_and_swap (s, false, true);
+      } while (!success && tries < 16);
+      success;
+    END
+  end
+  def unlock(a : int, b : int) : unit
+    this.unlock_one(a)
+    this.unlock_one(b)
+  end
+  def unlock_one(a : int) : unit
+    EMBED (unit)
+      #{this.state}[#{a}] = false;
+    END
+  end
+end
+
+active class HungryCounter
+  var value : int
+  var outstanding : int
+  def init(outstanding : int) : unit
+    this.outstanding = outstanding
+  end
+  def add(v : int) : unit
+    this.value += v
+    this.outstanding -= 1
+
+    if this.outstanding == 0 then
+      println("Hungry times: {}", this.value)
+    end
+  end
+end
+
+active class Main
+  def main(args : [String]) : unit
+    var no_philosophers = 20
+    var iterations = 10000
+
+    if |args| == 3 then
+      no_philosophers = fromJust(args(1).to_int())
+      iterations      = fromJust(args(2).to_int())
+    else
+      print("using default input: ") 
+    end
+    println("no_philosophers={}, iterations={}", no_philosophers, iterations)
+
+    val counter = new HungryCounter(no_philosophers)
+    val arbitrator = new Arbitrator(no_philosophers)
+    
+    val philosophers = new [Philosopher](no_philosophers)
+    repeat i <- no_philosophers do
+      philosophers(i) = new Philosopher(i, iterations, counter, arbitrator)
+    end
+    
+    for p <- philosophers do
+      p ! start()
+    end
+
+  end
+end
+
+  -- TODO: add counter
+active class Philosopher
+  val id : int
+  val rounds : int
+  var local_counter : int
+  var rounds_so_far : int
+  var arbitrator : Arbitrator
+  val counter : HungryCounter
+  var x : int
+  var stop : bool
+  def init(id : int, rounds : int, counter : HungryCounter, arbitrator : Arbitrator) : unit
+    this.id = id
+    this.rounds = rounds
+    this.counter = counter
+    this.arbitrator = arbitrator
+  end
+  def start() : unit
+    if this.rounds_so_far < this.rounds then
+      if this.arbitrator.hungry(this.id) then
+        this.rounds_so_far += 1
+        this.x += this.local_counter
+
+        this.arbitrator.done(this.id)
+      else
+        this.local_counter += 1
+      end
+      this ! start()
+    else
+      this.counter ! add(this.x)
+    end
+  end
+end
+
+unsafe class Arbitrator
+  val num_forks : int
+  val forks : Forks
+  
+  def init(num_forks : int) : unit
+    this.num_forks = num_forks
+    this.forks = new Forks(num_forks)
+  end
+  
+  def hungry(id : int) : bool
+    this.forks.try_lock(id, (id + 1) % this.num_forks) 
+  end    
+  def done(id : int) : unit
+    this.forks.unlock(id, (id + 1) % this.num_forks) 
+  end
+end
