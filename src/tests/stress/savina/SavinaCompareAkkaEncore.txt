@@ -4,7 +4,8 @@ Listing the numbers and the relevant part of the code.
 Also, I am listing pertinent aspects of the BM in Akka vs Encore
 
 1.pingpong
--- input values same, structure same
+2 actors only
+-- input values same, structure almost same
 
 PingPongConfig.java
 40 000 messages
@@ -13,33 +14,48 @@ and in input.txt
 > protected static int N = 40000;
 > ...
 > System.out.printf(BenchmarkRunner.argOutputFormat, "N (num pings)", N);
-* No extra test output in Akka
+* No extra test output in Akka or Encore
 
-
-Akka sends an exit and a StopMessage, and Encore does not
+* Akka sends an exit and a StopMessage, and Encore does not
 
 2.ThreadRing
+same configuration,
+slight difference in structure.
+
+* Configuration
 ThreadRingConfig.java
 100 actors
 100_000 pings
-public final class ThreadRingConfig {
 
-    protected static int N = 100; // num actors
-    protected static int R = 100_000; // num pings, does not need to be divisible by N
-...
-  protected static void printArgs() {
-        System.out.printf(BenchmarkRunner.argOutputFormat, "N (num actors)", N);
-        System.out.printf(BenchmarkRunner.argOutputFormat, "R (num rounds)", R);
-    }
+and in Encore
+100 100000
+
+* Structure
+slightly different structure, but due to the difference in languages,
+ie Akka cannot send integers on messages.
+Enc only stores one 'next' pointer in each actor, while Akka seems to create
+an array of actors (line 32-37)  and then use it to populate the `next` pointer.
+Also, in Akka, messages are objects, with functions `hasNext` and `next`
+while in Encore they are plain integers.
+
+
 
 3.Counting
+(2 actors only: Counter and Producer, 1_000_000 messages,
+and most messages do  not carry information )
 CountingConfig.java
 1_000_000 messages
+and same in Encore
 
-protected static int N = 1_000_000;
-System.out.printf(BenchmarkRunner.argOutputFormat, "N (num messages)", N);
+structure similar.
 
-6.Fib
+6.Fib (2^N actors to calculate fib(N-1) )
+same configuration, samr structure (again, Akka messages carry numbers,
+while Encore's messages are numbers)
+* configuration
+25 in Akka
+25 in Enc
+
 7.Chameneos
 8.Big
 9.concdict
