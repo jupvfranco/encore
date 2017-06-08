@@ -18,6 +18,7 @@ logs=(
   "11.BndBuffer/result.txt;_AkkaResults/bndbuffer.ProdConsAkkaActorBenchmark.result.txt;11.BndBuffer"
   "12.DiningPhilosophers/result.txt;_AkkaResults/bndbuffer.ProdConsAkkaActorBenchmark.result.txt;12.DiningPhilosophers"
   "12.DiningPhilosophersBusy/result.txt;_AkkaResults/bndbuffer.ProdConsAkkaActorBenchmark.result.txt;12.DiningPhilosophersBusy"
+  "12.DiningPhilosophers_Hot/result.txt;_AkkaResults/bndbuffer.ProdConsAkkaActorBenchmark.result.txt;12.DiningPhilosophersHot"
   "21.ParallelQuickSort/result.txt;_AkkaResults/quicksort.QuickSortAkkaActorBenchmark.result.txt;21.ParallelQuickSort"
   "25.Sieve/result.txt;_AkkaResults/sieve.SieveAkkaActorBenchmark.result.txt;25.Sieve"
   "28.TrapezoidalApproximation/result.txt;_AkkaResults/trapezoid.TrapezoidalAkkaActorBenchmark.result.txt;28.TrapezoidalApproximation"
