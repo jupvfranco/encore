@@ -2,7 +2,7 @@ import sys
 import numpy as np
 import matplotlib.pyplot as plt
 
-#plt.style.use('bmh')
+plt.style.use('bmh')
 cores = [2, 4, 8, 16, 32, 64]
 
 def plot(ax, first, second, name, label2):
