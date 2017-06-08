@@ -7,6 +7,10 @@
 ## to the following list. No Spaces!
 ########
 
+python plot-scalability-ee.py "12.DiningPhilosophers/result.txt" "12.DiningPhilosophersBusy/result.txt"  "12.DiningPhilosophers-normal-busy" "busy"
+python plot-scalability-ee.py "12.DiningPhilosophers/result.txt"  "12.DiningPhilosophers_Hot/result.txt" "12.DiningPhilosophers-normal-hot" "hot"
+
+
 logs=(
   "1.pingpong/result.txt;_AkkaResults/pingpong.PingPongAkkaActorBenchmark.result.txt;1.pingpong"
   "2.ThreadRing/result.txt;_AkkaResults/threadring.ThreadRingAkkaActorBenchmark.result.txt;2.ThreadRing"
@@ -18,7 +22,9 @@ logs=(
   "11.BndBuffer/result.txt;_AkkaResults/bndbuffer.ProdConsAkkaActorBenchmark.result.txt;11.BndBuffer"
   "12.DiningPhilosophers/result.txt;_AkkaResults/bndbuffer.ProdConsAkkaActorBenchmark.result.txt;12.DiningPhilosophers"
   "12.DiningPhilosophersBusy/result.txt;_AkkaResults/bndbuffer.ProdConsAkkaActorBenchmark.result.txt;12.DiningPhilosophersBusy"
+  "12.DiningPhilosophers_Hot/result.txt;_AkkaResults/bndbuffer.ProdConsAkkaActorBenchmark.result.txt;12.DiningPhilosophersHot"
   "21.ParallelQuickSort/result.txt;_AkkaResults/quicksort.QuickSortAkkaActorBenchmark.result.txt;21.ParallelQuickSort"
+  "25.Sieve/result.txt;_AkkaResults/sieve.SieveAkkaActorBenchmark.result.txt;25.Sieve"
   "28.TrapezoidalApproximation/result.txt;_AkkaResults/trapezoid.TrapezoidalAkkaActorBenchmark.result.txt;28.TrapezoidalApproximation"
   "29.PiPrecision/result.txt;_AkkaResults/piprecision.PiPrecisionAkkaActorBenchmark.result.txt;29.PiPrecision"
 )
@@ -29,3 +35,8 @@ do :
   echo "***** " ${args[@]}
   python plot-scalability.py ${args[@]}
 done
+
+echo "++++ "
+
+
+echo "++++ "
