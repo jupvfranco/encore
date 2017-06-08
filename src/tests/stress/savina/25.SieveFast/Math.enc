@@ -1,0 +1,35 @@
+module Math
+
+EMBED
+#include <math.h>
+END
+
+fun sqrt(a : int) : int
+  EMBED (int)
+    (int64_t) sqrt(#{a});
+  END
+end
+
+fun pow(a : int, b : int) : int
+  EMBED (int)
+    (int64_t) pow(#{a}, #{b});
+  END
+end
+
+fun ceil(a : real) : int
+  EMBED (int)
+    (int64_t) ceil(#{a});
+  END
+end
+
+fun floor(a : real) : int
+  EMBED (int)
+    (int64_t) floor(#{a});
+  END
+end
+
+fun log10(a : int) : int
+  EMBED (int)
+    (int64_t) log10(#{a});
+  END
+end
